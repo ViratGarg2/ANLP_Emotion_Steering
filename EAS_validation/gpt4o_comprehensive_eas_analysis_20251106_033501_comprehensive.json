@@ -1,0 +1,3275 @@
+{
+  "timestamp": "2025-11-06T03:28:33.273077",
+  "model_info": {
+    "provider": "Azure OpenAI",
+    "model": "gpt-4o-mini",
+    "deployment": "gpt-4o-mini",
+    "endpoint": "https://varun-mdgmpb1r-eastus2.cognitiveservices.azure.com/"
+  },
+  "datasets_analyzed": {
+    "full_dataset_neutral": [
+      {
+        "query_id": 1,
+        "query_text": "This feels *so* cringeworthily thirsty after [NAME] ridiculous meet & greets recently.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 70,
+          "fear": 10,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.6525
+      },
+      {
+        "query_id": 2,
+        "query_text": "It's why it would be a mistake to move away from the \"mega-thread\" format.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 10,
+          "surprise": 5
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 3,
+        "query_text": "[NAME] has been listening to this sub.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.04000000000000001
+      },
+      {
+        "query_id": 4,
+        "query_text": "That’s where they drop off Snake Plissken, so he can rescue our President [NAME]. AKA, Escape from San Francisco. ",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.36
+      },
+      {
+        "query_id": 5,
+        "query_text": "My friend worked at TD Bank and would answer the phone \"Tiddy Bank\".",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 6,
+        "query_text": "I think the show was all about forgiveness. She can't change [NAME] and fighting with him only brings him around and brings her pain.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 40,
+          "surprise": 5
+        },
+        "eas_score": 0.23500000000000004
+      },
+      {
+        "query_id": 7,
+        "query_text": "Ad hominem. Ridiculous argument, not even funny or hilarious.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 60,
+          "fear": 10,
+          "joy": 0,
+          "sadness": 20,
+          "surprise": 5
+        },
+        "eas_score": 0.8999999999999999
+      },
+      {
+        "query_id": 8,
+        "query_text": "The inventor of the joke came up with it during the [NAME] administration.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 10,
+          "sadness": 0,
+          "surprise": 5
+        },
+        "eas_score": 0.010000000000000002
+      },
+      {
+        "query_id": 9,
+        "query_text": "They do throw you in jail if you go way too fast or get too many tickets",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 60,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 30
+        },
+        "eas_score": 0.41
+      },
+      {
+        "query_id": 10,
+        "query_text": "A whole lot of reasons tbh",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 10
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 11,
+        "query_text": "Wait, so you really can't carry bags to school in US? ",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 0,
+          "sadness": 20,
+          "surprise": 60
+        },
+        "eas_score": 0.07500000000000001
+      },
+      {
+        "query_id": 12,
+        "query_text": "Yo but that RivaL lineup tho! That's gonna be so sick",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.81
+      },
+      {
+        "query_id": 13,
+        "query_text": "And why isn’t it ranked average, Bayern are second most average but ranked 4th for most supported, cmon now they just had less games....",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 20,
+          "fear": 0,
+          "joy": 10,
+          "sadness": 0,
+          "surprise": 5
+        },
+        "eas_score": 0.41000000000000003
+      },
+      {
+        "query_id": 14,
+        "query_text": "Is this our year ????",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 40,
+          "sadness": 15,
+          "surprise": 30
+        },
+        "eas_score": 0.23500000000000004
+      },
+      {
+        "query_id": 15,
+        "query_text": "Take the compliment you good egg x",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 16,
+        "query_text": "Yeah, but you should drive to the road conditions not the speed limit.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.035
+      },
+      {
+        "query_id": 17,
+        "query_text": "I SPOT A IFUNNY WATERMARK",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 5,
+          "joy": 20,
+          "sadness": 5,
+          "surprise": 25
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 18,
+        "query_text": "I picked it so it forced me to stay anonymous.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 10
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 19,
+        "query_text": "just a single point",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.0
+      },
+      {
+        "query_id": 20,
+        "query_text": "Only £44m? Not enough.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 30
+        },
+        "eas_score": 0.5649999999999998
+      },
+      {
+        "query_id": 21,
+        "query_text": "wake me up",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.0
+      },
+      {
+        "query_id": 22,
+        "query_text": "Use MTN.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.0
+      },
+      {
+        "query_id": 23,
+        "query_text": "Nah just good drag henny. They paint for the back of the room.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.5025
+      },
+      {
+        "query_id": 24,
+        "query_text": "so you want things to get tied up for months???? just relax... nothing we can do but give it a few days",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 10,
+          "fear": 20,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 0
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 25,
+        "query_text": "I felt that way last year and then the Patriots let me down, so best to take no chances.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 20,
+          "fear": 30,
+          "joy": 10,
+          "sadness": 50,
+          "surprise": 0
+        },
+        "eas_score": 0.75
+      },
+      {
+        "query_id": 26,
+        "query_text": "Illness",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 20,
+          "fear": 70,
+          "joy": 5,
+          "sadness": 60,
+          "surprise": 15
+        },
+        "eas_score": 0.9024999999999999
+      },
+      {
+        "query_id": 27,
+        "query_text": "I personally think think life is beautiful but living is hell, kinda like a hurricane can be the most beautiful thing.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 70,
+          "sadness": 40,
+          "surprise": 20
+        },
+        "eas_score": 0.6849999999999999
+      },
+      {
+        "query_id": 28,
+        "query_text": "Because the mystery is solved if you see the end. The hands striking simultaneously and close together on the same side= beatsaber e: on Normal",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 70,
+          "sadness": 10,
+          "surprise": 20
+        },
+        "eas_score": 0.5149999999999999
+      },
+      {
+        "query_id": 29,
+        "query_text": "Son: I can't believe you were in i-wreck",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 60
+        },
+        "eas_score": 0.14
+      },
+      {
+        "query_id": 30,
+        "query_text": "[NAME] needs to be moved up to second place and [NAME] needs to be under jay lmao [NAME] should be moved up too",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.05250000000000001
+      },
+      {
+        "query_id": 31,
+        "query_text": "9Gag was my jam back in high school! Pleasure to meet an alumni",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 32,
+        "query_text": "Nice try Tyler 1",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 50,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.25
+      },
+      {
+        "query_id": 33,
+        "query_text": "But we’re talking about some lady that obviously looks older and is far above the age of 21. Not a minor.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 0,
+          "sadness": 5,
+          "surprise": 0
+        },
+        "eas_score": 0.14250000000000002
+      },
+      {
+        "query_id": 34,
+        "query_text": "No....\"burnt\" together, just planted in different areas!",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 15,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.035
+      },
+      {
+        "query_id": 35,
+        "query_text": "You conveniently forgot nearly killing a toddler by throwing furniture out of a 14 story window.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 85,
+          "disgust": 90,
+          "fear": 75,
+          "joy": 0,
+          "sadness": 70,
+          "surprise": 60
+        },
+        "eas_score": 2.5849999999999995
+      },
+      {
+        "query_id": 36,
+        "query_text": "Well, that's just a distraction for the color of your resume.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 0
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 37,
+        "query_text": "I'm not trying to address the whole issue. I'm just trying to suggest that there might be unintended consequences that lead to even less public discourse.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 10,
+          "surprise": 5
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 38,
+        "query_text": "Yes, and then look hurt when you glare at them for causing a scene and/or not being just as tickled as they are.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 40,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 30,
+          "sadness": 50,
+          "surprise": 15
+        },
+        "eas_score": 0.55
+      },
+      {
+        "query_id": 39,
+        "query_text": "Nah. I saw a post on IG this morning and screenshotted it",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.04000000000000001
+      },
+      {
+        "query_id": 40,
+        "query_text": "You mean 4 of 5 dates for you already this month. Wow - do tell!",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 60
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 41,
+        "query_text": "Shouldn't be getting downvoted that's exactly what I thought the motive was",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 40,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 5,
+          "surprise": 0
+        },
+        "eas_score": 0.19750000000000004
+      },
+      {
+        "query_id": 42,
+        "query_text": "best to add a **/s** ......almost sounds like you're being serious!",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 40,
+          "sadness": 0,
+          "surprise": 15
+        },
+        "eas_score": 0.17250000000000004
+      },
+      {
+        "query_id": 43,
+        "query_text": "Planning to make a comeback soon™",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 70,
+          "sadness": 10,
+          "surprise": 20
+        },
+        "eas_score": 0.5349999999999999
+      },
+      {
+        "query_id": 44,
+        "query_text": "You want to celebrate your convict heritage.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 70,
+          "sadness": 20,
+          "surprise": 10
+        },
+        "eas_score": 0.565
+      },
+      {
+        "query_id": 45,
+        "query_text": "this is the type of high level discussion I come to this sub for!",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 46,
+        "query_text": "for how long, you arent fucking with me?",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 0,
+          "sadness": 5,
+          "surprise": 15
+        },
+        "eas_score": 0.6925000000000001
+      },
+      {
+        "query_id": 47,
+        "query_text": "I fell like you're being willfully ignorant of reality.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 0,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.63
+      },
+      {
+        "query_id": 48,
+        "query_text": "It certainly reeks of the same kind of scam.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 80,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 5
+        },
+        "eas_score": 1.2700000000000002
+      },
+      {
+        "query_id": 49,
+        "query_text": "Imagine finding that in your bed",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 70,
+          "fear": 60,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 80
+        },
+        "eas_score": 0.8849999999999998
+      },
+      {
+        "query_id": 50,
+        "query_text": "When they stop showing literally every big Viking loss in these games.",
+        "dataset_source": "full_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 20,
+          "fear": 0,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 0
+        },
+        "eas_score": 0.6299999999999999
+      }
+    ],
+    "full_dataset_non_neutral": [
+      {
+        "query_id": 1,
+        "query_text": "[NAME] has no jump at all. If he’s injured he should sit and get better.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 0,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.07500000000000001
+      },
+      {
+        "query_id": 2,
+        "query_text": "Thank you. That's encouraging. I hope to find people like that to learn from.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 3,
+        "query_text": "This wasn't exactly aimed at the national brain trust.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 10
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 4,
+        "query_text": "Miner rewards are being reduced from 3 to 2 ETH per block. Why would that indicate a sell off?",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 25
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 5,
+        "query_text": "Was not aware. I know it's bad but I rather keep my head in the sand on this one because I still want to like [NAME].",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 20,
+          "joy": 30,
+          "sadness": 25,
+          "surprise": 5
+        },
+        "eas_score": 0.225
+      },
+      {
+        "query_id": 6,
+        "query_text": "Fuck this gif",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 85,
+          "disgust": 20,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.7625
+      },
+      {
+        "query_id": 7,
+        "query_text": "And trying to take [NAME] gun away. 😩 Like really people, it's his weapon, find yourself one and stop trying to teach him better",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 40,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 15
+        },
+        "eas_score": 0.7899999999999999
+      },
+      {
+        "query_id": 8,
+        "query_text": "The grass pupper looks so clean and fluffy!",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.81
+      },
+      {
+        "query_id": 9,
+        "query_text": "Wow what a disappointing game. Wish we would have showed up",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 10,
+          "sadness": 60,
+          "surprise": 0
+        },
+        "eas_score": 0.51
+      },
+      {
+        "query_id": 10,
+        "query_text": "That is even worse. No tax from them and we provide them with services.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 60,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 15
+        },
+        "eas_score": 0.9899999999999999
+      },
+      {
+        "query_id": 11,
+        "query_text": "Wow this basically means that 99%of bolliwood movies are basically documentaries! This changes everything!",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 70
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 12,
+        "query_text": "It seems like good advice.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 13,
+        "query_text": "I’m glad I’m not the only one who was pedantic enough to notice.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 14,
+        "query_text": "Man [NAME] played really fucking well I hope this game especially after [NAME] last game establishes him as the starter.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 15,
+        "query_text": "That was a long read but it was worth it, good on you lot for sorting it out and winning the case",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 16,
+        "query_text": "Jazz fan here. I completely feel. [NAME] cousins has more votes than [NAME], and [NAME] hasn't even stepped on the court this year",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 40,
+          "disgust": 10,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 30,
+          "surprise": 0
+        },
+        "eas_score": 0.30000000000000004
+      },
+      {
+        "query_id": 17,
+        "query_text": "heck",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 50,
+          "disgust": 10,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.26
+      },
+      {
+        "query_id": 18,
+        "query_text": "It's not funny, but what do you mean?",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 0,
+          "sadness": 15,
+          "surprise": 10
+        },
+        "eas_score": 0.07500000000000001
+      },
+      {
+        "query_id": 19,
+        "query_text": "Probably out of desperation as they going no answers with the other made up god.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 40,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 50,
+          "surprise": 0
+        },
+        "eas_score": 0.55
+      },
+      {
+        "query_id": 20,
+        "query_text": "Indication of questionable parenting perhaps. Encouraging this reaction seems a bit tacky. Not respectable, if we're truthful here.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 70,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 15
+        },
+        "eas_score": 0.9899999999999999
+      },
+      {
+        "query_id": 21,
+        "query_text": "I would say you’ll be fine just drink water and maybe run/sweat a few times before your drug test!",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.36
+      },
+      {
+        "query_id": 22,
+        "query_text": "No worries. Glad you like it",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 23,
+        "query_text": "Mmm... chocolate weekends are my favorite.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 85,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.7224999999999999
+      },
+      {
+        "query_id": 24,
+        "query_text": "you don’t appreciate the good times till you go through the bad.. things will get better OP, stay strong",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 60,
+          "sadness": 30,
+          "surprise": 10
+        },
+        "eas_score": 0.485
+      },
+      {
+        "query_id": 25,
+        "query_text": "Woah that’s comforting.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 26,
+        "query_text": "Get himmmmmmmmmmmmmm!!!!!!",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 10,
+          "fear": 20,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 5
+        },
+        "eas_score": 0.6900000000000002
+      },
+      {
+        "query_id": 27,
+        "query_text": "[NAME] has weird ideas about everything.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 10
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 28,
+        "query_text": "Me too, whenever my friends get with people I dont feel happy for them. I just feel envy and rage.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 10,
+          "fear": 20,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 0
+        },
+        "eas_score": 0.7150000000000001
+      },
+      {
+        "query_id": 29,
+        "query_text": "Idk why everyone's being obnoxious. I thought this was a good post, OP.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.2025
+      },
+      {
+        "query_id": 30,
+        "query_text": "Downtown is inconvenient, look like you've gone full county, enjoy your strip mall ",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 40,
+          "fear": 10,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.32250000000000006
+      },
+      {
+        "query_id": 31,
+        "query_text": "Who would have thought people were going to be using the Padres for their fake news to generate clicks. This is nuts.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 60,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 15,
+          "surprise": 50
+        },
+        "eas_score": 0.9224999999999999
+      },
+      {
+        "query_id": 32,
+        "query_text": "No it’s not! It’s much easier to pull in to the space and leave it there.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 5,
+          "surprise": 0
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 33,
+        "query_text": "Isn't that the \"help me, I'm being hunned\" distress signal?",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 15,
+          "sadness": 10,
+          "surprise": 30
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 34,
+        "query_text": "Bisbee is a weird place.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 5,
+          "joy": 20,
+          "sadness": 10,
+          "surprise": 25
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 35,
+        "query_text": "Cheat - no. Disrespect her current relationship partner - heavily to the point of her ass deserving to be thrown out.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 85,
+          "disgust": 70,
+          "fear": 20,
+          "joy": 0,
+          "sadness": 10,
+          "surprise": 5
+        },
+        "eas_score": 1.2625
+      },
+      {
+        "query_id": 36,
+        "query_text": "I feel like you just jinxed them 🤫",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 30,
+          "sadness": 15,
+          "surprise": 25
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 37,
+        "query_text": "Please try again; even [NAME] would make for a better ending.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 5
+        },
+        "eas_score": 0.225
+      },
+      {
+        "query_id": 38,
+        "query_text": "Always remember that when problems get hardcore, Pornshit will be there to Worst them.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 40,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.32250000000000006
+      },
+      {
+        "query_id": 39,
+        "query_text": "Gang beast is really only fun with friends",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 70,
+          "sadness": 10,
+          "surprise": 5
+        },
+        "eas_score": 0.5149999999999999
+      },
+      {
+        "query_id": 40,
+        "query_text": "A big ole pot of chili! And cornbread muffins. Also planning to brew some kombucha.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 41,
+        "query_text": "100% yes. My sister's ex is an actual monster but my niece still sees his family.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 70,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 10
+        },
+        "eas_score": 1.2700000000000002
+      },
+      {
+        "query_id": 42,
+        "query_text": "OMG, crying laughing right now. Hubs and I both. What a visual!",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 85,
+          "sadness": 0,
+          "surprise": 15
+        },
+        "eas_score": 0.7224999999999999
+      },
+      {
+        "query_id": 43,
+        "query_text": "Next is my boi vortiger",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 44,
+        "query_text": "You don't suck, jazz is amazing man. Thanks for a album to listen.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 45,
+        "query_text": "When I'm the fifth Hokage I'm gonna make sure no one has to go through that sort of abuse! Believe it!!",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 60,
+          "sadness": 30,
+          "surprise": 15
+        },
+        "eas_score": 0.9899999999999999
+      },
+      {
+        "query_id": 46,
+        "query_text": "This reminds me to take a before picture. I'm losing 5 kg of beer gut before May, got to fit into that dress. ",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 47,
+        "query_text": "It took you a month to answer and every single word is wrong. That's almost an accomplishment.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 50,
+          "fear": 0,
+          "joy": 10,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.79
+      },
+      {
+        "query_id": 48,
+        "query_text": "Sucks that [NAME] won't get to play [NAME]",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 0,
+          "joy": 10,
+          "sadness": 70,
+          "surprise": 0
+        },
+        "eas_score": 0.5499999999999999
+      },
+      {
+        "query_id": 49,
+        "query_text": "Harsh, but true",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 5
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 50,
+        "query_text": "What? That's a classic \" did you like it\" parent move.",
+        "dataset_source": "full_dataset",
+        "query_type": "non_neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 40,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.17250000000000004
+      }
+    ],
+    "emotion_dataset_neutral": [
+      {
+        "query_id": 1,
+        "query_text": "@iyaycruz lets see chirp",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 50,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.25
+      },
+      {
+        "query_id": 2,
+        "query_text": "@TzumiXIV huff puff",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 10,
+          "fear": 20,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 0
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 3,
+        "query_text": "@TrevorHMoore @paget_old In Scotland, the right-wingers are the most rabid anti-nationalists. Socialists are mostly in favour.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 50,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.6825
+      },
+      {
+        "query_id": 4,
+        "query_text": "#smackdev #ptp #start word",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 5,
+          "surprise": 10
+        },
+        "eas_score": 0.04000000000000001
+      },
+      {
+        "query_id": 5,
+        "query_text": "@nicky57672 Hi! We are working towards your highlighted concern and we will keep you posted on same. Regards, Himani",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.36
+      },
+      {
+        "query_id": 6,
+        "query_text": "Bon on allume madden",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 70,
+          "sadness": 5,
+          "surprise": 5
+        },
+        "eas_score": 0.5074999999999998
+      },
+      {
+        "query_id": 7,
+        "query_text": "@Ganypede I notice that nice people believe in a nice god and horrid people believe in a horrid god who happens to hate everybody they hate.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 5
+        },
+        "eas_score": 0.225
+      },
+      {
+        "query_id": 8,
+        "query_text": "Speech was bold coz it wasn't written by PM NS bt the expression/tone was his own dull n dim",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 40,
+          "fear": 10,
+          "joy": 20,
+          "sadness": 50,
+          "surprise": 10
+        },
+        "eas_score": 0.55
+      },
+      {
+        "query_id": 9,
+        "query_text": "Get to work and there's a fire drill. #fire #burning #outthere #inthedark",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 10,
+          "fear": 40,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 50
+        },
+        "eas_score": 0.28500000000000003
+      },
+      {
+        "query_id": 10,
+        "query_text": "Who got madden 17 or 2k17 ps4 add TrackdawgT lets run it",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.3725
+      },
+      {
+        "query_id": 11,
+        "query_text": "@petercoffin So safe blues are ok. Are reds ok as well? Obviously, battleground states would not.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 5,
+          "surprise": 10
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 12,
+        "query_text": "@nickb88 @Buster_ESPN pine rider",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.0
+      },
+      {
+        "query_id": 13,
+        "query_text": "All work and no play makes Jack a dull boy",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 40,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.20000000000000004
+      },
+      {
+        "query_id": 14,
+        "query_text": "@BookOfKaells @quennell3_ no blues?!",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 30
+        },
+        "eas_score": 0.07500000000000001
+      },
+      {
+        "query_id": 15,
+        "query_text": "@rockandpop pomte A Muse com panic Station Exitaso",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 60,
+          "sadness": 10,
+          "surprise": 20
+        },
+        "eas_score": 0.405
+      },
+      {
+        "query_id": 16,
+        "query_text": "I think @Sam_Canaday &amp; @KYLEJDOWSON must actually have to be working like me &amp; @dowson_brady because I havent got any snap chat videos today",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 30,
+          "surprise": 0
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 17,
+        "query_text": "straight people are canoodling on the quad and I'm ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 30,
+          "surprise": 0
+        },
+        "eas_score": 0.14250000000000002
+      },
+      {
+        "query_id": 18,
+        "query_text": "Beats is accurately all-powerful with respect to high-quality high-frequency speaker in re the extra desolate relating to fire-ea:…",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 25,
+          "surprise": 10
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 19,
+        "query_text": "@StarklyDark 'Come here. Come on. Into my arms. I'm not going anywhere, Tony, I swear.' Steve told him, quiet and solemn.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 10,
+          "joy": 30,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.14
+      },
+      {
+        "query_id": 20,
+        "query_text": "@PediMGHHMS3 sickle cell if right pt background. Or could be JIA or an allergic reaction to a bite e.g. bee sting among others.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 0,
+          "sadness": 10,
+          "surprise": 5
+        },
+        "eas_score": 0.045000000000000005
+      },
+      {
+        "query_id": 21,
+        "query_text": "@jk_rowling @Riverfeather207 Donald Trump in the White House ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 70,
+          "fear": 50,
+          "joy": 10,
+          "sadness": 30,
+          "surprise": 20
+        },
+        "eas_score": 1.2
+      },
+      {
+        "query_id": 22,
+        "query_text": "@warmneutrals 'passenger in car next to u cheerfully asks for a cigarette and then directions'",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 23,
+        "query_text": "@JessicaValenti @nytimes I don't know... Wasn't punk mostly about white men throwing tantrums?",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 10
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 24,
+        "query_text": "@NativeApprops @SBShear @HuffingtonPost Shew. That was ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 10,
+          "joy": 15,
+          "sadness": 20,
+          "surprise": 30
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 25,
+        "query_text": "quentin i sait aps dire eastpak i dit aspak msk",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 20,
+          "surprise": 10
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 26,
+        "query_text": "Write drunk. Edit Sober. \\nForget to save. Wake hungover.\\n#amwriting #sober",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 20,
+          "joy": 25,
+          "sadness": 30,
+          "surprise": 5
+        },
+        "eas_score": 0.225
+      },
+      {
+        "query_id": 27,
+        "query_text": "@WellerMonica Hi Monica, I write regularly for @ctysmallholding  - but not on bees - never dared try them #buzz #sting #HONEY",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 20,
+          "joy": 40,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.20000000000000004
+      },
+      {
+        "query_id": 28,
+        "query_text": "*in the car with mariah, the bass is literally shaking the windows, hard rap blasting, no one is talking, looking straight ahead*",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 60,
+          "sadness": 20,
+          "surprise": 25
+        },
+        "eas_score": 0.43500000000000005
+      },
+      {
+        "query_id": 29,
+        "query_text": "T5ylw ansh a79l shy 7lw mn wayed nas fe whatsapp",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 0
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 30,
+        "query_text": "@kevinmenzel annual reminder that i don't care and will cheerfully eat anything so labeled",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 20,
+          "fear": 5,
+          "joy": 60,
+          "sadness": 5,
+          "surprise": 0
+        },
+        "eas_score": 0.415
+      },
+      {
+        "query_id": 31,
+        "query_text": "interesting that we,an Authentic Afghan Restaurant,R getting calls from the media over resent tragedy that happened in NJ@latimes @NBCNews",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 15,
+          "joy": 25,
+          "sadness": 30,
+          "surprise": 40
+        },
+        "eas_score": 0.225
+      },
+      {
+        "query_id": 32,
+        "query_text": "TONIGHT - Fulford Arms, York \\nTOMORROW - Bank Top Tavern, Oldham\\nNEXT SATURDAY- Big Hands, Manchester \\n\\n#livemusic #punk #blues #rockandroll",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 33,
+        "query_text": "Taguchi engineering fashionable hale and hearty little game optimization: MqnAOcU",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 5,
+          "joy": 60,
+          "sadness": 5,
+          "surprise": 15
+        },
+        "eas_score": 0.3775
+      },
+      {
+        "query_id": 34,
+        "query_text": "British humour should offend and challenge mainstream views. Hat off to Clarkeson. The ultra left should go and kneel before Allah!!",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 70,
+          "fear": 20,
+          "joy": 30,
+          "sadness": 10,
+          "surprise": 15
+        },
+        "eas_score": 1.2700000000000002
+      },
+      {
+        "query_id": 35,
+        "query_text": "Loading mirth out to be trusted websites: LKskQUfke",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 5,
+          "surprise": 10
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 36,
+        "query_text": "@Lil_PowWow @jweiler0528 More fat = more buoyant. Day 1 water stuff",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.3725
+      },
+      {
+        "query_id": 37,
+        "query_text": "@DP3520 lol they are madden tubers u dont know nothing bout madden cuz id smash on you",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 10,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.14
+      },
+      {
+        "query_id": 38,
+        "query_text": "jasperino - buoyant - Session.Six",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 39,
+        "query_text": "Function in regard to camshaft exhilaration companies: CQHshJSI",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 10,
+          "surprise": 40
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 40,
+        "query_text": "@MollieTebbatt guess what I'm doing? watching your great grandad sink the titanic..",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 30,
+          "surprise": 10
+        },
+        "eas_score": 0.58
+      },
+      {
+        "query_id": 41,
+        "query_text": "Oh yeah Squid face God madden 17 xbox1 come see me",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 15
+        },
+        "eas_score": 0.3725
+      },
+      {
+        "query_id": 42,
+        "query_text": "I wish there was a #glee version of @ShawnMendes Stitches. @GLEEonFOX #gleekforever",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 10,
+          "surprise": 0
+        },
+        "eas_score": 0.49999999999999994
+      },
+      {
+        "query_id": 43,
+        "query_text": "@wabermes The @RavalliRepublic had a good one but then the reporter quit. ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 30,
+          "surprise": 15
+        },
+        "eas_score": 0.14250000000000002
+      },
+      {
+        "query_id": 44,
+        "query_text": "@PottzGaming hmu need players for lans next year. DM me. Need serious players. Im under org",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 20,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.04000000000000001
+      },
+      {
+        "query_id": 45,
+        "query_text": "Multitasking .... I may have to induce these seeds of mine to sleep. ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 25,
+          "surprise": 10
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 46,
+        "query_text": "Ya tremble like Mr. Cooper, yo we hanging",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 40,
+          "sadness": 5,
+          "surprise": 10
+        },
+        "eas_score": 0.19750000000000004
+      },
+      {
+        "query_id": 47,
+        "query_text": "Removal regardless of cost a lamentable answer: ajvKSK",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 40,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 70,
+          "surprise": 5
+        },
+        "eas_score": 1.06
+      },
+      {
+        "query_id": 48,
+        "query_text": "@GreensACT @ShaneRattenbury @carolinelec what about #publictransport to &amp; from #CanberraAirport. Most cities have. Mr Barr very #coy on.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 10
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 49,
+        "query_text": "were sat in my sat room cloved watchin Manchester Unide @ManUtd v Norffampton do you fink but @WayneRooney is still goal fret at iced level",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 40,
+          "sadness": 15,
+          "surprise": 0
+        },
+        "eas_score": 0.19500000000000003
+      },
+      {
+        "query_id": 50,
+        "query_text": "@memorie_holiday @AngryOrchard about 2 wks ago,playing pokemon and not paying attention. Placed my elbow on a rail 3 inches from 4 no sting.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "neutral",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 30,
+          "joy": 40,
+          "sadness": 15,
+          "surprise": 25
+        },
+        "eas_score": 0.32250000000000006
+      }
+    ],
+    "emotion_dataset_emotional": [
+      {
+        "query_id": 1,
+        "query_text": "tfw you're en-route to your future :) !! @HUCJIR i'm coming for ya! #openhouse #futurecantor  #NYCletsgo",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 85,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.7224999999999999
+      },
+      {
+        "query_id": 2,
+        "query_text": "@everycolorbot more like every color looks the same #triggered #colorblind #offended",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.7150000000000001
+      },
+      {
+        "query_id": 3,
+        "query_text": "My cat is bloody lucky the RSPCA weren't open at 3am last night!!! #fuming 😡🐱",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 85,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 15,
+          "sadness": 5,
+          "surprise": 20
+        },
+        "eas_score": 0.7599999999999998
+      },
+      {
+        "query_id": 4,
+        "query_text": "a vote for #killary is like sticking a knife in a toaster  #MakeAmericaGreatAgain",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 70,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 5,
+          "surprise": 15
+        },
+        "eas_score": 1.1825
+      },
+      {
+        "query_id": 5,
+        "query_text": "It hasn't sunk in that I'm meeting the twins",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 10,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 50
+        },
+        "eas_score": 0.49999999999999994
+      },
+      {
+        "query_id": 6,
+        "query_text": "@InfluensterVox @irontekfit I love my #IronTekFit protein shake in the morning before yoga! #ESVoxbox",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.81
+      },
+      {
+        "query_id": 7,
+        "query_text": "If children live with #ridicule, they learn to feel ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 20,
+          "joy": 5,
+          "sadness": 60,
+          "surprise": 5
+        },
+        "eas_score": 0.435
+      },
+      {
+        "query_id": 8,
+        "query_text": "Literally feels sg to be happy with sam😍",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 9,
+        "query_text": "@RussiaInsider Really sad &amp; surprising. 1 side #Russia fighting against #IS &amp; on the other supporting #Pak which is epic centre 4 ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 15,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 70,
+          "surprise": 60
+        },
+        "eas_score": 0.565
+      },
+      {
+        "query_id": 10,
+        "query_text": "@caseycdutch @m_rath that's what some rioters are doing ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 60,
+          "fear": 40,
+          "joy": 10,
+          "sadness": 20,
+          "surprise": 15
+        },
+        "eas_score": 1.0599999999999998
+      },
+      {
+        "query_id": 11,
+        "query_text": "@kylemuir17 @Ealvarezfight @danawhite @TheNotoriousMMA he'll defend his belt against aldo after its not that hard u grudge holding bitch",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 30,
+          "fear": 10,
+          "joy": 20,
+          "sadness": 5,
+          "surprise": 15
+        },
+        "eas_score": 0.7825000000000001
+      },
+      {
+        "query_id": 12,
+        "query_text": "@crowder_rachel @LillieGregg she's famous now, begged a living of some mugs fame! Work shy freeloader. Deserves it all",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 60,
+          "fear": 10,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.9224999999999999
+      },
+      {
+        "query_id": 13,
+        "query_text": "@ikhras @benglaze Amal Clooney should try to prosecute  #Bush/ #Blair for #war crimes that turned our World upside down&amp;created ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 70,
+          "fear": 60,
+          "joy": 10,
+          "sadness": 50,
+          "surprise": 20
+        },
+        "eas_score": 1.7500000000000002
+      },
+      {
+        "query_id": 14,
+        "query_text": "@NahteWilly @AFP that was neither intelligent, definitive or useful shall I name call or would you like to expand on how I have offend you ?",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 50,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 20
+        },
+        "eas_score": 0.7749999999999999
+      },
+      {
+        "query_id": 15,
+        "query_text": "Can't even believe just seeing you set my anxiety off 🖕",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 10,
+          "fear": 70,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 30
+        },
+        "eas_score": 0.5649999999999998
+      },
+      {
+        "query_id": 16,
+        "query_text": "Projection is perception. See it in someone else? You also at some level have that within you. #anger #worry",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 10,
+          "fear": 40,
+          "joy": 20,
+          "sadness": 30,
+          "surprise": 15
+        },
+        "eas_score": 0.66
+      },
+      {
+        "query_id": 17,
+        "query_text": "Thoroughly enjoying AHS tonight. #ahs #horror #americanhorrorstory",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 10,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.8200000000000001
+      },
+      {
+        "query_id": 18,
+        "query_text": "@menglishmusic Thank you for the most fantastic evening, it was a brilliant show, you are a truly #sparkling talent, night over too quickly.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 10,
+          "surprise": 20
+        },
+        "eas_score": 0.8200000000000001
+      },
+      {
+        "query_id": 19,
+        "query_text": "@lebara - worst possible decision I could have made when arriving in the UK. Shocking service. Poor coverage. #unhappy",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 70,
+          "fear": 20,
+          "joy": 10,
+          "sadness": 60,
+          "surprise": 15
+        },
+        "eas_score": 1.54
+      },
+      {
+        "query_id": 20,
+        "query_text": "@TheBadgerBoy check out the article on @SaintSkipper5 on @dailyecho #shocking",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 20,
+          "joy": 30,
+          "sadness": 5,
+          "surprise": 60
+        },
+        "eas_score": 0.165
+      },
+      {
+        "query_id": 21,
+        "query_text": "Completely blown away by @EvaNoblezada @alistairbrammer @JonJonBriones and the cast of @MissSaigonUK tonight. #fathomevents #speechless #awe",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 80
+        },
+        "eas_score": 0.81
+      },
+      {
+        "query_id": 22,
+        "query_text": "LOL! @TheFrankJLopes was just awarded the “F” bomb trophy on #AutoDealerLive, @RealMatKoenig :) #serious",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 23,
+        "query_text": "i have so much hw tonight im offended",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 0,
+          "sadness": 30,
+          "surprise": 0
+        },
+        "eas_score": 0.5
+      },
+      {
+        "query_id": 24,
+        "query_text": "My roommate: it's okay that we can't spell because we have autocorrect. #terrible #firstworldprobs",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 15,
+          "surprise": 0
+        },
+        "eas_score": 0.395
+      },
+      {
+        "query_id": 25,
+        "query_text": "Just had a massive argument with my alarm today... I didn't want to get up. I don't know how we're going to fix this by tomorrow morning 😕",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 60,
+          "disgust": 20,
+          "fear": 40,
+          "joy": 10,
+          "sadness": 50,
+          "surprise": 0
+        },
+        "eas_score": 0.8200000000000001
+      },
+      {
+        "query_id": 26,
+        "query_text": "my life in one word is depressing",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 5,
+          "sadness": 85,
+          "surprise": 0
+        },
+        "eas_score": 0.7599999999999999
+      },
+      {
+        "query_id": 27,
+        "query_text": "#Zumba, #PiYo and #HIIT sessions. Sweaty, burning but sooooooo good! #missedoutonsummerbikinibodybutwintersunbodywilldo",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.6800000000000002
+      },
+      {
+        "query_id": 28,
+        "query_text": "Joes gf started singing all star and then Joe got angry and was all sing it right and started angrily singing it back at her",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 10,
+          "fear": 5,
+          "joy": 20,
+          "sadness": 15,
+          "surprise": 10
+        },
+        "eas_score": 0.7150000000000001
+      },
+      {
+        "query_id": 29,
+        "query_text": "Nobody wants a grouch but DONT move to SD if you want to be a rapper. #serious",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 20,
+          "disgust": 15,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 10,
+          "surprise": 5
+        },
+        "eas_score": 0.08500000000000002
+      },
+      {
+        "query_id": 30,
+        "query_text": "My nephews n cousins are nowhere near bad guys, but they could be killed @ any moment by a cop that thought they were bc of their color #sad",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 20,
+          "fear": 90,
+          "joy": 10,
+          "sadness": 85,
+          "surprise": 15
+        },
+        "eas_score": 2.2225
+      },
+      {
+        "query_id": 31,
+        "query_text": "@Irenelove83 heres what we can do, Get Brock and Sable to tag team mr and mrs AWOL and watch with glee",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 32,
+        "query_text": "I'm much to full of resentment",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 60,
+          "surprise": 0
+        },
+        "eas_score": 1.0525000000000002
+      },
+      {
+        "query_id": 33,
+        "query_text": "I have another test tonight ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 15,
+          "sadness": 25,
+          "surprise": 0
+        },
+        "eas_score": 0.1375
+      },
+      {
+        "query_id": 34,
+        "query_text": "@Bietron 🤓 dont be sad.. btw good night davina..go sleep larh..",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 20,
+          "surprise": 0
+        },
+        "eas_score": 0.4
+      },
+      {
+        "query_id": 35,
+        "query_text": "the rappers who stayed true to the game is rich.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 60,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.36
+      },
+      {
+        "query_id": 36,
+        "query_text": "@ofc_ALDUBQC Glad you gained some cheery vibes just by looking at our Happy Meal! 😊",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 37,
+        "query_text": "Listening to Joey really helps me and my anger.",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 50,
+          "sadness": 10,
+          "surprise": 0
+        },
+        "eas_score": 0.35
+      },
+      {
+        "query_id": 38,
+        "query_text": "@judahandthelion TONIGHT. Legit can't wait to rage 🤘🏻🤘🏻🤘🏻🤘🏻🤘🏻🔥",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 20
+        },
+        "eas_score": 0.8225
+      },
+      {
+        "query_id": 39,
+        "query_text": "Literally fuming fuck sake",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 90,
+          "disgust": 10,
+          "fear": 0,
+          "joy": 0,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.8200000000000001
+      },
+      {
+        "query_id": 40,
+        "query_text": "@glenberube @DonnaGrantis @idanielsenbass @HannahJWelton watching this again makes me weep tears of joy and tears of sadness that he's gone",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 80,
+          "surprise": 0
+        },
+        "eas_score": 1.1300000000000001
+      },
+      {
+        "query_id": 41,
+        "query_text": "When you have 15 doe run the opposite side of you 🙁 #depression",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 20,
+          "joy": 0,
+          "sadness": 80,
+          "surprise": 0
+        },
+        "eas_score": 0.6925000000000001
+      },
+      {
+        "query_id": 42,
+        "query_text": "someone kik me @ montanashay_ \\n #kikme ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 5,
+          "fear": 15,
+          "joy": 20,
+          "sadness": 5,
+          "surprise": 0
+        },
+        "eas_score": 0.07750000000000001
+      },
+      {
+        "query_id": 43,
+        "query_text": "Being alone is better than being lonely. Know what is worse than being lonely? Being empty; that's right!\\n#Loneliness #aloneinthecity #fear",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 15,
+          "fear": 30,
+          "joy": 20,
+          "sadness": 60,
+          "surprise": 5
+        },
+        "eas_score": 0.5225
+      },
+      {
+        "query_id": 44,
+        "query_text": "Man Utd are shambles that was horrific 😭😭😭",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 70,
+          "disgust": 60,
+          "fear": 20,
+          "joy": 0,
+          "sadness": 80,
+          "surprise": 10
+        },
+        "eas_score": 1.53
+      },
+      {
+        "query_id": 45,
+        "query_text": "The feeling of taking someone's life is either scarring or exhilarating, but for people need to realize that we're going to die at some--",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 10,
+          "disgust": 20,
+          "fear": 60,
+          "joy": 30,
+          "sadness": 50,
+          "surprise": 15
+        },
+        "eas_score": 0.75
+      },
+      {
+        "query_id": 46,
+        "query_text": "@CallofDuty how do u guys determine teams? Cause I'm 80% on shitty teams when I play and I'm fuckin over it #cod ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 80,
+          "disgust": 20,
+          "fear": 10,
+          "joy": 5,
+          "sadness": 15,
+          "surprise": 5
+        },
+        "eas_score": 0.7150000000000001
+      },
+      {
+        "query_id": 47,
+        "query_text": "BLUES with BOB HADDRELL &amp; Guests\\nFri 23rd Sep 8:30pm - 11:00pm #blues #free #TunbridgeWells",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 70,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.48999999999999994
+      },
+      {
+        "query_id": 48,
+        "query_text": "@simmy_hanley @Schrise also a #delight",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 80,
+          "sadness": 0,
+          "surprise": 0
+        },
+        "eas_score": 0.6400000000000001
+      },
+      {
+        "query_id": 49,
+        "query_text": "If my luck the rest of Fall goes anything like today, I think I'm going to like this season. #bestdayever #magic #work #snap",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 0,
+          "disgust": 0,
+          "fear": 0,
+          "joy": 90,
+          "sadness": 0,
+          "surprise": 10
+        },
+        "eas_score": 0.81
+      },
+      {
+        "query_id": 50,
+        "query_text": "@Twitch how do I stop that horror movie themed commercial? Suddenly hearing screams is really not making me want to watch twitch. ",
+        "dataset_source": "emotion_dataset",
+        "query_type": "emotional",
+        "emotion_scores": {
+          "anger": 30,
+          "disgust": 20,
+          "fear": 40,
+          "joy": 0,
+          "sadness": 10,
+          "surprise": 50
+        },
+        "eas_score": 0.30000000000000004
+      }
+    ]
+  },
+  "summary_stats": {
+    "full_dataset": {
+      "neutral": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.4231499999999999,
+          "median": 0.385,
+          "std": 0.43479357458453766,
+          "min": 0.0,
+          "max": 2.5849999999999995
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 20.7,
+            "median": 10.0,
+            "std": 25.495293683344773,
+            "min": 0,
+            "max": 85
+          },
+          "disgust": {
+            "mean": 14.3,
+            "median": 5.0,
+            "std": 21.72579112483594,
+            "min": 0,
+            "max": 90
+          },
+          "fear": {
+            "mean": 12.3,
+            "median": 10.0,
+            "std": 17.754154443397187,
+            "min": 0,
+            "max": 75
+          },
+          "joy": {
+            "mean": 27.0,
+            "median": 17.5,
+            "std": 28.407745422683583,
+            "min": 0,
+            "max": 90
+          },
+          "sadness": {
+            "mean": 13.4,
+            "median": 7.5,
+            "std": 17.159254063041317,
+            "min": 0,
+            "max": 70
+          },
+          "surprise": {
+            "mean": 13.9,
+            "median": 5.0,
+            "std": 19.060167890131503,
+            "min": 0,
+            "max": 80
+          }
+        }
+      },
+      "non_neutral": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.5123,
+          "median": 0.5125,
+          "std": 0.3098664389700827,
+          "min": 0.07500000000000001,
+          "max": 1.2700000000000002
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 25.8,
+            "median": 15.0,
+            "std": 28.554509276119596,
+            "min": 0,
+            "max": 85
+          },
+          "disgust": {
+            "mean": 16.7,
+            "median": 10.0,
+            "std": 20.67873303662485,
+            "min": 0,
+            "max": 70
+          },
+          "fear": {
+            "mean": 7.9,
+            "median": 5.0,
+            "std": 8.312039460926542,
+            "min": 0,
+            "max": 20
+          },
+          "joy": {
+            "mean": 36.4,
+            "median": 20.0,
+            "std": 32.03185914054943,
+            "min": 0,
+            "max": 90
+          },
+          "sadness": {
+            "mean": 14.0,
+            "median": 12.5,
+            "std": 16.0312195418814,
+            "min": 0,
+            "max": 70
+          },
+          "surprise": {
+            "mean": 9.7,
+            "median": 5.0,
+            "std": 13.130498848101697,
+            "min": 0,
+            "max": 70
+          }
+        }
+      }
+    },
+    "emotion_dataset": {
+      "neutral": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.3153500000000001,
+          "median": 0.21250000000000002,
+          "std": 0.2802391880162373,
+          "min": 0.0,
+          "max": 1.2700000000000002
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 15.2,
+            "median": 10.0,
+            "std": 17.232527382830412,
+            "min": 0,
+            "max": 80
+          },
+          "disgust": {
+            "mean": 10.8,
+            "median": 5.0,
+            "std": 16.073580808270446,
+            "min": 0,
+            "max": 70
+          },
+          "fear": {
+            "mean": 9.6,
+            "median": 5.0,
+            "std": 10.716342659695052,
+            "min": 0,
+            "max": 50
+          },
+          "joy": {
+            "mean": 33.0,
+            "median": 20.0,
+            "std": 23.08679276123039,
+            "min": 0,
+            "max": 80
+          },
+          "sadness": {
+            "mean": 14.9,
+            "median": 15.0,
+            "std": 14.12409289122668,
+            "min": 0,
+            "max": 70
+          },
+          "surprise": {
+            "mean": 10.4,
+            "median": 10.0,
+            "std": 11.740528097151337,
+            "min": 0,
+            "max": 50
+          }
+        }
+      },
+      "emotional": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.73395,
+          "median": 0.7150000000000001,
+          "std": 0.3960426397498128,
+          "min": 0.07750000000000001,
+          "max": 2.2225
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 31.5,
+            "median": 10.0,
+            "std": 33.974254958718376,
+            "min": 0,
+            "max": 90
+          },
+          "disgust": {
+            "mean": 15.7,
+            "median": 10.0,
+            "std": 20.760780332155147,
+            "min": 0,
+            "max": 70
+          },
+          "fear": {
+            "mean": 15.2,
+            "median": 10.0,
+            "std": 20.173249614278806,
+            "min": 0,
+            "max": 90
+          },
+          "joy": {
+            "mean": 37.2,
+            "median": 20.0,
+            "std": 34.20760149440472,
+            "min": 0,
+            "max": 90
+          },
+          "sadness": {
+            "mean": 23.7,
+            "median": 15.0,
+            "std": 27.600905782238378,
+            "min": 0,
+            "max": 85
+          },
+          "surprise": {
+            "mean": 13.1,
+            "median": 10.0,
+            "std": 17.7451401797788,
+            "min": 0,
+            "max": 80
+          }
+        }
+      }
+    },
+    "overall_comparison": {
+      "neutral_combined": {
+        "count": 100,
+        "mean_eas": 0.36925,
+        "median_eas": 0.23500000000000004,
+        "std_eas": 0.3697227846644022
+      },
+      "emotional_combined": {
+        "count": 100,
+        "mean_eas": 0.623125,
+        "median_eas": 0.6400000000000001,
+        "std_eas": 0.3724455287354112
+      },
+      "eas_difference": 0.253875
+    }
+  },
+  "metadata": {
+    "total_queries_analyzed": 200,
+    "datasets_processed": [
+      "full_dataset",
+      "emotion_dataset"
+    ],
+    "emotions_analyzed": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "sadness",
+      "surprise"
+    ],
+    "eas_calculation_method": "sum_of_squared_normalized_scores",
+    "random_seed_used": 42,
+    "batch_processing_enabled": true,
+    "api_provider": "Azure OpenAI GPT-4o-mini"
+  }
+}

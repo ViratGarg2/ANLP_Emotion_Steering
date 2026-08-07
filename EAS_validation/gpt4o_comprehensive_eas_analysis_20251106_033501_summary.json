@@ -1,0 +1,252 @@
+{
+  "analysis_timestamp": "2025-11-06T03:28:33.273077",
+  "model_used": {
+    "provider": "Azure OpenAI",
+    "model": "gpt-4o-mini",
+    "deployment": "gpt-4o-mini",
+    "endpoint": "https://varun-mdgmpb1r-eastus2.cognitiveservices.azure.com/"
+  },
+  "summary_statistics": {
+    "full_dataset": {
+      "neutral": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.4231499999999999,
+          "median": 0.385,
+          "std": 0.43479357458453766,
+          "min": 0.0,
+          "max": 2.5849999999999995
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 20.7,
+            "median": 10.0,
+            "std": 25.495293683344773,
+            "min": 0,
+            "max": 85
+          },
+          "disgust": {
+            "mean": 14.3,
+            "median": 5.0,
+            "std": 21.72579112483594,
+            "min": 0,
+            "max": 90
+          },
+          "fear": {
+            "mean": 12.3,
+            "median": 10.0,
+            "std": 17.754154443397187,
+            "min": 0,
+            "max": 75
+          },
+          "joy": {
+            "mean": 27.0,
+            "median": 17.5,
+            "std": 28.407745422683583,
+            "min": 0,
+            "max": 90
+          },
+          "sadness": {
+            "mean": 13.4,
+            "median": 7.5,
+            "std": 17.159254063041317,
+            "min": 0,
+            "max": 70
+          },
+          "surprise": {
+            "mean": 13.9,
+            "median": 5.0,
+            "std": 19.060167890131503,
+            "min": 0,
+            "max": 80
+          }
+        }
+      },
+      "non_neutral": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.5123,
+          "median": 0.5125,
+          "std": 0.3098664389700827,
+          "min": 0.07500000000000001,
+          "max": 1.2700000000000002
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 25.8,
+            "median": 15.0,
+            "std": 28.554509276119596,
+            "min": 0,
+            "max": 85
+          },
+          "disgust": {
+            "mean": 16.7,
+            "median": 10.0,
+            "std": 20.67873303662485,
+            "min": 0,
+            "max": 70
+          },
+          "fear": {
+            "mean": 7.9,
+            "median": 5.0,
+            "std": 8.312039460926542,
+            "min": 0,
+            "max": 20
+          },
+          "joy": {
+            "mean": 36.4,
+            "median": 20.0,
+            "std": 32.03185914054943,
+            "min": 0,
+            "max": 90
+          },
+          "sadness": {
+            "mean": 14.0,
+            "median": 12.5,
+            "std": 16.0312195418814,
+            "min": 0,
+            "max": 70
+          },
+          "surprise": {
+            "mean": 9.7,
+            "median": 5.0,
+            "std": 13.130498848101697,
+            "min": 0,
+            "max": 70
+          }
+        }
+      }
+    },
+    "emotion_dataset": {
+      "neutral": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.3153500000000001,
+          "median": 0.21250000000000002,
+          "std": 0.2802391880162373,
+          "min": 0.0,
+          "max": 1.2700000000000002
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 15.2,
+            "median": 10.0,
+            "std": 17.232527382830412,
+            "min": 0,
+            "max": 80
+          },
+          "disgust": {
+            "mean": 10.8,
+            "median": 5.0,
+            "std": 16.073580808270446,
+            "min": 0,
+            "max": 70
+          },
+          "fear": {
+            "mean": 9.6,
+            "median": 5.0,
+            "std": 10.716342659695052,
+            "min": 0,
+            "max": 50
+          },
+          "joy": {
+            "mean": 33.0,
+            "median": 20.0,
+            "std": 23.08679276123039,
+            "min": 0,
+            "max": 80
+          },
+          "sadness": {
+            "mean": 14.9,
+            "median": 15.0,
+            "std": 14.12409289122668,
+            "min": 0,
+            "max": 70
+          },
+          "surprise": {
+            "mean": 10.4,
+            "median": 10.0,
+            "std": 11.740528097151337,
+            "min": 0,
+            "max": 50
+          }
+        }
+      },
+      "emotional": {
+        "count": 50,
+        "eas_stats": {
+          "mean": 0.73395,
+          "median": 0.7150000000000001,
+          "std": 0.3960426397498128,
+          "min": 0.07750000000000001,
+          "max": 2.2225
+        },
+        "emotion_stats": {
+          "anger": {
+            "mean": 31.5,
+            "median": 10.0,
+            "std": 33.974254958718376,
+            "min": 0,
+            "max": 90
+          },
+          "disgust": {
+            "mean": 15.7,
+            "median": 10.0,
+            "std": 20.760780332155147,
+            "min": 0,
+            "max": 70
+          },
+          "fear": {
+            "mean": 15.2,
+            "median": 10.0,
+            "std": 20.173249614278806,
+            "min": 0,
+            "max": 90
+          },
+          "joy": {
+            "mean": 37.2,
+            "median": 20.0,
+            "std": 34.20760149440472,
+            "min": 0,
+            "max": 90
+          },
+          "sadness": {
+            "mean": 23.7,
+            "median": 15.0,
+            "std": 27.600905782238378,
+            "min": 0,
+            "max": 85
+          },
+          "surprise": {
+            "mean": 13.1,
+            "median": 10.0,
+            "std": 17.7451401797788,
+            "min": 0,
+            "max": 80
+          }
+        }
+      }
+    },
+    "overall_comparison": {
+      "neutral_combined": {
+        "count": 100,
+        "mean_eas": 0.36925,
+        "median_eas": 0.23500000000000004,
+        "std_eas": 0.3697227846644022
+      },
+      "emotional_combined": {
+        "count": 100,
+        "mean_eas": 0.623125,
+        "median_eas": 0.6400000000000001,
+        "std_eas": 0.3724455287354112
+      },
+      "eas_difference": 0.253875
+    }
+  },
+  "total_queries_by_type": {
+    "full_dataset_neutral": 50,
+    "full_dataset_non_neutral": 50,
+    "emotion_dataset_neutral": 50,
+    "emotion_dataset_emotional": 50
+  }
+}

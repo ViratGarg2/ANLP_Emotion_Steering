@@ -1,0 +1,107 @@
+{
+  "overall_summary": {
+    "total_evaluations": 500,
+    "emotions_tested": [
+      "joy",
+      "anger",
+      "disgust",
+      "fear",
+      "sadness"
+    ],
+    "overall_avg_improvement": 0.2981338983085006,
+    "overall_success_rate": 0.858,
+    "best_performing_emotion": "joy",
+    "worst_performing_emotion": "sadness",
+    "beta": 4.0,
+    "aperture": 0.2,
+    "evaluation_timestamp": "2026-05-02T10:22:06.174185"
+  },
+  "emotion_statistics": {
+    "joy": {
+      "total_queries": 100,
+      "average_improvement": 0.6000188999692909,
+      "median_improvement": 0.6198641387745738,
+      "std_improvement": 0.14525662903933378,
+      "min_improvement": -0.17777839303016663,
+      "max_improvement": 0.9099269565194845,
+      "positive_improvements": 99,
+      "negative_improvements": 1,
+      "success_rate": 0.99,
+      "average_baseline_confidence": 0.05325646466808394,
+      "average_enhanced_confidence": 0.6532753646373749,
+      "confidence_boost": 0.6000188999692909,
+      "evaluation_approach": "CONCEPTOR_ALL_LAYERS"
+    },
+    "anger": {
+      "total_queries": 100,
+      "average_improvement": 0.19774353255983443,
+      "median_improvement": 0.19416627287864685,
+      "std_improvement": 0.09946570374080888,
+      "min_improvement": -0.06604771316051483,
+      "max_improvement": 0.44974985253065825,
+      "positive_improvements": 97,
+      "negative_improvements": 3,
+      "success_rate": 0.97,
+      "average_baseline_confidence": 0.07441539565566928,
+      "average_enhanced_confidence": 0.2721589282155037,
+      "confidence_boost": 0.1977435325598344,
+      "evaluation_approach": "CONCEPTOR_ALL_LAYERS"
+    },
+    "disgust": {
+      "total_queries": 100,
+      "average_improvement": 0.3801416007312946,
+      "median_improvement": 0.3641016557812691,
+      "std_improvement": 0.2689103583737391,
+      "min_improvement": -0.22729825973510742,
+      "max_improvement": 0.8457845598459244,
+      "positive_improvements": 93,
+      "negative_improvements": 7,
+      "success_rate": 0.93,
+      "average_baseline_confidence": 0.11925704465480522,
+      "average_enhanced_confidence": 0.4993986453860998,
+      "confidence_boost": 0.38014160073129455,
+      "evaluation_approach": "CONCEPTOR_ALL_LAYERS"
+    },
+    "fear": {
+      "total_queries": 100,
+      "average_improvement": 0.32542695556767287,
+      "median_improvement": 0.07596249505877495,
+      "std_improvement": 0.4032723675607899,
+      "min_improvement": -0.4570503979921341,
+      "max_improvement": 0.9477509465068579,
+      "positive_improvements": 79,
+      "negative_improvements": 21,
+      "success_rate": 0.79,
+      "average_baseline_confidence": 0.10065028714947402,
+      "average_enhanced_confidence": 0.42607724271714686,
+      "confidence_boost": 0.32542695556767287,
+      "evaluation_approach": "CONCEPTOR_ALL_LAYERS"
+    },
+    "sadness": {
+      "total_queries": 100,
+      "average_improvement": -0.012661497285589575,
+      "median_improvement": 0.019124794751405716,
+      "std_improvement": 0.1126199189143202,
+      "min_improvement": -0.6765308752655983,
+      "max_improvement": 0.13530459441244602,
+      "positive_improvements": 61,
+      "negative_improvements": 39,
+      "success_rate": 0.61,
+      "average_baseline_confidence": 0.09691642865538597,
+      "average_enhanced_confidence": 0.0842549313697964,
+      "confidence_boost": -0.012661497285589574,
+      "evaluation_approach": "CONCEPTOR_ALL_LAYERS"
+    }
+  },
+  "evaluation_metadata": {
+    "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "classifier_name": "facebook/bart-large-mnli",
+    "device": "cuda",
+    "aperture": 0.2,
+    "beta": 4.0,
+    "method": "conceptor_projection",
+    "paper_reference": "arXiv:2410.16314",
+    "steering_formula": "h'_l = beta_c * C_l * h_l",
+    "conceptor_formula": "C(R,alpha) = R(R + alpha^-2 * I)^-1, R = X.T @ X / n"
+  }
+}

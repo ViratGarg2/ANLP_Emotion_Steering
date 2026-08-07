@@ -1,0 +1,4 @@
+first extract the vectors using:
+python3 qwen_emotion_extraction.py --mode per_prompt --num_queries 50 --output_dir ./emotion2
+by default we don't store vector for each query, mode as per_prompt allows for per query to help create tsne plot later
+then use python3 tsne_emotion_vectors.py to create tsne plots after it
