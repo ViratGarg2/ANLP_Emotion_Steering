@@ -1,0 +1,61 @@
+method,layer,accuracy,config
+Addition,13,0.175,β=4
+Addition,14,0.111,β=3
+Addition,15,0.26,β=3
+Addition,16,0.243,β=3
+Addition,17,0.231,β=3
+Addition,18,0.319,β=2
+Addition,19,0.297,β=2
+Addition,20,0.396,β=1
+Addition,21,0.392,β=1
+Addition,22,0.255,β=1
+Addition,23,0.216,β=1
+Addition,24,0.16,β=1
+Addition,25,0.115,β=1
+Addition,26,0.07,β=1
+Addition,27,0.085,β=2
+"Conceptor (paper, βCh)",13,0.201,β=5 α=0.1
+"Conceptor (paper, βCh)",14,0.148,β=5 α=0.05
+"Conceptor (paper, βCh)",15,0.295,β=5 α=0.05
+"Conceptor (paper, βCh)",16,0.281,β=5 α=0.05
+"Conceptor (paper, βCh)",17,0.284,β=5 α=0.05
+"Conceptor (paper, βCh)",18,0.404,β=2 α=0.05
+"Conceptor (paper, βCh)",19,0.442,β=1 α=0.05
+"Conceptor (paper, βCh)",20,0.487,β=1 α=0.05
+"Conceptor (paper, βCh)",21,0.529,β=1 α=2
+"Conceptor (paper, βCh)",22,0.469,β=0.5 α=0.1
+"Conceptor (paper, βCh)",23,0.384,β=1 α=1
+"Conceptor (paper, βCh)",24,0.448,β=1 α=0.005
+"Conceptor (paper, βCh)",25,0.347,β=0.5 α=1
+"Conceptor (paper, βCh)",26,0.241,β=0.5 α=1
+"Conceptor (paper, βCh)",27,0.169,β=1 α=0.1
+Conceptor (λ-residual),13,0.2,β=5 α=0.1 λ=1
+Conceptor (λ-residual),14,0.145,β=5 α=0.1 λ=1
+Conceptor (λ-residual),15,0.295,β=5 α=0.05 λ=1
+Conceptor (λ-residual),16,0.281,β=5 α=0.05 λ=1
+Conceptor (λ-residual),17,0.284,β=5 α=0.05 λ=1
+Conceptor (λ-residual),18,0.404,β=2 α=0.05 λ=1
+Conceptor (λ-residual),19,0.442,β=1 α=0.05 λ=1
+Conceptor (λ-residual),20,0.55,β=1 α=0.1 λ=0.75
+Conceptor (λ-residual),21,0.529,β=1 α=2 λ=1
+Conceptor (λ-residual),22,0.473,β=1 α=0.1 λ=0.75
+Conceptor (λ-residual),23,0.389,β=1 α=0.1 λ=0.75
+Conceptor (λ-residual),24,0.449,β=1 α=0.005 λ=1
+Conceptor (λ-residual),25,0.347,β=0.5 α=1 λ=1
+Conceptor (λ-residual),26,0.27,β=0.5 α=0.1 λ=0.75
+Conceptor (λ-residual),27,0.259,β=0.5 α=0.05 λ=0.75
+Conceptor + bias recovery,13,0.071,β=5 α=0.1 λ=1
+Conceptor + bias recovery,14,0.059,β=5 α=0.1 λ=1
+Conceptor + bias recovery,15,0.188,β=5 α=0.1 λ=1
+Conceptor + bias recovery,16,0.238,β=5 α=0.1 λ=1
+Conceptor + bias recovery,17,0.251,β=5 α=0.1 λ=1
+Conceptor + bias recovery,18,0.409,β=5 α=0.05 λ=1
+Conceptor + bias recovery,19,0.338,β=5 α=0.1 λ=1
+Conceptor + bias recovery,20,0.473,β=3.9 α=0.05 λ=1
+Conceptor + bias recovery,21,0.468,β=3.9 α=0.05 λ=1
+Conceptor + bias recovery,22,0.291,β=5 α=0.05 λ=1
+Conceptor + bias recovery,23,0.174,β=5 α=0.1 λ=1
+Conceptor + bias recovery,24,0.09,β=5 α=0.1 λ=1
+Conceptor + bias recovery,25,0.023,β=5 α=0.1 λ=0.75
+Conceptor + bias recovery,26,0.013,β=5 α=0.05 λ=0.5
+Conceptor + bias recovery,27,0.027,β=5 α=0.1 λ=1

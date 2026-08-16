@@ -1,0 +1,25 @@
+method,layer,accuracy,config
+Addition,12,0.006,β=4
+Addition,13,0.164667,β=4
+Addition,14,0.119667,β=3
+Addition,15,0.246,β=3
+Addition,16,0.236667,β=3
+Addition,17,0.231333,β=3
+Addition,18,0.319667,β=2.3
+Addition,19,0.301667,β=2
+Addition,20,0.431,β=1
+Addition,21,0.418667,β=1
+Addition,22,0.262,β=1
+Addition,23,0.201,β=1
+Conceptor,12,0.011667,β=5 α=0.1
+Conceptor,13,0.198667,β=5 α=0.1
+Conceptor,14,0.144333,β=5 α=0.05
+Conceptor,15,0.273333,β=5 α=0.05
+Conceptor,16,0.262333,β=5 α=0.05
+Conceptor,17,0.268,β=5 α=0.05
+Conceptor,18,0.39,β=2 α=0.1
+Conceptor,19,0.421667,β=2 α=0.0125
+Conceptor,20,0.489333,β=8 α=0.005
+Conceptor,21,0.457333,β=5 α=0.005
+Conceptor,22,0.439,β=3 α=0.005
+Conceptor,23,0.368667,β=1 α=1

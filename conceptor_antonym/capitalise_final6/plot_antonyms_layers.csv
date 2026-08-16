@@ -1,0 +1,39 @@
+method,layer,accuracy,config
+Addition,13,0.028,β=2.3
+Addition,14,0.018,β=2.3
+Addition,15,0.067,β=2.3
+Addition,16,0.049,β=2
+Addition,17,0.11,β=2
+Addition,18,0.104,β=2
+Addition,19,0.07,β=2
+Addition,20,0.078,β=1
+Addition,21,0.044,β=2
+Addition,22,0.044,β=3
+Addition,23,0.042,β=2
+Addition,24,0.042,β=3
+Addition,25,0.044,β=3
+Addition,26,0.045,β=2
+Addition,27,0.043,β=3
+"Conceptor (paper, βCh)",13,0.09,β=2 α=0.1
+"Conceptor (paper, βCh)",14,0.068,β=2 α=0.05
+"Conceptor (paper, βCh)",15,0.107,β=3.9 α=0.05
+"Conceptor (paper, βCh)",16,0.128,β=2 α=0.05
+"Conceptor (paper, βCh)",17,0.283,β=2 α=0.05
+"Conceptor (paper, βCh)",18,0.29,β=2 α=0.05
+"Conceptor (paper, βCh)",19,0.282,β=1 α=0.1
+"Conceptor (paper, βCh)",20,0.252,β=1 α=0.1
+"Conceptor (paper, βCh)",21,0.064,β=1 α=0.1
+"Conceptor (paper, βCh)",22,0.051,β=0.5 α=0.1
+"Conceptor (paper, βCh)",23,0.048,β=2 α=0.1
+"Conceptor (paper, βCh)",24,0.044,β=2 α=0.1
+"Conceptor (paper, βCh)",25,0.043,β=5 α=0.005
+"Conceptor (paper, βCh)",26,0.043,β=3.9 α=0.005
+"Conceptor (paper, βCh)",27,0.044,β=2 α=0.05
+Conceptor (λ-residual),13,0.09,β=2 α=0.1 λ=1
+Conceptor (λ-residual),14,0.068,β=2 α=0.05 λ=1
+Conceptor (λ-residual),15,0.107,β=3.9 α=0.05 λ=1
+Conceptor (λ-residual),16,0.128,β=2 α=0.05 λ=1
+Conceptor (λ-residual),17,0.282,β=2 α=0.05 λ=1
+Conceptor (λ-residual),18,0.29,β=2 α=0.05 λ=1
+Conceptor (λ-residual),19,0.282,β=1 α=0.1 λ=1
+Conceptor (λ-residual),20,0.261,β=1 α=0.1 λ=0.75

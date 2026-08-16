@@ -29,6 +29,44 @@ def comma_separated_floats(value):
         raise argparse.ArgumentTypeError(f"Invalid comma-separated list of integers: {value}")
 
 
+#: Every runnable experiment type, in the order they are executed when several
+#: are requested at once. Baseline first so its floor is logged before the
+#: steered numbers; cheap methods before expensive ones.
+ALL_EXPERIMENT_TYPES = [
+    "baseline",
+    "addition",
+    "addition-mean",
+    "conceptor-paper",
+    "conceptor",
+    "conceptor-mean",
+]
+
+
+def comma_separated_experiment_types(value):
+    """
+    Parse one or more experiment types.
+
+    Accepts a single name ("conceptor"), a comma-separated list
+    ("addition,conceptor,conceptor-mean"), or "all". Duplicates are dropped and
+    the result is ordered by ALL_EXPERIMENT_TYPES, not by the order typed.
+    """
+    if value.strip().lower() == "all":
+        return list(ALL_EXPERIMENT_TYPES)
+
+    requested = [x.strip() for x in value.split(",") if x.strip()]
+    if not requested:
+        raise argparse.ArgumentTypeError("No experiment type given")
+
+    unknown = [x for x in requested if x not in ALL_EXPERIMENT_TYPES]
+    if unknown:
+        raise argparse.ArgumentTypeError(
+            f"Unknown experiment type(s): {', '.join(unknown)}. "
+            f"Choose from: {', '.join(ALL_EXPERIMENT_TYPES)}, or 'all'"
+        )
+
+    return [t for t in ALL_EXPERIMENT_TYPES if t in requested]
+
+
 def parse_arguments():
     """
     Parse arguments from the command line. For instructions, please run
@@ -39,11 +77,35 @@ def parse_arguments():
     # experiment type
     ####################
     parser.add_argument(
-        "--experiment_type", 
-        type=str, 
-        default="baseline", 
-        choices=["baseline", "conceptor", "conceptor-mean", "addition", "addition-mean"],
-        help="Type of experiment (choices: %(choices)s, default: %(default)s)",
+        "--experiment_type",
+        type=comma_separated_experiment_types,
+        default="baseline",
+        help="Experiment type(s) to run, comma-separated. One of "
+             "baseline, conceptor, conceptor-mean, addition, addition-mean; "
+             "or 'all' for every method. Running several in one invocation "
+             "shares a single model load, a single activation extraction, and "
+             "crucially the SAME sampled prompts, so the results are directly "
+             "comparable (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--mc_fit_centred",
+        type=str2bool,
+        default=False,
+        help="For conceptor-mean only: whether mu is ALSO used when fitting C. "
+             "false (default) fits C on raw X, so it is identical to the plain "
+             "conceptor's C and the only difference is the bias-recovery term "
+             "in the injection — the clean one-variable comparison, and what "
+             "the derivation describes. true additionally fits C on (X - mu), "
+             "changing two things at once; those results are tagged '_fitmc' "
+             "(default: %(default)s)",
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=None,
+        help="Seed for prompt sampling. Set this to make a run reproducible "
+             "and to pair separate invocations on identical prompts "
+             "(default: %(default)s — a fresh random draw each run)",
     )
 
     # task

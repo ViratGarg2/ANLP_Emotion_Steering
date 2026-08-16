@@ -142,6 +142,37 @@ def generate_conceptor_hook(conceptor, beta, lambda_=0.5):
     return last_token_steering_hook
 
 
+def generate_conceptor_hook_paper(conceptor, beta):
+    """
+    Pure conceptor steering exactly as published:
+
+        h'_l = beta_c * C_l * h_l          (arXiv:2410.16314, eq. 4)
+
+    No residual blend and no lambda — the activation is replaced by its soft
+    projection. This is the lambda=1 case of generate_conceptor_hook (since
+    h + 1*(beta*C - I)h = beta*C*h), kept as its own hook so the published
+    formulation can be run and reported without relying on a lambda sweep
+    happening to include 1.0.
+
+    Parameters:
+    - conceptor (torch.Tensor): Conceptor matrix C.
+    - beta (float): beta_c, the steering scale.
+
+    Returns:
+    - function: Hook function applying the pure projection to the last token.
+    """
+
+    def last_token_steering_hook(resid_pre, hook):
+        C = conceptor.to(dtype=resid_pre.dtype, device=resid_pre.device)
+        current_token_index = resid_pre.shape[1] - 1
+        for i in range(resid_pre.shape[0]):
+            resid_pre[i, current_token_index, :] = beta * torch.matmul(
+                C, resid_pre[i, current_token_index, :]
+            )
+
+    return last_token_steering_hook
+
+
 def generate_conceptor_hook_mean_centered(conceptor, mean_train, beta, lambda_=0.5):
     """
     Generates a hook function to apply a mean-centered conceptor to the last token.

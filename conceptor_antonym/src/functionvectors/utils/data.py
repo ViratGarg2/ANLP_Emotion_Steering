@@ -84,7 +84,10 @@ def get_unique_random_inputs_formatted(pairs, n):
     Returns:
         list: A list of N unique input strings, each formatted with a ':' at the end.
     """
-    unique_inputs = list(set(pair["input"] for pair in pairs))
+    # sorted(), not list(): set iteration order for strings depends on the
+    # per-process hash salt, so list(set(...)) would make --seed useless
+    # without also pinning PYTHONHASHSEED.
+    unique_inputs = sorted(set(pair["input"] for pair in pairs))
     if len(unique_inputs) == 0:
         raise ValueError("No unique inputs available to sample from.")
 

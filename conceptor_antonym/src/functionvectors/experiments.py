@@ -5,6 +5,7 @@ from tqdm import tqdm
 from utils.steering import (
     top_1_first_tokens,
     generate_conceptor_hook,
+    generate_conceptor_hook_paper,
     generate_conceptor_hook_mean_centered,
     generate_ave_hook_addition,
     generate_ave_hook_addition_mean_centered,
@@ -133,11 +134,14 @@ def run_all_conceptor_experiments(
     mean_train_activations=None,
     verbose: bool = False,
     fname_suffix: str = "",
+    pure: bool = False,
 ):
     results_conceptoring = []
     # get the file name for the results CSV file
     model_id = _get_model_id(model)
-    mc = "_mc" if mean_train_activations is not None else ""
+    # "_paper" -> h' = beta*C*h (arXiv:2410.16314 eq. 4)
+    # "_mc"    -> bias-recovery form with the training mean
+    mc = "_paper" if pure else ("_mc" if mean_train_activations is not None else "")
     fname = _get_filename(results_path, model_id, task, f"conceptor{mc}", fname_suffix)
     print(f"Storing results to `{fname}`")
 
@@ -165,6 +169,7 @@ def run_all_conceptor_experiments(
             batch_size=batch_size,
             mean_train_activations=mean_train_activations,
             verbose=verbose,
+            pure=pure,
         )
         final_acc = results_conceptoring[-1]['final_accuracy']
         pbar.set_postfix_str(f"{config_key} | {final_acc:.1%}")
@@ -188,6 +193,7 @@ def run_conceptor_experiment(
     lambda_: float = 0.5,
     mean_train_activations = None,
     verbose: bool = False,
+    pure: bool = False,
 ):
     return_data = []
 
@@ -213,7 +219,11 @@ def run_conceptor_experiment(
             ]
 
             # Initialize hooks that will allow for the conceptor to be applied
-            if mean_train_activations is not None:
+            if pure:
+                # h' = beta*C*h, the published form (arXiv:2410.16314 eq. 4).
+                # lambda plays no part here.
+                conceptor_hook = generate_conceptor_hook_paper(conceptor, beta)
+            elif mean_train_activations is not None:
                 conceptor_hook = generate_conceptor_hook_mean_centered(
                     conceptor=conceptor,
                     mean_train=mean_train_activations[layer],

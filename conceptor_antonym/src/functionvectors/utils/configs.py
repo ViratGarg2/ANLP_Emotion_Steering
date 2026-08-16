@@ -40,6 +40,9 @@ class ExperimentType(Enum):
     """
     BASELINE = "baseline"
     CONCEPTOR = "conceptor"
+    #: Pure published form, h' = beta_c * C * h (arXiv:2410.16314 eq. 4).
+    #: Ignores lambda; equivalent to CONCEPTOR at lambda=1.
+    CONCEPTOR_PAPER = "conceptor-paper"
     CONCEPTOR_MEAN = "conceptor-mean"
     ADDITION = "addition"
     ADDITION_MEAN = "addition-mean"
