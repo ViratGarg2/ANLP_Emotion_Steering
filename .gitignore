@@ -61,3 +61,9 @@ goemotions_*.csv
 *.zip
 *.tar
 *.tar.gz
+
+# ---------------------------------------------------------------------------
+# Steering sweep scratch output (smoke tests) and abandoned partial datasets
+# ---------------------------------------------------------------------------
+conceptor_emotion/sweep_results_quick/
+conceptor_emotion/data/*_partial.jsonl
