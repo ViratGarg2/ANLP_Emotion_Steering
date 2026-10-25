@@ -283,7 +283,8 @@ python3 plots/plot_emotion_results.py
 - Postmus & Abreu (2024). *Steering Large Language Models using Conceptors: Improving Addition-Based Activation Engineering.* arXiv:2410.16314
 - Dong et al. (2025). *Controllable Emotion Generation with Emotion Vectors.* arXiv:2502.04075
 - Triantafyllopoulos et al. (2026). *Conceptors for Semantic Steering.* arXiv:2605.04980
-- Jaeger (2014). *Conceptors: an easy introduction.* arXiv:1403.3369
+- Jaeger (2014). *Controlling Recurrent Neural Networks by Conceptors.* arXiv:1403.3369
+- Jaeger (2014). *Conceptors: an easy introduction.* arXiv:1406.2671
 - Turner et al. (2023). *Activation Addition: Steering Language Models Without Optimization.* arXiv:2308.10248
 - Todd et al. (2023). *Function Vectors in Large Language Models.* arXiv:2310.15213
 - Jorgensen et al. (2023). *Improving Activation Steering in Language Models with Mean-Centring.* arXiv:2312.03813

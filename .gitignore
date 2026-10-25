@@ -67,3 +67,12 @@ goemotions_*.csv
 # ---------------------------------------------------------------------------
 conceptor_emotion/sweep_results_quick/
 conceptor_emotion/data/*_partial.jsonl
+
+# ---------------------------------------------------------------------------
+# Raw per-config sweep outputs (7-13 MB each; reproducible, kept on the cluster).
+# summary.csv, stats_*.json and the held-out benchmark/ outputs are committed.
+# ---------------------------------------------------------------------------
+conceptor_emotion/sweep_results_*/generations.csv
+conceptor_emotion/sweep_results_*/scored.csv
+conceptor_emotion/sweep_results_*/*/generations.csv
+conceptor_emotion/sweep_results_*/*/scored.csv

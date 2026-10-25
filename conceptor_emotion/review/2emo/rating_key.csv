@@ -1,0 +1,361 @@
+id,emotion,method,config,target_conf,ppl
+R0000,joy,baseline,baseline,0.111,1.6
+R0001,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.982,30.2
+R0002,sadness,shift,synthetic L14-20 lam=1.5,0.924,92.1
+R0003,joy,baseline,baseline,0.496,1.5
+R0004,sadness,shift,model_gen L6-12 lam=0.6,0.286,58.2
+R0005,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.571,68.1
+R0006,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.314,32.0
+R0007,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.616,38.3
+R0008,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.353,34.5
+R0009,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.709,34.5
+R0010,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.526,17.5
+R0011,sadness,project_ev,alpha=2,0.004,6.0
+R0012,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.507,19.7
+R0013,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.119,32.6
+R0014,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.355,33.2
+R0015,sadness,shift,goemotions L14-20 lam=1.5,0.051,8.9
+R0016,joy,shift,synthetic L10-16 lam=1.5,0.898,72.4
+R0017,sadness,shift,goemotions L14-20 lam=1.5,0.173,3.3
+R0018,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.931,27.5
+R0019,joy,project_ev,alpha=4,0.967,96.1
+R0020,sadness,project_ev,alpha=2,0.463,11.8
+R0021,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.35,56.6
+R0022,joy,shift,goemotions L14-20 lam=1.5,0.421,11.3
+R0023,joy,project_ev,alpha=4,0.913,65.0
+R0024,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.274,17.8
+R0025,sadness,baseline,baseline,0.036,1.8
+R0026,joy,project_ev,alpha=4,0.958,42.8
+R0027,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.93,47.8
+R0028,sadness,project_ev,alpha=2,0.227,6.7
+R0029,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.951,20.7
+R0030,sadness,shift,goemotions L14-20 lam=1.5,0.165,16.9
+R0031,joy,baseline,baseline,0.127,2.1
+R0032,sadness,baseline,baseline,0.124,1.7
+R0033,sadness,shift,goemotions L14-20 lam=1.5,0.117,5.0
+R0034,sadness,baseline,baseline,0.01,2.5
+R0035,sadness,shift,model_gen L6-12 lam=0.6,0.002,29.1
+R0036,joy,shift,model_gen L6-12 lam=1,0.99,312.2
+R0037,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.076,33.4
+R0038,joy,project_ev,alpha=4,0.962,129.5
+R0039,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.462,33.8
+R0040,joy,shift,model_gen L6-12 lam=1,0.989,20.2
+R0041,sadness,shift,synthetic L14-20 lam=1.5,0.012,178.8
+R0042,joy,project_ev,alpha=4,0.608,129.7
+R0043,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.955,31.3
+R0044,joy,project_ev,alpha=4,0.979,121.7
+R0045,sadness,shift,goemotions L14-20 lam=1.5,0.368,5.4
+R0046,joy,baseline,baseline,0.243,1.6
+R0047,joy,shift,model_gen L6-12 lam=1,0.984,20.4
+R0048,joy,shift,goemotions L14-20 lam=1.5,0.148,2.9
+R0049,sadness,project_ev,alpha=2,0.05,12.3
+R0050,joy,shift,goemotions L14-20 lam=1.5,0.614,22.6
+R0051,sadness,baseline,baseline,0.081,1.8
+R0052,joy,shift,model_gen L6-12 lam=1,0.983,114.0
+R0053,joy,project_ev,alpha=2,0.882,15.8
+R0054,sadness,shift,goemotions L14-20 lam=1.5,0.338,3.9
+R0055,joy,project_ev,alpha=4,0.957,49.5
+R0056,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.496,38.4
+R0057,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.705,14.7
+R0058,joy,shift,model_gen L6-12 lam=1,0.991,27.0
+R0059,sadness,project_ev,alpha=4,0.799,54.5
+R0060,sadness,shift,synthetic L14-20 lam=1.5,0.659,33.8
+R0061,sadness,shift,synthetic L14-20 lam=1.5,0.163,58.8
+R0062,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.79,29.9
+R0063,sadness,shift,goemotions L14-20 lam=1.5,0.437,4.5
+R0064,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.206,68.5
+R0065,sadness,project_ev,alpha=2,0.453,11.9
+R0066,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.982,28.8
+R0067,sadness,shift,goemotions L14-20 lam=1.5,0.182,5.0
+R0068,joy,project_ev,alpha=4,0.911,66.5
+R0069,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.059,48.8
+R0070,sadness,baseline,baseline,0.18,2.2
+R0071,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.467,36.6
+R0072,joy,shift,goemotions L14-20 lam=1.5,0.309,6.2
+R0073,sadness,shift,model_gen L6-12 lam=0.6,0.335,52.0
+R0074,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.38,32.5
+R0075,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.012,35.3
+R0076,joy,baseline,baseline,0.11,2.1
+R0077,sadness,shift,model_gen L6-12 lam=0.6,0.914,39.6
+R0078,joy,project_ev,alpha=2,0.12,6.6
+R0079,sadness,shift,synthetic L14-20 lam=1.5,0.887,18.1
+R0080,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.528,50.9
+R0081,joy,project_ev,alpha=2,0.35,4.8
+R0082,sadness,project_ev,alpha=2,0.16,3.6
+R0083,sadness,baseline,baseline,0.166,2.0
+R0084,sadness,shift,synthetic L14-20 lam=1.5,0.256,34.7
+R0085,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.828,40.0
+R0086,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.753,38.7
+R0087,sadness,shift,goemotions L14-20 lam=1.5,0.167,9.6
+R0088,sadness,shift,synthetic L14-20 lam=1.5,0.394,53.9
+R0089,sadness,shift,model_gen L6-12 lam=0.6,0.406,27.5
+R0090,sadness,project_ev,alpha=4,0.563,73.2
+R0091,joy,shift,synthetic L10-16 lam=1.5,0.957,51.3
+R0092,sadness,shift,model_gen L6-12 lam=0.6,0.949,62.6
+R0093,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.878,43.9
+R0094,sadness,shift,goemotions L14-20 lam=1.5,0.489,8.9
+R0095,sadness,shift,model_gen L6-12 lam=0.6,0.028,13.1
+R0096,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.94,55.5
+R0097,sadness,shift,goemotions L14-20 lam=1.5,0.136,3.8
+R0098,joy,shift,model_gen L6-12 lam=1,0.99,36.0
+R0099,joy,shift,model_gen L6-12 lam=1,0.989,69.7
+R0100,joy,shift,synthetic L10-16 lam=1.5,0.762,30.9
+R0101,sadness,shift,synthetic L14-20 lam=1.5,0.449,39.4
+R0102,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.956,59.9
+R0103,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.855,46.3
+R0104,sadness,shift,synthetic L14-20 lam=1.5,0.338,40.0
+R0105,joy,shift,goemotions L14-20 lam=1.5,0.418,5.4
+R0106,sadness,shift,model_gen L6-12 lam=0.6,0.52,31.9
+R0107,joy,shift,model_gen L6-12 lam=1,0.979,9.0
+R0108,joy,shift,goemotions L14-20 lam=1.5,0.536,15.5
+R0109,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.66,23.6
+R0110,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.116,25.1
+R0111,joy,project_ev,alpha=2,0.695,8.3
+R0112,sadness,baseline,baseline,0.125,1.6
+R0113,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.46,33.5
+R0114,joy,shift,synthetic L10-16 lam=1.5,0.27,41.3
+R0115,sadness,shift,goemotions L14-20 lam=1.5,0.315,7.3
+R0116,sadness,shift,goemotions L14-20 lam=1.5,0.358,5.5
+R0117,sadness,shift,synthetic L14-20 lam=1.5,0.207,17.4
+R0118,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.503,55.9
+R0119,joy,shift,synthetic L10-16 lam=1.5,0.982,44.4
+R0120,joy,shift,model_gen L6-12 lam=1,0.977,24.3
+R0121,joy,shift,goemotions L14-20 lam=1.5,0.44,10.4
+R0122,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.319,23.9
+R0123,joy,shift,goemotions L14-20 lam=1.5,0.727,17.2
+R0124,joy,baseline,baseline,0.421,2.3
+R0125,joy,project_ev,alpha=2,0.653,10.8
+R0126,sadness,project_ev,alpha=4,0.74,105.0
+R0127,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.909,26.5
+R0128,joy,shift,goemotions L14-20 lam=1.5,0.976,5.6
+R0129,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.948,56.2
+R0130,sadness,baseline,baseline,0.183,1.9
+R0131,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.222,34.7
+R0132,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.348,46.5
+R0133,sadness,shift,goemotions L14-20 lam=1.5,0.155,9.9
+R0134,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.633,31.8
+R0135,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.633,40.9
+R0136,joy,baseline,baseline,0.68,2.5
+R0137,joy,project_ev,alpha=2,0.62,10.6
+R0138,joy,baseline,baseline,0.129,1.7
+R0139,sadness,project_ev,alpha=4,0.698,67.9
+R0140,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.802,48.6
+R0141,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.872,53.5
+R0142,sadness,project_ev,alpha=4,0.652,63.3
+R0143,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.672,34.0
+R0144,sadness,shift,synthetic L14-20 lam=1.5,0.246,25.0
+R0145,sadness,shift,synthetic L14-20 lam=1.5,0.335,30.7
+R0146,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.055,245.8
+R0147,joy,baseline,baseline,0.705,2.4
+R0148,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.915,52.0
+R0149,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.025,31.8
+R0150,joy,shift,goemotions L14-20 lam=1.5,0.333,11.0
+R0151,joy,project_ev,alpha=4,0.018,56.9
+R0152,joy,baseline,baseline,0.177,2.1
+R0153,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.522,24.3
+R0154,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.872,36.9
+R0155,joy,shift,model_gen L6-12 lam=1,0.696,9.7
+R0156,joy,project_ev,alpha=2,0.414,14.2
+R0157,sadness,baseline,baseline,0.121,1.6
+R0158,sadness,baseline,baseline,0.133,2.3
+R0159,joy,shift,goemotions L14-20 lam=1.5,0.424,6.8
+R0160,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.325,42.0
+R0161,sadness,baseline,baseline,0.086,1.6
+R0162,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.287,28.0
+R0163,sadness,project_ev,alpha=4,0.5,67.2
+R0164,joy,project_ev,alpha=2,0.445,6.8
+R0165,joy,baseline,baseline,0.065,1.9
+R0166,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.213,22.0
+R0167,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.604,26.2
+R0168,joy,shift,model_gen L6-12 lam=1,0.992,15.1
+R0169,joy,shift,synthetic L10-16 lam=1.5,0.847,55.6
+R0170,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.762,28.0
+R0171,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.133,69.5
+R0172,joy,project_ev,alpha=2,0.937,5.0
+R0173,sadness,shift,model_gen L6-12 lam=0.6,0.364,33.0
+R0174,joy,project_ev,alpha=2,0.336,4.2
+R0175,sadness,shift,goemotions L14-20 lam=1.5,0.05,3.4
+R0176,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.675,31.9
+R0177,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.87,27.0
+R0178,sadness,shift,model_gen L6-12 lam=0.6,0.478,336.7
+R0179,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.05,7.7
+R0180,joy,project_ev,alpha=2,0.396,7.9
+R0181,joy,project_ev,alpha=4,0.927,25.2
+R0182,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.963,29.4
+R0183,sadness,project_ev,alpha=2,0.706,14.1
+R0184,sadness,shift,synthetic L14-20 lam=1.5,0.778,26.8
+R0185,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.937,33.2
+R0186,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.858,16.6
+R0187,joy,shift,synthetic L10-16 lam=1.5,0.907,40.8
+R0188,joy,shift,goemotions L14-20 lam=1.5,0.5,4.6
+R0189,sadness,shift,synthetic L14-20 lam=1.5,0.442,21.7
+R0190,sadness,shift,model_gen L6-12 lam=0.6,0.43,60.8
+R0191,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.144,25.0
+R0192,sadness,project_ev,alpha=2,0.267,7.3
+R0193,sadness,project_ev,alpha=2,0.308,3.0
+R0194,sadness,shift,model_gen L6-12 lam=0.6,0.003,40.7
+R0195,joy,baseline,baseline,0.165,1.6
+R0196,joy,shift,model_gen L6-12 lam=1,0.984,59.5
+R0197,sadness,project_ev,alpha=4,0.6,143.8
+R0198,joy,project_ev,alpha=4,0.851,102.8
+R0199,sadness,project_ev,alpha=4,0.688,37.3
+R0200,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.065,27.2
+R0201,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.936,22.6
+R0202,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.551,35.7
+R0203,sadness,shift,model_gen L6-12 lam=0.6,0.173,35.1
+R0204,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.281,35.6
+R0205,sadness,project_ev,alpha=4,0.647,121.4
+R0206,joy,shift,model_gen L6-12 lam=1,0.982,17.6
+R0207,joy,shift,synthetic L10-16 lam=1.5,0.719,52.8
+R0208,sadness,project_ev,alpha=2,0.085,8.1
+R0209,joy,baseline,baseline,0.189,1.8
+R0210,sadness,project_ev,alpha=4,0.82,90.0
+R0211,sadness,baseline,baseline,0.072,2.1
+R0212,joy,shift,synthetic L10-16 lam=1.5,0.487,21.9
+R0213,joy,project_ev,alpha=2,0.054,8.0
+R0214,joy,shift,goemotions L14-20 lam=1.5,0.336,9.5
+R0215,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.951,33.7
+R0216,sadness,shift,synthetic L14-20 lam=1.5,0.737,45.8
+R0217,sadness,project_ev,alpha=2,0.09,5.1
+R0218,sadness,baseline,baseline,0.011,2.4
+R0219,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.438,32.7
+R0220,sadness,shift,synthetic L14-20 lam=1.5,0.31,22.8
+R0221,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.243,66.6
+R0222,joy,baseline,baseline,0.297,2.3
+R0223,joy,shift,goemotions L14-20 lam=1.5,0.378,3.0
+R0224,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.415,29.6
+R0225,joy,project_ev,alpha=2,0.012,7.3
+R0226,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.455,44.8
+R0227,joy,project_ev,alpha=4,0.953,80.5
+R0228,sadness,project_ev,alpha=4,0.658,89.9
+R0229,joy,project_ev,alpha=4,0.975,71.2
+R0230,sadness,shift,model_gen L6-12 lam=0.6,0.332,26.4
+R0231,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.897,90.1
+R0232,sadness,project_ev,alpha=4,0.802,23.0
+R0233,sadness,project_ev,alpha=4,0.194,86.2
+R0234,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.293,23.7
+R0235,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.833,52.2
+R0236,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.842,63.3
+R0237,sadness,project_ev,alpha=2,0.249,8.3
+R0238,joy,project_ev,alpha=2,0.116,4.0
+R0239,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.504,42.4
+R0240,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.92,35.7
+R0241,sadness,shift,synthetic L14-20 lam=1.5,0.553,46.8
+R0242,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.664,22.4
+R0243,joy,project_ev,alpha=4,0.969,80.1
+R0244,sadness,baseline,baseline,0.224,1.8
+R0245,joy,project_ev,alpha=4,0.966,38.6
+R0246,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.418,28.1
+R0247,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.518,35.3
+R0248,joy,shift,model_gen L6-12 lam=1,0.992,11.8
+R0249,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.946,32.8
+R0250,sadness,project_ev,alpha=2,0.803,20.4
+R0251,sadness,baseline,baseline,0.176,2.1
+R0252,joy,shift,model_gen L6-12 lam=1,0.985,32.5
+R0253,sadness,shift,model_gen L6-12 lam=0.6,0.364,42.1
+R0254,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.158,31.9
+R0255,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.057,204.0
+R0256,joy,shift,synthetic L10-16 lam=1.5,0.623,76.1
+R0257,sadness,shift,model_gen L6-12 lam=0.6,0.314,26.4
+R0258,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.126,24.0
+R0259,sadness,project_ev,alpha=4,0.104,16.5
+R0260,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.521,28.0
+R0261,sadness,shift,synthetic L14-20 lam=1.5,0.245,23.5
+R0262,joy,shift,synthetic L10-16 lam=1.5,0.983,76.6
+R0263,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.32,28.1
+R0264,joy,project_ev,alpha=4,0.951,95.5
+R0265,joy,shift,goemotions L14-20 lam=1.5,0.666,5.5
+R0266,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.242,45.7
+R0267,sadness,project_ev,alpha=4,0.711,49.8
+R0268,sadness,shift,goemotions L14-20 lam=1.5,0.806,5.1
+R0269,joy,project_ev,alpha=2,0.466,8.4
+R0270,joy,shift,model_gen L6-12 lam=1,0.023,37.4
+R0271,joy,shift,goemotions L14-20 lam=1.5,0.269,19.2
+R0272,joy,baseline,baseline,0.249,1.8
+R0273,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.47,32.6
+R0274,sadness,baseline,baseline,0.06,1.8
+R0275,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.246,25.3
+R0276,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.964,86.2
+R0277,joy,shift,synthetic L10-16 lam=1.5,0.886,24.7
+R0278,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.868,21.9
+R0279,joy,shift,model_gen L6-12 lam=1,0.989,30.3
+R0280,joy,shift,model_gen L6-12 lam=1,0.987,12.1
+R0281,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.913,44.0
+R0282,joy,baseline,baseline,0.155,2.2
+R0283,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.981,42.5
+R0284,sadness,shift,model_gen L6-12 lam=0.6,0.006,20.8
+R0285,sadness,project_ev,alpha=4,0.763,80.3
+R0286,joy,shift,goemotions L14-20 lam=1.5,0.405,7.0
+R0287,sadness,shift,goemotions L14-20 lam=1.5,0.111,4.2
+R0288,sadness,project_ev,alpha=4,0.77,134.2
+R0289,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.072,73.3
+R0290,sadness,shift,goemotions L14-20 lam=1.5,0.358,5.2
+R0291,sadness,shift,model_gen L6-12 lam=0.6,0.291,44.3
+R0292,joy,baseline,baseline,0.143,1.8
+R0293,joy,shift,synthetic L10-16 lam=1.5,0.972,25.4
+R0294,sadness,project_ev,alpha=2,0.712,5.3
+R0295,joy,project_ev,alpha=2,0.952,4.6
+R0296,joy,project_ev,alpha=2,0.72,7.1
+R0297,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.364,37.9
+R0298,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.946,39.4
+R0299,joy,project_ev,alpha=2,0.973,7.0
+R0300,joy,shift,synthetic L10-16 lam=1.5,0.879,65.3
+R0301,joy,project_ev,alpha=2,0.219,5.2
+R0302,sadness,shift,model_gen L6-12 lam=0.6,0.844,41.2
+R0303,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.213,83.2
+R0304,joy,baseline,baseline,0.117,1.7
+R0305,joy,shift,synthetic L10-16 lam=1.5,0.876,95.2
+R0306,joy,shift,synthetic L10-16 lam=1.5,0.664,48.6
+R0307,sadness,project_ev,alpha=4,0.521,88.5
+R0308,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.903,71.5
+R0309,joy,shift,synthetic L10-16 lam=1.5,0.974,53.2
+R0310,joy,shift,model_gen L6-12 lam=1,0.991,36.2
+R0311,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.915,49.8
+R0312,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.9,16.2
+R0313,sadness,baseline,baseline,0.069,1.7
+R0314,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.418,15.7
+R0315,joy,baseline,baseline,0.088,1.8
+R0316,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.407,49.4
+R0317,joy,project_ev,alpha=4,0.984,48.7
+R0318,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.724,48.1
+R0319,sadness,project_ev,alpha=2,0.859,14.8
+R0320,joy,shift,model_gen L6-12 lam=1,0.995,29.2
+R0321,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.951,21.7
+R0322,sadness,shift,synthetic L14-20 lam=1.5,0.548,37.1
+R0323,sadness,project_ev,alpha=2,0.847,15.7
+R0324,sadness,baseline,baseline,0.05,1.5
+R0325,sadness,shift,goemotions L14-20 lam=1.5,0.4,4.1
+R0326,joy,shift,synthetic L10-16 lam=1.5,0.98,38.4
+R0327,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.025,31.4
+R0328,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.963,12.3
+R0329,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.213,37.7
+R0330,sadness,project_ev,alpha=2,0.563,12.7
+R0331,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.148,112.7
+R0332,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.207,20.1
+R0333,sadness,shift_conc,model_gen L10-16 ap=1 lam=0.3,0.167,25.5
+R0334,joy,shift_conc,model_gen L14-20 ap=1 lam=0.3,0.941,38.0
+R0335,joy,project_ev,alpha=2,0.101,6.8
+R0336,joy,shift,synthetic L10-16 lam=1.5,0.856,128.9
+R0337,joy,shift,synthetic L10-16 lam=1.5,0.988,30.7
+R0338,joy,shift,goemotions L14-20 lam=1.5,0.372,6.6
+R0339,sadness,project_ev,alpha=4,0.622,95.1
+R0340,sadness,project_ev,alpha=4,0.777,57.0
+R0341,joy,project_ev,alpha=4,0.966,130.0
+R0342,sadness,project_ev,alpha=2,0.653,5.7
+R0343,joy,shift,goemotions L14-20 lam=1.5,0.777,7.5
+R0344,sadness,shift,model_gen L6-12 lam=0.6,0.001,25.5
+R0345,joy,baseline,baseline,0.246,2.0
+R0346,joy,shift_conc,synthetic L10-16 ap=1 lam=0.45,0.794,22.6
+R0347,sadness,shift_conc,goemotions L14-20 ap=0.2 lam=0.3,0.098,13.8
+R0348,joy,shift,goemotions L14-20 lam=1.5,0.325,8.6
+R0349,sadness,project_ev,alpha=2,0.278,7.1
+R0350,sadness,shift,goemotions L14-20 lam=1.5,0.132,5.8
+R0351,sadness,project_ev,alpha=2,0.115,8.1
+R0352,joy,project_ev,alpha=4,0.935,96.7
+R0353,sadness,baseline,baseline,0.125,2.1
+R0354,sadness,shift,synthetic L14-20 lam=1.5,0.206,20.6
+R0355,sadness,baseline,baseline,0.05,2.3
+R0356,joy,shift_conc,goemotions L10-16 ap=0.2 lam=0.3,0.586,84.0
+R0357,joy,project_ev,alpha=4,0.934,31.0
+R0358,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.395,32.0
+R0359,sadness,shift_conc,synthetic L14-20 ap=0.2 lam=0.3,0.96,38.4

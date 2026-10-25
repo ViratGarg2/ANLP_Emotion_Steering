@@ -1,0 +1,3401 @@
+id,emotion,method,config,target_conf,ppl
+R0000,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.13,15.1
+R0001,fear,project_ev,alpha=1,0.22,2.1
+R0002,sadness,shift,synthetic L10-14 lam=2,0.062,54.3
+R0003,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.172,29.4
+R0004,sadness,project_ev,alpha=5,0.746,111.3
+R0005,joy,baseline,baseline,0.074,1.6
+R0006,anger,project_ev,alpha=4,0.378,159.8
+R0007,joy,project_ev,alpha=4,0.97,45.5
+R0008,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.961,30.6
+R0009,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.249,30.7
+R0010,disgust,project_ev,alpha=1,0.094,1.6
+R0011,sadness,shift,synthetic L16-22 lam=1,0.043,14.2
+R0012,fear,shift,synthetic L18-24 lam=2,0.148,8.9
+R0013,joy,project_ev,alpha=2,0.012,7.3
+R0014,joy,project_ev,alpha=1,0.159,1.8
+R0015,anger,project_ev,alpha=5,0.304,222.6
+R0016,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.743,64.9
+R0017,anger,project_ev,alpha=1,0.001,2.9
+R0018,fear,project_ev,alpha=5,0.33,182.4
+R0019,fear,shift,synthetic L18-24 lam=2,0.25,59.7
+R0020,fear,shift,synthetic L16-22 lam=1,0.249,8.4
+R0021,anger,project_ev,alpha=5,0.515,369.6
+R0022,fear,shift,synthetic L18-24 lam=2,0.063,26.8
+R0023,sadness,shift,synthetic L18-24 lam=2,0.461,50.9
+R0024,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.119,14.8
+R0025,disgust,project_ev,alpha=5,0.56,40.4
+R0026,fear,project_ev,alpha=3,0.425,14.5
+R0027,anger,project_ev,alpha=2,0.109,3.1
+R0028,sadness,project_ev,alpha=5,0.62,98.8
+R0029,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.064,31.8
+R0030,anger,project_ev,alpha=3,0.923,43.4
+R0031,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.649,33.5
+R0032,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.886,44.9
+R0033,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.251,20.2
+R0034,disgust,baseline,baseline,0.016,2.5
+R0035,sadness,project_ev,alpha=4,0.652,63.4
+R0036,joy,shift,synthetic L8-14 lam=1.5,0.985,38.4
+R0037,joy,project_ev,alpha=3,0.659,15.7
+R0038,anger,project_ev,alpha=3,0.386,104.0
+R0039,joy,project_ev,alpha=4,0.946,57.7
+R0040,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.978,34.3
+R0041,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.837,30.6
+R0042,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.43,21.5
+R0043,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.919,52.9
+R0044,sadness,shift,synthetic L18-24 lam=2,0.107,18.8
+R0045,joy,shift,synthetic L8-14 lam=1.5,0.242,9.1
+R0046,anger,shift,synthetic L10-14 lam=2,0.583,56.8
+R0047,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.978,38.5
+R0048,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.95,18.9
+R0049,sadness,project_ev,alpha=1,0.1,2.1
+R0050,sadness,project_ev,alpha=2,0.746,12.8
+R0051,anger,project_ev,alpha=3,0.23,13.9
+R0052,joy,shift,synthetic L16-22 lam=1,0.97,21.1
+R0053,sadness,shift,synthetic L16-22 lam=1,0.337,25.5
+R0054,anger,shift,synthetic L10-14 lam=2,0.654,25.8
+R0055,joy,shift,synthetic L10-14 lam=2,0.968,34.9
+R0056,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.433,15.3
+R0057,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.972,44.3
+R0058,disgust,project_ev,alpha=5,0.729,192.7
+R0059,sadness,baseline,baseline,0.125,1.7
+R0060,disgust,project_ev,alpha=2,0.41,12.1
+R0061,disgust,baseline,baseline,0.092,2.7
+R0062,fear,project_ev,alpha=1,0.129,3.0
+R0063,disgust,project_ev,alpha=2,0.018,26.6
+R0064,sadness,project_ev,alpha=1,0.08,2.9
+R0065,disgust,project_ev,alpha=5,0.729,36.6
+R0066,disgust,project_ev,alpha=4,0.306,276.7
+R0067,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.558,60.0
+R0068,fear,shift,synthetic L16-22 lam=1,0.321,20.8
+R0069,disgust,project_ev,alpha=3,0.752,42.4
+R0070,sadness,shift,synthetic L8-14 lam=1.5,0.245,16.5
+R0071,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.11,12.9
+R0072,sadness,project_ev,alpha=2,0.675,6.8
+R0073,sadness,project_ev,alpha=5,0.112,80.5
+R0074,disgust,project_ev,alpha=2,0.251,9.0
+R0075,anger,project_ev,alpha=1,0.066,2.0
+R0076,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.719,43.0
+R0077,disgust,shift,synthetic L16-22 lam=1,0.308,42.8
+R0078,disgust,baseline,baseline,0.12,2.1
+R0079,fear,project_ev,alpha=4,0.43,67.1
+R0080,joy,project_ev,alpha=3,0.267,39.2
+R0081,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.842,21.5
+R0082,anger,baseline,baseline,0.064,1.5
+R0083,disgust,shift,synthetic L16-22 lam=1,0.345,15.9
+R0084,joy,shift,synthetic L16-22 lam=1,0.959,95.4
+R0085,disgust,project_ev,alpha=5,0.588,11.4
+R0086,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.123,18.2
+R0087,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.951,62.0
+R0088,joy,project_ev,alpha=5,0.984,184.3
+R0089,sadness,shift,synthetic L18-24 lam=2,0.234,13.3
+R0090,anger,shift,synthetic L8-14 lam=1.5,0.108,40.6
+R0091,joy,project_ev,alpha=3,0.95,45.0
+R0092,fear,shift,synthetic L8-14 lam=1.5,0.632,41.6
+R0093,disgust,shift,synthetic L16-22 lam=1,0.522,146.8
+R0094,fear,project_ev,alpha=4,0.057,69.8
+R0095,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.748,51.0
+R0096,anger,project_ev,alpha=5,0.495,158.9
+R0097,anger,shift,synthetic L18-24 lam=2,0.402,1916.0
+R0098,anger,shift,synthetic L10-14 lam=2,0.273,17.1
+R0099,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.985,43.7
+R0100,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.952,33.6
+R0101,sadness,baseline,baseline,0.069,1.7
+R0102,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.781,26.1
+R0103,sadness,shift,synthetic L8-14 lam=1.5,0.372,21.9
+R0104,anger,project_ev,alpha=4,0.698,83.3
+R0105,disgust,baseline,baseline,0.035,2.1
+R0106,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.984,58.1
+R0107,anger,shift,synthetic L18-24 lam=2,0.21,8.9
+R0108,disgust,project_ev,alpha=2,0.391,15.5
+R0109,fear,shift,synthetic L8-14 lam=1.5,0.25,27.3
+R0110,anger,baseline,baseline,0.071,2.3
+R0111,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.786,36.2
+R0112,disgust,project_ev,alpha=4,0.507,485.6
+R0113,fear,shift,synthetic L8-14 lam=1.5,0.462,46.1
+R0114,sadness,project_ev,alpha=4,0.802,23.0
+R0115,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.912,30.6
+R0116,joy,project_ev,alpha=2,0.632,9.3
+R0117,anger,project_ev,alpha=1,0.139,2.1
+R0118,fear,baseline,baseline,0.15,1.6
+R0119,sadness,project_ev,alpha=4,0.772,85.6
+R0120,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.912,28.9
+R0121,disgust,project_ev,alpha=1,0.066,1.4
+R0122,joy,project_ev,alpha=1,0.439,5.0
+R0123,disgust,project_ev,alpha=4,0.571,1024.2
+R0124,fear,project_ev,alpha=2,0.048,4.5
+R0125,anger,shift,synthetic L16-22 lam=1,0.16,6.6
+R0126,joy,project_ev,alpha=3,0.927,58.6
+R0127,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.431,21.6
+R0128,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.185,36.4
+R0129,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.974,25.7
+R0130,sadness,project_ev,alpha=5,0.69,40.4
+R0131,anger,baseline,baseline,0.099,2.1
+R0132,anger,project_ev,alpha=1,0.023,2.5
+R0133,joy,shift,synthetic L8-14 lam=1.5,0.963,12.5
+R0134,joy,shift,synthetic L16-22 lam=1,0.478,91.5
+R0135,sadness,shift,synthetic L16-22 lam=1,0.179,7.0
+R0136,joy,project_ev,alpha=5,0.742,262.5
+R0137,fear,project_ev,alpha=2,0.165,2.1
+R0138,sadness,baseline,baseline,0.02,2.4
+R0139,fear,project_ev,alpha=4,0.378,105.5
+R0140,anger,shift,synthetic L18-24 lam=2,0.149,18241.5
+R0141,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.11,20.2
+R0142,joy,project_ev,alpha=5,0.772,110.4
+R0143,fear,shift,synthetic L18-24 lam=2,0.12,16.0
+R0144,joy,project_ev,alpha=5,0.987,87.9
+R0145,disgust,project_ev,alpha=3,0.475,77.8
+R0146,anger,project_ev,alpha=4,0.55,88.4
+R0147,joy,project_ev,alpha=5,0.839,105.3
+R0148,joy,shift,synthetic L8-14 lam=1.5,0.933,86.9
+R0149,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.703,46.1
+R0150,joy,baseline,baseline,0.105,2.0
+R0151,disgust,project_ev,alpha=4,0.433,165.1
+R0152,disgust,project_ev,alpha=5,0.708,10.2
+R0153,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.96,26.8
+R0154,fear,project_ev,alpha=5,0.242,155.5
+R0155,disgust,shift,synthetic L18-24 lam=2,0.65,248.1
+R0156,fear,project_ev,alpha=4,0.539,97.5
+R0157,anger,project_ev,alpha=1,0.119,2.2
+R0158,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.825,27.2
+R0159,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.965,33.5
+R0160,joy,project_ev,alpha=2,0.373,2.3
+R0161,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.523,35.1
+R0162,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.963,31.4
+R0163,joy,shift,synthetic L18-24 lam=2,0.245,9.0
+R0164,fear,project_ev,alpha=5,0.171,138.4
+R0165,disgust,project_ev,alpha=5,0.465,52.7
+R0166,anger,shift,synthetic L18-24 lam=2,0.214,4.4
+R0167,sadness,shift,synthetic L18-24 lam=2,0.452,19.6
+R0168,anger,project_ev,alpha=4,0.574,51.8
+R0169,sadness,project_ev,alpha=1,0.124,1.7
+R0170,disgust,project_ev,alpha=5,0.63,541.5
+R0171,joy,baseline,baseline,0.143,1.8
+R0172,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.127,10.7
+R0173,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.324,25.8
+R0174,joy,baseline,baseline,0.199,2.0
+R0175,fear,shift,synthetic L18-24 lam=2,0.126,12.3
+R0176,sadness,shift,synthetic L16-22 lam=1,0.177,4.2
+R0177,joy,project_ev,alpha=2,0.466,3.3
+R0178,fear,project_ev,alpha=3,0.128,32.1
+R0179,disgust,project_ev,alpha=4,0.761,62.5
+R0180,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.973,51.1
+R0181,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.97,33.2
+R0182,anger,project_ev,alpha=2,0.377,13.0
+R0183,fear,project_ev,alpha=2,0.095,7.0
+R0184,disgust,baseline,baseline,0.012,2.4
+R0185,fear,project_ev,alpha=1,0.185,2.1
+R0186,disgust,project_ev,alpha=2,0.483,22.4
+R0187,sadness,shift,synthetic L16-22 lam=1,0.073,19.5
+R0188,sadness,project_ev,alpha=5,0.193,172.5
+R0189,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.968,26.1
+R0190,sadness,shift,synthetic L16-22 lam=1,0.279,11.2
+R0191,fear,project_ev,alpha=2,0.107,2.7
+R0192,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.871,44.8
+R0193,fear,shift,synthetic L18-24 lam=2,0.115,14.5
+R0194,joy,baseline,baseline,0.447,2.1
+R0195,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.857,28.1
+R0196,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.976,23.7
+R0197,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.82,29.6
+R0198,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.221,19.1
+R0199,disgust,project_ev,alpha=5,0.599,121.0
+R0200,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.01,28.8
+R0201,sadness,project_ev,alpha=4,0.579,74.0
+R0202,fear,project_ev,alpha=4,0.494,228.3
+R0203,joy,shift,synthetic L16-22 lam=1,0.168,21.7
+R0204,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.816,74.2
+R0205,fear,shift,synthetic L10-14 lam=2,0.63,33.5
+R0206,disgust,project_ev,alpha=1,0.209,4.2
+R0207,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.662,22.2
+R0208,joy,shift,synthetic L18-24 lam=2,0.055,7.7
+R0209,disgust,shift,synthetic L18-24 lam=2,0.793,9.1
+R0210,anger,project_ev,alpha=1,0.118,4.5
+R0211,sadness,shift,synthetic L18-24 lam=2,0.277,33.4
+R0212,anger,project_ev,alpha=5,0.433,154.9
+R0213,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.053,24.8
+R0214,anger,project_ev,alpha=1,0.122,2.6
+R0215,disgust,project_ev,alpha=1,0.039,3.9
+R0216,sadness,project_ev,alpha=5,0.785,94.6
+R0217,anger,shift,synthetic L18-24 lam=2,0.112,3.6
+R0218,anger,baseline,baseline,0.066,1.9
+R0219,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.296,32.8
+R0220,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.23,16.6
+R0221,fear,project_ev,alpha=2,0.091,6.9
+R0222,sadness,shift,synthetic L10-14 lam=2,0.239,37.1
+R0223,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.185,29.4
+R0224,anger,shift,synthetic L8-14 lam=1.5,0.137,28.5
+R0225,sadness,shift,synthetic L18-24 lam=2,0.459,48.0
+R0226,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.339,22.6
+R0227,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.135,18.7
+R0228,joy,project_ev,alpha=4,0.983,100.1
+R0229,anger,project_ev,alpha=4,0.555,169.3
+R0230,disgust,project_ev,alpha=2,0.526,13.1
+R0231,joy,shift,synthetic L16-22 lam=1,0.979,92.8
+R0232,sadness,baseline,baseline,0.095,2.0
+R0233,fear,baseline,baseline,0.147,1.8
+R0234,joy,shift,synthetic L18-24 lam=2,0.073,5.8
+R0235,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.155,31.4
+R0236,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.058,25.1
+R0237,sadness,shift,synthetic L10-14 lam=2,0.098,3.5
+R0238,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.863,15.8
+R0239,disgust,project_ev,alpha=3,0.48,110.3
+R0240,sadness,project_ev,alpha=4,0.651,84.4
+R0241,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.889,24.4
+R0242,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.967,56.1
+R0243,fear,shift,synthetic L18-24 lam=2,0.193,7.4
+R0244,joy,project_ev,alpha=3,0.95,45.8
+R0245,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.975,22.9
+R0246,fear,project_ev,alpha=3,0.267,36.2
+R0247,joy,shift,synthetic L10-14 lam=2,0.95,20.9
+R0248,disgust,project_ev,alpha=4,0.616,235.4
+R0249,joy,project_ev,alpha=1,0.044,2.2
+R0250,fear,shift,synthetic L18-24 lam=2,0.36,19.6
+R0251,fear,shift,synthetic L16-22 lam=1,0.128,84.5
+R0252,joy,baseline,baseline,0.045,2.0
+R0253,sadness,shift,synthetic L10-14 lam=2,0.335,32.2
+R0254,joy,shift,synthetic L8-14 lam=1.5,0.964,23.7
+R0255,joy,shift,synthetic L8-14 lam=1.5,0.961,24.5
+R0256,sadness,shift,synthetic L8-14 lam=1.5,0.103,2.8
+R0257,sadness,project_ev,alpha=4,0.647,121.2
+R0258,sadness,baseline,baseline,0.072,2.1
+R0259,joy,project_ev,alpha=3,0.921,38.1
+R0260,sadness,project_ev,alpha=5,0.052,12.5
+R0261,disgust,shift,synthetic L18-24 lam=2,0.837,339.7
+R0262,sadness,shift,synthetic L8-14 lam=1.5,0.083,7.4
+R0263,fear,shift,synthetic L16-22 lam=1,0.206,24.7
+R0264,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.202,71.0
+R0265,fear,project_ev,alpha=5,0.168,75.1
+R0266,joy,project_ev,alpha=1,0.056,1.9
+R0267,anger,shift,synthetic L18-24 lam=2,0.299,22.2
+R0268,disgust,shift,synthetic L18-24 lam=2,0.525,21.3
+R0269,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.16,20.4
+R0270,fear,shift,synthetic L10-14 lam=2,0.778,61.1
+R0271,disgust,project_ev,alpha=2,0.437,13.1
+R0272,joy,project_ev,alpha=5,0.972,209.8
+R0273,anger,shift,synthetic L16-22 lam=1,0.275,21.6
+R0274,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.824,10.8
+R0275,sadness,shift,synthetic L18-24 lam=2,0.489,31.5
+R0276,joy,shift,synthetic L18-24 lam=2,0.227,17.8
+R0277,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.975,46.4
+R0278,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.972,41.3
+R0279,anger,shift,synthetic L18-24 lam=2,0.166,603.8
+R0280,anger,project_ev,alpha=3,0.637,69.5
+R0281,disgust,shift,synthetic L18-24 lam=2,0.793,9.1
+R0282,joy,project_ev,alpha=4,0.979,122.1
+R0283,joy,shift,synthetic L16-22 lam=1,0.752,56.6
+R0284,fear,shift,synthetic L10-14 lam=2,0.651,30.8
+R0285,fear,baseline,baseline,0.185,1.6
+R0286,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.288,105.6
+R0287,anger,project_ev,alpha=2,0.08,2.8
+R0288,joy,shift,synthetic L18-24 lam=2,0.034,5.8
+R0289,disgust,project_ev,alpha=2,0.128,27.2
+R0290,fear,shift,synthetic L18-24 lam=2,0.238,466.5
+R0291,disgust,shift,synthetic L18-24 lam=2,0.833,5.3
+R0292,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.145,5.4
+R0293,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.054,54.5
+R0294,joy,project_ev,alpha=3,0.981,48.4
+R0295,sadness,shift,synthetic L10-14 lam=2,0.066,5.7
+R0296,sadness,project_ev,alpha=3,0.696,26.5
+R0297,disgust,baseline,baseline,0.071,1.9
+R0298,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.912,15.5
+R0299,sadness,shift,synthetic L8-14 lam=1.5,0.137,24.2
+R0300,anger,project_ev,alpha=2,0.074,2.7
+R0301,sadness,project_ev,alpha=3,0.898,30.2
+R0302,sadness,project_ev,alpha=2,0.706,14.1
+R0303,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.969,28.4
+R0304,sadness,shift,synthetic L18-24 lam=2,0.43,113.7
+R0305,sadness,baseline,baseline,0.086,1.6
+R0306,fear,project_ev,alpha=4,0.389,107.5
+R0307,anger,project_ev,alpha=5,0.39,123.0
+R0308,disgust,shift,synthetic L18-24 lam=2,0.888,10.1
+R0309,anger,project_ev,alpha=2,0.323,10.5
+R0310,fear,shift,synthetic L10-14 lam=2,0.63,41.0
+R0311,anger,shift,synthetic L18-24 lam=2,0.316,7.5
+R0312,anger,project_ev,alpha=5,0.64,330.9
+R0313,disgust,project_ev,alpha=5,0.533,15.3
+R0314,fear,baseline,baseline,0.096,1.9
+R0315,joy,project_ev,alpha=1,0.643,4.5
+R0316,anger,baseline,baseline,0.099,1.8
+R0317,joy,baseline,baseline,0.243,1.6
+R0318,anger,shift,synthetic L18-24 lam=2,0.378,300.1
+R0319,sadness,project_ev,alpha=1,0.11,2.7
+R0320,joy,shift,synthetic L10-14 lam=2,0.282,25.3
+R0321,disgust,shift,synthetic L16-22 lam=1,0.39,46.6
+R0322,joy,project_ev,alpha=4,0.982,50.0
+R0323,anger,project_ev,alpha=4,0.486,121.3
+R0324,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.823,38.5
+R0325,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.177,50.5
+R0326,anger,shift,synthetic L18-24 lam=2,0.172,246075.1
+R0327,anger,shift,synthetic L16-22 lam=1,0.381,19.0
+R0328,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.872,35.1
+R0329,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.42,41.1
+R0330,anger,project_ev,alpha=3,0.433,35.4
+R0331,joy,baseline,baseline,0.299,1.9
+R0332,anger,project_ev,alpha=1,0.058,1.8
+R0333,sadness,shift,synthetic L18-24 lam=2,0.444,13.0
+R0334,fear,shift,synthetic L16-22 lam=1,0.145,54.6
+R0335,joy,project_ev,alpha=3,0.954,14.6
+R0336,sadness,project_ev,alpha=4,0.839,126.4
+R0337,fear,project_ev,alpha=1,0.165,2.1
+R0338,joy,shift,synthetic L18-24 lam=2,0.052,3.0
+R0339,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.978,46.1
+R0340,sadness,shift,synthetic L16-22 lam=1,0.078,9.7
+R0341,fear,project_ev,alpha=4,0.275,106.7
+R0342,anger,project_ev,alpha=4,0.342,125.6
+R0343,joy,shift,synthetic L18-24 lam=2,0.052,3.0
+R0344,disgust,project_ev,alpha=2,0.408,19.3
+R0345,disgust,baseline,baseline,0.103,1.8
+R0346,disgust,shift,synthetic L18-24 lam=2,0.904,14.4
+R0347,fear,baseline,baseline,0.179,2.1
+R0348,anger,project_ev,alpha=4,0.532,149.6
+R0349,disgust,baseline,baseline,0.095,2.0
+R0350,anger,shift,synthetic L10-14 lam=2,0.492,64.2
+R0351,joy,baseline,baseline,0.174,1.7
+R0352,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.972,151.9
+R0353,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.931,26.9
+R0354,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.984,47.7
+R0355,disgust,project_ev,alpha=2,0.587,12.1
+R0356,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.485,26.9
+R0357,anger,project_ev,alpha=2,0.076,9.3
+R0358,joy,project_ev,alpha=3,0.818,13.9
+R0359,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.859,81.0
+R0360,anger,shift,synthetic L18-24 lam=2,0.197,5.1
+R0361,joy,project_ev,alpha=5,0.819,61.5
+R0362,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.975,45.7
+R0363,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.11,20.3
+R0364,anger,baseline,baseline,0.105,1.9
+R0365,anger,shift,synthetic L16-22 lam=1,0.379,14.2
+R0366,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.485,21.6
+R0367,joy,shift,synthetic L10-14 lam=2,0.993,60.5
+R0368,anger,project_ev,alpha=2,0.601,9.9
+R0369,fear,project_ev,alpha=5,0.207,86.8
+R0370,disgust,shift,synthetic L16-22 lam=1,0.589,60.6
+R0371,joy,shift,synthetic L16-22 lam=1,0.796,27.6
+R0372,sadness,project_ev,alpha=1,0.113,5.2
+R0373,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.156,21.8
+R0374,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.22,25.9
+R0375,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.979,53.7
+R0376,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.948,70.0
+R0377,joy,shift,synthetic L18-24 lam=2,0.095,6.9
+R0378,disgust,project_ev,alpha=3,0.531,56.1
+R0379,joy,shift,synthetic L18-24 lam=2,0.034,5.5
+R0380,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.15,28.8
+R0381,disgust,baseline,baseline,0.061,2.3
+R0382,anger,baseline,baseline,0.12,1.9
+R0383,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.812,59.8
+R0384,joy,project_ev,alpha=5,0.561,77.7
+R0385,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.952,25.3
+R0386,joy,baseline,baseline,0.297,2.3
+R0387,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.071,9.4
+R0388,joy,shift,synthetic L18-24 lam=2,0.06,7.5
+R0389,sadness,shift,synthetic L18-24 lam=2,0.336,40.3
+R0390,sadness,project_ev,alpha=4,0.746,80.5
+R0391,fear,shift,synthetic L16-22 lam=1,0.188,28.0
+R0392,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.196,11.8
+R0393,sadness,shift,synthetic L16-22 lam=1,0.104,4.8
+R0394,disgust,baseline,baseline,0.067,1.6
+R0395,disgust,project_ev,alpha=4,0.825,231.7
+R0396,anger,baseline,baseline,0.078,2.7
+R0397,joy,project_ev,alpha=3,0.982,36.1
+R0398,disgust,baseline,baseline,0.072,2.0
+R0399,fear,shift,synthetic L10-14 lam=2,0.955,69.0
+R0400,sadness,project_ev,alpha=5,0.607,160.8
+R0401,joy,project_ev,alpha=1,0.056,3.0
+R0402,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.946,69.9
+R0403,anger,project_ev,alpha=4,0.789,55.1
+R0404,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.934,22.2
+R0405,anger,shift,synthetic L16-22 lam=1,0.423,29.1
+R0406,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.204,47.3
+R0407,anger,project_ev,alpha=3,0.147,8.4
+R0408,disgust,shift,synthetic L16-22 lam=1,0.752,91.9
+R0409,joy,shift,synthetic L8-14 lam=1.5,0.741,49.8
+R0410,sadness,shift,synthetic L16-22 lam=1,0.113,2.1
+R0411,anger,project_ev,alpha=3,0.239,26.0
+R0412,sadness,shift,synthetic L18-24 lam=2,0.455,115.4
+R0413,anger,shift,synthetic L18-24 lam=2,0.177,3.1
+R0414,anger,shift,synthetic L16-22 lam=1,0.648,28.0
+R0415,joy,shift,synthetic L8-14 lam=1.5,0.65,59.7
+R0416,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.091,37.0
+R0417,anger,shift,synthetic L8-14 lam=1.5,0.587,73.5
+R0418,fear,project_ev,alpha=3,0.556,36.2
+R0419,anger,shift,synthetic L10-14 lam=2,0.315,15.7
+R0420,joy,shift,synthetic L18-24 lam=2,0.046,10.4
+R0421,disgust,shift,synthetic L18-24 lam=2,0.585,12.1
+R0422,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.421,25.2
+R0423,disgust,shift,synthetic L16-22 lam=1,0.425,35.1
+R0424,anger,shift,synthetic L8-14 lam=1.5,0.227,36.1
+R0425,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.205,38.5
+R0426,joy,shift,synthetic L10-14 lam=2,0.692,33.2
+R0427,fear,project_ev,alpha=5,0.175,101.3
+R0428,disgust,project_ev,alpha=4,0.548,463.7
+R0429,disgust,project_ev,alpha=4,0.854,313.3
+R0430,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.224,59.7
+R0431,anger,shift,synthetic L10-14 lam=2,0.914,81.3
+R0432,sadness,project_ev,alpha=4,0.799,54.4
+R0433,disgust,shift,synthetic L18-24 lam=2,0.836,4.3
+R0434,joy,project_ev,alpha=4,0.976,101.7
+R0435,anger,project_ev,alpha=1,0.084,2.0
+R0436,sadness,shift,synthetic L10-14 lam=2,0.568,19.9
+R0437,fear,project_ev,alpha=5,0.103,239.2
+R0438,disgust,shift,synthetic L16-22 lam=1,0.489,29.1
+R0439,joy,project_ev,alpha=1,0.9,4.0
+R0440,fear,shift,synthetic L16-22 lam=1,0.146,35.7
+R0441,anger,project_ev,alpha=5,0.665,195.0
+R0442,fear,shift,synthetic L18-24 lam=2,0.266,53.9
+R0443,anger,shift,synthetic L18-24 lam=2,0.271,59.0
+R0444,sadness,shift,synthetic L8-14 lam=1.5,0.221,42.7
+R0445,fear,shift,synthetic L18-24 lam=2,0.152,4.5
+R0446,sadness,baseline,baseline,0.166,2.0
+R0447,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.374,110.1
+R0448,anger,project_ev,alpha=5,0.543,22.9
+R0449,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.964,46.1
+R0450,anger,shift,synthetic L16-22 lam=1,0.691,22.1
+R0451,joy,project_ev,alpha=3,0.538,23.8
+R0452,fear,project_ev,alpha=2,0.946,17.4
+R0453,anger,project_ev,alpha=1,0.055,1.9
+R0454,fear,shift,synthetic L18-24 lam=2,0.144,13.9
+R0455,anger,shift,synthetic L18-24 lam=2,0.23,18903.5
+R0456,sadness,project_ev,alpha=5,0.272,154.7
+R0457,anger,project_ev,alpha=2,0.124,6.2
+R0458,anger,project_ev,alpha=5,0.546,198.3
+R0459,fear,project_ev,alpha=1,0.111,2.2
+R0460,joy,baseline,baseline,0.593,1.5
+R0461,disgust,baseline,baseline,0.034,1.5
+R0462,sadness,project_ev,alpha=2,0.162,4.8
+R0463,sadness,project_ev,alpha=2,0.706,6.8
+R0464,sadness,project_ev,alpha=5,0.815,56.1
+R0465,sadness,shift,synthetic L8-14 lam=1.5,0.156,48.1
+R0466,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.102,57.5
+R0467,anger,project_ev,alpha=5,0.468,279.8
+R0468,sadness,project_ev,alpha=1,0.085,4.7
+R0469,disgust,shift,synthetic L16-22 lam=1,0.199,18.5
+R0470,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.622,72.9
+R0471,sadness,shift,synthetic L16-22 lam=1,0.149,4.3
+R0472,joy,project_ev,alpha=2,0.454,13.0
+R0473,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.115,46.1
+R0474,anger,shift,synthetic L16-22 lam=1,0.326,7.9
+R0475,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.951,48.2
+R0476,anger,shift,synthetic L18-24 lam=2,0.293,9971.7
+R0477,anger,project_ev,alpha=3,0.436,109.0
+R0478,joy,project_ev,alpha=2,0.653,10.8
+R0479,fear,project_ev,alpha=4,0.708,58.7
+R0480,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.955,27.4
+R0481,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.436,52.1
+R0482,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.152,39.7
+R0483,disgust,project_ev,alpha=2,0.587,11.1
+R0484,sadness,shift,synthetic L16-22 lam=1,0.187,8.8
+R0485,disgust,project_ev,alpha=3,0.491,35.8
+R0486,sadness,project_ev,alpha=2,0.044,6.4
+R0487,joy,project_ev,alpha=5,0.906,113.9
+R0488,sadness,project_ev,alpha=5,0.712,172.6
+R0489,joy,project_ev,alpha=4,0.957,49.6
+R0490,anger,baseline,baseline,0.109,1.7
+R0491,disgust,baseline,baseline,0.094,2.2
+R0492,joy,baseline,baseline,0.124,1.7
+R0493,anger,project_ev,alpha=2,0.162,4.2
+R0494,sadness,shift,synthetic L18-24 lam=2,0.82,12.4
+R0495,fear,shift,synthetic L18-24 lam=2,0.398,30.9
+R0496,anger,shift,synthetic L18-24 lam=2,0.411,231.3
+R0497,sadness,shift,synthetic L18-24 lam=2,0.926,27.9
+R0498,joy,project_ev,alpha=4,0.969,80.0
+R0499,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.126,18.6
+R0500,fear,baseline,baseline,0.117,1.8
+R0501,anger,baseline,baseline,0.147,2.0
+R0502,joy,shift,synthetic L16-22 lam=1,0.979,58.5
+R0503,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.29,27.0
+R0504,disgust,project_ev,alpha=5,0.718,168.6
+R0505,sadness,shift,synthetic L16-22 lam=1,0.678,18.8
+R0506,anger,project_ev,alpha=3,0.111,21.8
+R0507,disgust,project_ev,alpha=4,0.857,184.5
+R0508,fear,shift,synthetic L18-24 lam=2,0.467,12.3
+R0509,anger,project_ev,alpha=3,0.02,18.8
+R0510,fear,project_ev,alpha=4,0.127,75.8
+R0511,fear,project_ev,alpha=2,0.224,3.7
+R0512,sadness,shift,synthetic L18-24 lam=2,0.332,84.9
+R0513,disgust,baseline,baseline,0.089,1.9
+R0514,anger,project_ev,alpha=3,0.488,29.7
+R0515,joy,baseline,baseline,0.189,1.8
+R0516,joy,shift,synthetic L18-24 lam=2,0.083,12.2
+R0517,anger,shift,synthetic L16-22 lam=1,0.404,21.4
+R0518,joy,shift,synthetic L16-22 lam=1,0.506,59.8
+R0519,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.972,62.6
+R0520,sadness,project_ev,alpha=4,0.664,185.1
+R0521,anger,project_ev,alpha=4,0.761,132.8
+R0522,sadness,project_ev,alpha=3,0.798,46.6
+R0523,sadness,project_ev,alpha=4,0.35,96.4
+R0524,fear,project_ev,alpha=3,0.012,14.8
+R0525,sadness,project_ev,alpha=4,0.622,95.1
+R0526,sadness,project_ev,alpha=2,0.563,12.7
+R0527,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.924,41.0
+R0528,joy,shift,synthetic L10-14 lam=2,0.008,24.4
+R0529,joy,project_ev,alpha=4,0.992,77.4
+R0530,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.983,40.7
+R0531,fear,baseline,baseline,0.033,2.5
+R0532,joy,shift,synthetic L18-24 lam=2,0.675,5.9
+R0533,joy,shift,synthetic L18-24 lam=2,0.245,9.0
+R0534,anger,shift,synthetic L8-14 lam=1.5,0.298,48.4
+R0535,fear,project_ev,alpha=5,0.385,185.3
+R0536,joy,project_ev,alpha=5,0.965,183.1
+R0537,fear,shift,synthetic L10-14 lam=2,0.72,18.7
+R0538,joy,shift,synthetic L10-14 lam=2,0.977,45.8
+R0539,fear,project_ev,alpha=4,0.454,250.1
+R0540,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.972,34.9
+R0541,anger,project_ev,alpha=4,0.518,209.5
+R0542,joy,shift,synthetic L18-24 lam=2,0.056,10.5
+R0543,joy,shift,synthetic L10-14 lam=2,0.91,63.8
+R0544,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.978,35.8
+R0545,anger,baseline,baseline,0.168,1.6
+R0546,anger,shift,synthetic L18-24 lam=2,0.406,11.8
+R0547,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.35,51.6
+R0548,disgust,project_ev,alpha=4,0.573,166.1
+R0549,joy,project_ev,alpha=5,0.906,137.2
+R0550,disgust,shift,synthetic L18-24 lam=2,0.324,6.9
+R0551,anger,baseline,baseline,0.227,2.1
+R0552,disgust,shift,synthetic L16-22 lam=1,0.731,35.6
+R0553,disgust,project_ev,alpha=4,0.403,357.3
+R0554,fear,project_ev,alpha=2,0.123,8.9
+R0555,fear,baseline,baseline,0.098,1.4
+R0556,sadness,project_ev,alpha=2,0.712,5.3
+R0557,sadness,shift,synthetic L18-24 lam=2,0.242,17.8
+R0558,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.214,24.3
+R0559,fear,project_ev,alpha=5,0.452,319.8
+R0560,disgust,project_ev,alpha=3,0.912,119.1
+R0561,anger,shift,synthetic L18-24 lam=2,0.17,418.2
+R0562,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.927,24.2
+R0563,sadness,project_ev,alpha=5,0.532,56.7
+R0564,disgust,shift,synthetic L18-24 lam=2,0.574,5.2
+R0565,anger,baseline,baseline,0.131,1.8
+R0566,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.237,33.9
+R0567,sadness,shift,synthetic L18-24 lam=2,0.054,2.7
+R0568,disgust,shift,synthetic L18-24 lam=2,0.855,8.7
+R0569,disgust,project_ev,alpha=1,0.149,3.8
+R0570,anger,project_ev,alpha=2,0.165,6.5
+R0571,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.962,32.7
+R0572,anger,baseline,baseline,0.084,2.0
+R0573,sadness,shift,synthetic L18-24 lam=2,0.454,12.0
+R0574,fear,shift,synthetic L16-22 lam=1,0.125,22.4
+R0575,sadness,baseline,baseline,0.06,1.8
+R0576,anger,project_ev,alpha=1,0.107,2.3
+R0577,anger,project_ev,alpha=4,0.508,147.8
+R0578,anger,shift,synthetic L18-24 lam=2,0.189,13.6
+R0579,joy,shift,synthetic L18-24 lam=2,0.824,43.7
+R0580,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.966,19.9
+R0581,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.967,25.1
+R0582,anger,project_ev,alpha=3,0.232,18.5
+R0583,joy,project_ev,alpha=1,0.397,2.7
+R0584,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.32,33.9
+R0585,anger,shift,synthetic L10-14 lam=2,0.755,67.3
+R0586,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.513,27.0
+R0587,sadness,project_ev,alpha=1,0.031,2.0
+R0588,anger,shift,synthetic L10-14 lam=2,0.279,26.1
+R0589,sadness,shift,synthetic L18-24 lam=2,0.425,8.0
+R0590,anger,project_ev,alpha=2,0.167,5.4
+R0591,joy,project_ev,alpha=5,0.779,166.0
+R0592,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.266,15.8
+R0593,sadness,baseline,baseline,0.094,1.8
+R0594,joy,project_ev,alpha=3,0.899,25.5
+R0595,fear,shift,synthetic L10-14 lam=2,0.424,19.8
+R0596,sadness,shift,synthetic L16-22 lam=1,0.33,36.1
+R0597,anger,project_ev,alpha=2,0.187,35.5
+R0598,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.82,28.8
+R0599,sadness,shift,synthetic L16-22 lam=1,0.315,12.1
+R0600,fear,shift,synthetic L10-14 lam=2,0.589,35.3
+R0601,sadness,project_ev,alpha=2,0.141,7.2
+R0602,fear,shift,synthetic L18-24 lam=2,0.063,26.8
+R0603,disgust,project_ev,alpha=5,0.625,129.4
+R0604,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.949,36.1
+R0605,fear,shift,synthetic L18-24 lam=2,0.12,57.3
+R0606,sadness,project_ev,alpha=4,0.82,89.8
+R0607,sadness,project_ev,alpha=4,0.777,68.2
+R0608,sadness,baseline,baseline,0.224,1.8
+R0609,anger,project_ev,alpha=3,0.37,20.1
+R0610,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.97,40.7
+R0611,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.081,36.7
+R0612,sadness,shift,synthetic L8-14 lam=1.5,0.305,29.2
+R0613,sadness,project_ev,alpha=1,0.155,2.3
+R0614,joy,baseline,baseline,0.117,1.7
+R0615,anger,project_ev,alpha=2,0.072,3.3
+R0616,disgust,project_ev,alpha=1,0.09,3.0
+R0617,sadness,shift,synthetic L18-24 lam=2,0.452,19.6
+R0618,disgust,project_ev,alpha=5,0.487,392.2
+R0619,sadness,project_ev,alpha=2,0.609,10.2
+R0620,anger,project_ev,alpha=3,0.145,43.9
+R0621,fear,project_ev,alpha=2,0.18,10.3
+R0622,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.662,41.2
+R0623,anger,project_ev,alpha=1,0.02,2.6
+R0624,disgust,project_ev,alpha=4,0.469,418.0
+R0625,sadness,baseline,baseline,0.18,2.2
+R0626,sadness,shift,synthetic L16-22 lam=1,0.184,8.7
+R0627,joy,shift,synthetic L18-24 lam=2,0.056,9.9
+R0628,anger,project_ev,alpha=3,0.08,53.9
+R0629,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.91,19.5
+R0630,disgust,shift,synthetic L18-24 lam=2,0.897,11.7
+R0631,joy,project_ev,alpha=3,0.792,67.8
+R0632,anger,shift,synthetic L8-14 lam=1.5,0.475,64.5
+R0633,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.44,38.4
+R0634,anger,shift,synthetic L10-14 lam=2,0.099,20.6
+R0635,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.077,57.5
+R0636,disgust,project_ev,alpha=4,0.436,164.7
+R0637,sadness,shift,synthetic L16-22 lam=1,0.149,5.1
+R0638,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.396,26.9
+R0639,joy,project_ev,alpha=2,0.937,5.0
+R0640,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.205,52.8
+R0641,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.24,21.4
+R0642,sadness,project_ev,alpha=4,0.77,133.6
+R0643,fear,shift,synthetic L8-14 lam=1.5,0.828,22.9
+R0644,anger,project_ev,alpha=3,0.032,20.1
+R0645,disgust,shift,synthetic L18-24 lam=2,0.855,8.7
+R0646,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.704,52.3
+R0647,anger,shift,synthetic L8-14 lam=1.5,0.39,71.9
+R0648,disgust,project_ev,alpha=4,0.742,304.4
+R0649,joy,shift,synthetic L18-24 lam=2,0.082,6.0
+R0650,disgust,project_ev,alpha=4,0.74,324.0
+R0651,fear,shift,synthetic L18-24 lam=2,0.44,23.7
+R0652,sadness,project_ev,alpha=1,0.244,2.2
+R0653,fear,shift,synthetic L16-22 lam=1,0.13,29.1
+R0654,fear,baseline,baseline,0.077,2.1
+R0655,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.679,22.3
+R0656,sadness,baseline,baseline,0.066,2.3
+R0657,sadness,project_ev,alpha=2,0.308,3.0
+R0658,fear,project_ev,alpha=4,0.61,103.3
+R0659,anger,shift,synthetic L18-24 lam=2,0.258,4.7
+R0660,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.363,22.6
+R0661,joy,project_ev,alpha=5,0.951,175.9
+R0662,disgust,project_ev,alpha=2,0.098,4.1
+R0663,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.823,24.9
+R0664,anger,baseline,baseline,0.092,1.8
+R0665,anger,shift,synthetic L18-24 lam=2,0.177,3.1
+R0666,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.616,49.9
+R0667,anger,project_ev,alpha=2,0.209,10.2
+R0668,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.507,18.5
+R0669,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.549,54.1
+R0670,anger,shift,synthetic L10-14 lam=2,0.934,83.6
+R0671,sadness,shift,synthetic L8-14 lam=1.5,0.496,43.5
+R0672,fear,project_ev,alpha=5,0.158,223.8
+R0673,fear,project_ev,alpha=4,0.211,212.7
+R0674,joy,project_ev,alpha=2,0.981,15.2
+R0675,joy,shift,synthetic L18-24 lam=2,0.824,43.7
+R0676,joy,shift,synthetic L8-14 lam=1.5,0.901,32.9
+R0677,sadness,project_ev,alpha=1,0.085,1.4
+R0678,fear,shift,synthetic L16-22 lam=1,0.341,6.2
+R0679,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.268,17.6
+R0680,disgust,project_ev,alpha=2,0.543,16.2
+R0681,fear,project_ev,alpha=4,0.677,84.9
+R0682,disgust,project_ev,alpha=1,0.093,1.7
+R0683,sadness,shift,synthetic L18-24 lam=2,0.259,15.5
+R0684,sadness,shift,synthetic L18-24 lam=2,0.645,42.1
+R0685,anger,shift,synthetic L10-14 lam=2,0.423,29.6
+R0686,sadness,project_ev,alpha=2,0.267,7.3
+R0687,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.449,93.1
+R0688,disgust,shift,synthetic L18-24 lam=2,0.741,6.5
+R0689,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.004,22.7
+R0690,anger,project_ev,alpha=2,0.028,9.7
+R0691,anger,project_ev,alpha=4,0.387,86.0
+R0692,fear,shift,synthetic L8-14 lam=1.5,0.803,34.5
+R0693,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.073,50.0
+R0694,disgust,shift,synthetic L18-24 lam=2,0.585,12.1
+R0695,fear,baseline,baseline,0.192,1.7
+R0696,anger,project_ev,alpha=4,0.705,132.5
+R0697,disgust,shift,synthetic L18-24 lam=2,0.799,487.0
+R0698,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.714,21.7
+R0699,sadness,shift,synthetic L18-24 lam=2,0.82,12.4
+R0700,sadness,shift,synthetic L16-22 lam=1,0.934,21.4
+R0701,fear,project_ev,alpha=5,0.222,284.9
+R0702,sadness,shift,synthetic L18-24 lam=2,0.215,5.7
+R0703,sadness,project_ev,alpha=2,0.512,8.2
+R0704,sadness,shift,synthetic L18-24 lam=2,0.584,15.9
+R0705,fear,shift,synthetic L8-14 lam=1.5,0.622,28.9
+R0706,disgust,project_ev,alpha=2,0.643,21.1
+R0707,disgust,shift,synthetic L16-22 lam=1,0.509,13.2
+R0708,joy,project_ev,alpha=3,0.948,37.0
+R0709,fear,project_ev,alpha=2,0.204,20.7
+R0710,joy,project_ev,alpha=5,0.744,84.4
+R0711,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.973,36.4
+R0712,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.963,100.5
+R0713,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.407,33.0
+R0714,joy,shift,synthetic L18-24 lam=2,0.367,18.6
+R0715,fear,shift,synthetic L18-24 lam=2,0.133,4.9
+R0716,sadness,shift,synthetic L18-24 lam=2,0.43,113.7
+R0717,fear,baseline,baseline,0.071,1.5
+R0718,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.122,35.3
+R0719,joy,project_ev,alpha=1,0.291,2.7
+R0720,joy,project_ev,alpha=1,0.713,3.7
+R0721,disgust,shift,synthetic L18-24 lam=2,0.65,248.1
+R0722,anger,project_ev,alpha=2,0.064,4.5
+R0723,sadness,baseline,baseline,0.183,1.9
+R0724,anger,shift,synthetic L16-22 lam=1,0.335,46.9
+R0725,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.423,30.2
+R0726,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.955,48.0
+R0727,joy,baseline,baseline,0.115,2.2
+R0728,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.077,26.3
+R0729,joy,shift,synthetic L18-24 lam=2,0.227,244.2
+R0730,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.732,40.7
+R0731,disgust,baseline,baseline,0.088,2.3
+R0732,joy,shift,synthetic L10-14 lam=2,0.966,47.3
+R0733,disgust,shift,synthetic L16-22 lam=1,0.375,35.2
+R0734,fear,project_ev,alpha=2,0.163,5.8
+R0735,disgust,project_ev,alpha=1,0.062,2.9
+R0736,disgust,project_ev,alpha=4,0.294,465.9
+R0737,anger,shift,synthetic L10-14 lam=2,0.406,78.8
+R0738,fear,shift,synthetic L8-14 lam=1.5,0.388,19.5
+R0739,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.148,51.8
+R0740,fear,project_ev,alpha=4,0.328,67.0
+R0741,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.905,21.1
+R0742,joy,baseline,baseline,0.269,1.7
+R0743,fear,shift,synthetic L16-22 lam=1,0.257,20.1
+R0744,disgust,project_ev,alpha=3,0.495,32.0
+R0745,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.969,140.5
+R0746,sadness,project_ev,alpha=1,0.109,1.5
+R0747,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.491,33.9
+R0748,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.963,19.1
+R0749,disgust,shift,synthetic L18-24 lam=2,0.809,267.8
+R0750,sadness,project_ev,alpha=1,0.143,1.5
+R0751,disgust,project_ev,alpha=2,0.227,6.4
+R0752,anger,project_ev,alpha=3,0.102,21.0
+R0753,anger,project_ev,alpha=2,0.032,6.0
+R0754,fear,shift,synthetic L18-24 lam=2,0.333,80.1
+R0755,disgust,shift,synthetic L18-24 lam=2,0.823,296.0
+R0756,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.177,94.6
+R0757,joy,baseline,baseline,0.168,1.6
+R0758,anger,shift,synthetic L18-24 lam=2,0.411,231.3
+R0759,joy,shift,synthetic L8-14 lam=1.5,0.963,29.1
+R0760,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.942,20.7
+R0761,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.175,28.2
+R0762,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.169,12.2
+R0763,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.355,34.8
+R0764,disgust,project_ev,alpha=3,0.491,66.3
+R0765,fear,shift,synthetic L16-22 lam=1,0.264,15.0
+R0766,joy,project_ev,alpha=4,0.967,58.5
+R0767,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.979,54.0
+R0768,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.978,62.1
+R0769,anger,project_ev,alpha=2,0.147,8.3
+R0770,anger,shift,synthetic L18-24 lam=2,0.214,4.4
+R0771,fear,shift,synthetic L16-22 lam=1,0.32,16.7
+R0772,sadness,project_ev,alpha=1,0.02,3.6
+R0773,fear,project_ev,alpha=5,0.248,240.3
+R0774,fear,project_ev,alpha=4,0.171,77.6
+R0775,anger,project_ev,alpha=1,0.054,3.8
+R0776,disgust,shift,synthetic L18-24 lam=2,0.797,6.5
+R0777,sadness,shift,synthetic L8-14 lam=1.5,0.115,21.9
+R0778,sadness,shift,synthetic L18-24 lam=2,0.454,12.0
+R0779,fear,shift,synthetic L18-24 lam=2,0.12,16.0
+R0780,joy,shift,synthetic L18-24 lam=2,0.132,26.3
+R0781,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.917,55.1
+R0782,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.964,34.6
+R0783,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.813,54.5
+R0784,disgust,project_ev,alpha=2,0.671,18.1
+R0785,fear,project_ev,alpha=3,0.205,39.5
+R0786,joy,project_ev,alpha=4,0.934,30.9
+R0787,joy,shift,synthetic L18-24 lam=2,0.143,6.7
+R0788,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.98,42.5
+R0789,anger,shift,synthetic L18-24 lam=2,0.17,418.2
+R0790,joy,project_ev,alpha=2,0.428,2.6
+R0791,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.004,25.5
+R0792,sadness,shift,synthetic L16-22 lam=1,0.117,3.9
+R0793,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.009,12.3
+R0794,sadness,project_ev,alpha=3,0.557,20.9
+R0795,joy,project_ev,alpha=2,0.12,6.6
+R0796,fear,shift,synthetic L18-24 lam=2,0.195,34.8
+R0797,fear,shift,synthetic L10-14 lam=2,0.881,24.4
+R0798,joy,baseline,baseline,0.303,2.7
+R0799,joy,shift,synthetic L18-24 lam=2,0.034,5.0
+R0800,sadness,shift,synthetic L18-24 lam=2,0.657,164.6
+R0801,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.638,23.1
+R0802,fear,project_ev,alpha=5,0.143,100.6
+R0803,joy,project_ev,alpha=2,0.116,4.1
+R0804,anger,shift,synthetic L10-14 lam=2,0.264,44.8
+R0805,joy,shift,synthetic L16-22 lam=1,0.957,70.8
+R0806,sadness,shift,synthetic L18-24 lam=2,0.764,16.9
+R0807,fear,project_ev,alpha=3,0.082,17.3
+R0808,sadness,shift,synthetic L8-14 lam=1.5,0.088,23.2
+R0809,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.831,18.2
+R0810,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.345,23.9
+R0811,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.968,67.4
+R0812,sadness,shift,synthetic L18-24 lam=2,0.748,21.9
+R0813,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.981,44.6
+R0814,sadness,shift,synthetic L18-24 lam=2,0.584,15.9
+R0815,anger,project_ev,alpha=3,0.199,12.9
+R0816,disgust,project_ev,alpha=3,0.679,132.8
+R0817,anger,shift,synthetic L8-14 lam=1.5,0.724,28.6
+R0818,anger,shift,synthetic L18-24 lam=2,0.203,127204.6
+R0819,sadness,project_ev,alpha=4,0.787,43.1
+R0820,disgust,project_ev,alpha=1,0.217,1.7
+R0821,joy,shift,synthetic L18-24 lam=2,0.216,290.4
+R0822,sadness,shift,synthetic L18-24 lam=2,0.742,82.6
+R0823,joy,project_ev,alpha=4,0.964,75.8
+R0824,fear,shift,synthetic L8-14 lam=1.5,0.518,37.6
+R0825,disgust,project_ev,alpha=2,0.425,8.9
+R0826,anger,project_ev,alpha=3,0.357,22.1
+R0827,anger,shift,synthetic L8-14 lam=1.5,0.186,43.5
+R0828,joy,shift,synthetic L18-24 lam=2,0.073,5.6
+R0829,joy,project_ev,alpha=1,0.27,2.6
+R0830,sadness,shift,synthetic L16-22 lam=1,0.131,8.0
+R0831,anger,baseline,baseline,0.101,1.6
+R0832,disgust,shift,synthetic L18-24 lam=2,0.316,26.8
+R0833,sadness,shift,synthetic L10-14 lam=2,0.056,10.2
+R0834,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.742,20.5
+R0835,fear,shift,synthetic L18-24 lam=2,0.467,11.3
+R0836,sadness,shift,synthetic L16-22 lam=1,0.147,21.0
+R0837,joy,shift,synthetic L16-22 lam=1,0.984,40.0
+R0838,fear,project_ev,alpha=4,0.362,76.1
+R0839,anger,baseline,baseline,0.092,1.4
+R0840,fear,baseline,baseline,0.159,2.3
+R0841,joy,baseline,baseline,0.155,2.2
+R0842,fear,shift,synthetic L8-14 lam=1.5,0.493,19.5
+R0843,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.838,19.5
+R0844,fear,shift,synthetic L10-14 lam=2,0.532,15.6
+R0845,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.965,32.3
+R0846,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.128,13.9
+R0847,sadness,project_ev,alpha=5,0.663,89.6
+R0848,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.018,46.7
+R0849,disgust,project_ev,alpha=1,0.07,3.1
+R0850,disgust,project_ev,alpha=5,0.431,183.5
+R0851,disgust,shift,synthetic L18-24 lam=2,0.604,18.8
+R0852,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.187,39.1
+R0853,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.098,14.6
+R0854,fear,shift,synthetic L16-22 lam=1,0.131,8.2
+R0855,disgust,project_ev,alpha=1,0.033,3.1
+R0856,joy,shift,synthetic L18-24 lam=2,0.645,65.0
+R0857,sadness,project_ev,alpha=2,0.227,6.7
+R0858,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.101,10.1
+R0859,joy,shift,synthetic L16-22 lam=1,0.561,70.5
+R0860,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.967,54.3
+R0861,anger,project_ev,alpha=5,0.353,313.1
+R0862,joy,shift,synthetic L18-24 lam=2,0.046,10.4
+R0863,disgust,shift,synthetic L16-22 lam=1,0.136,28.7
+R0864,anger,shift,synthetic L16-22 lam=1,0.364,35.6
+R0865,sadness,project_ev,alpha=4,0.69,217.2
+R0866,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.014,56.2
+R0867,fear,project_ev,alpha=2,0.121,8.3
+R0868,disgust,shift,synthetic L18-24 lam=2,0.689,4.0
+R0869,sadness,project_ev,alpha=3,0.681,17.0
+R0870,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.945,17.7
+R0871,joy,shift,synthetic L16-22 lam=1,0.943,44.8
+R0872,disgust,baseline,baseline,0.053,1.9
+R0873,fear,project_ev,alpha=1,0.114,1.9
+R0874,fear,shift,synthetic L8-14 lam=1.5,0.833,48.6
+R0875,joy,shift,synthetic L8-14 lam=1.5,0.887,30.0
+R0876,fear,project_ev,alpha=5,0.23,158.9
+R0877,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.081,48.4
+R0878,anger,project_ev,alpha=5,0.564,468.4
+R0879,fear,baseline,baseline,0.144,2.0
+R0880,sadness,project_ev,alpha=3,0.61,42.8
+R0881,disgust,baseline,baseline,0.177,1.9
+R0882,anger,shift,synthetic L16-22 lam=1,0.296,16.3
+R0883,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.14,36.6
+R0884,joy,shift,synthetic L10-14 lam=2,0.739,61.7
+R0885,anger,shift,synthetic L16-22 lam=1,0.512,43.2
+R0886,disgust,project_ev,alpha=2,0.576,14.5
+R0887,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.004,19.4
+R0888,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.54,41.4
+R0889,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.967,34.6
+R0890,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.887,38.0
+R0891,joy,shift,synthetic L8-14 lam=1.5,0.724,18.2
+R0892,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.94,26.3
+R0893,sadness,project_ev,alpha=5,0.068,8.8
+R0894,joy,project_ev,alpha=1,0.552,2.8
+R0895,disgust,project_ev,alpha=2,0.159,5.4
+R0896,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.183,53.9
+R0897,fear,project_ev,alpha=1,0.115,1.9
+R0898,joy,shift,synthetic L18-24 lam=2,0.073,5.8
+R0899,joy,shift,synthetic L16-22 lam=1,0.976,34.5
+R0900,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.092,49.9
+R0901,joy,project_ev,alpha=1,0.371,2.4
+R0902,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.038,34.5
+R0903,anger,shift,synthetic L18-24 lam=2,0.174,46.8
+R0904,disgust,project_ev,alpha=3,0.699,59.5
+R0905,anger,shift,synthetic L18-24 lam=2,0.299,22.2
+R0906,joy,project_ev,alpha=5,0.834,104.3
+R0907,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.064,23.4
+R0908,joy,shift,synthetic L18-24 lam=2,0.132,26.3
+R0909,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.581,44.2
+R0910,anger,shift,synthetic L18-24 lam=2,0.378,300.1
+R0911,disgust,project_ev,alpha=2,0.053,4.7
+R0912,anger,project_ev,alpha=1,0.1,3.0
+R0913,joy,shift,synthetic L10-14 lam=2,0.854,59.0
+R0914,anger,project_ev,alpha=2,0.165,3.1
+R0915,fear,shift,synthetic L18-24 lam=2,0.141,5.1
+R0916,disgust,project_ev,alpha=3,0.588,34.3
+R0917,joy,shift,synthetic L18-24 lam=2,0.011,15.2
+R0918,disgust,project_ev,alpha=3,0.392,60.3
+R0919,fear,shift,synthetic L18-24 lam=2,0.317,8.6
+R0920,anger,project_ev,alpha=2,0.131,17.9
+R0921,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.919,34.3
+R0922,anger,shift,synthetic L16-22 lam=1,0.617,38.5
+R0923,sadness,shift,synthetic L10-14 lam=2,0.186,103.4
+R0924,disgust,project_ev,alpha=1,0.059,2.1
+R0925,fear,shift,synthetic L18-24 lam=2,0.133,6.0
+R0926,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.84,99.4
+R0927,fear,project_ev,alpha=2,0.034,23.4
+R0928,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.972,39.7
+R0929,anger,project_ev,alpha=4,0.597,92.0
+R0930,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.911,20.7
+R0931,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.915,178.9
+R0932,disgust,baseline,baseline,0.076,1.7
+R0933,disgust,shift,synthetic L18-24 lam=2,0.622,6.3
+R0934,anger,shift,synthetic L10-14 lam=2,0.312,33.3
+R0935,disgust,baseline,baseline,0.144,2.0
+R0936,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.14,19.2
+R0937,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.741,69.9
+R0938,joy,project_ev,alpha=1,0.955,2.7
+R0939,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.955,24.8
+R0940,fear,shift,synthetic L18-24 lam=2,0.12,57.3
+R0941,fear,shift,synthetic L16-22 lam=1,0.31,27.1
+R0942,sadness,shift,synthetic L10-14 lam=2,0.067,19.7
+R0943,disgust,shift,synthetic L16-22 lam=1,0.774,25.1
+R0944,anger,baseline,baseline,0.106,2.1
+R0945,joy,project_ev,alpha=5,0.984,171.1
+R0946,disgust,project_ev,alpha=4,0.425,290.9
+R0947,joy,shift,synthetic L16-22 lam=1,0.973,80.8
+R0948,disgust,shift,synthetic L18-24 lam=2,0.823,296.0
+R0949,joy,shift,synthetic L18-24 lam=2,0.645,65.0
+R0950,sadness,shift,synthetic L18-24 lam=2,0.815,37.7
+R0951,fear,project_ev,alpha=3,0.196,24.4
+R0952,fear,shift,synthetic L10-14 lam=2,0.762,41.9
+R0953,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.947,25.7
+R0954,anger,shift,synthetic L18-24 lam=2,0.293,14504.8
+R0955,anger,shift,synthetic L18-24 lam=2,0.218,6.5
+R0956,sadness,shift,synthetic L18-24 lam=2,0.495,29.1
+R0957,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.016,22.6
+R0958,sadness,shift,synthetic L8-14 lam=1.5,0.12,13.6
+R0959,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.967,58.8
+R0960,joy,shift,synthetic L16-22 lam=1,0.594,35.0
+R0961,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.61,23.3
+R0962,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.982,40.7
+R0963,disgust,project_ev,alpha=2,0.124,8.3
+R0964,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.983,58.8
+R0965,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.979,30.7
+R0966,anger,project_ev,alpha=5,0.456,319.8
+R0967,anger,project_ev,alpha=4,0.493,30.3
+R0968,disgust,shift,synthetic L18-24 lam=2,0.884,18.4
+R0969,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.924,43.9
+R0970,anger,baseline,baseline,0.08,2.5
+R0971,anger,shift,synthetic L18-24 lam=2,0.23,9947.7
+R0972,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.739,84.9
+R0973,fear,project_ev,alpha=3,0.174,46.0
+R0974,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.175,42.1
+R0975,fear,shift,synthetic L18-24 lam=2,0.172,6.6
+R0976,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.137,25.6
+R0977,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.974,36.4
+R0978,fear,shift,synthetic L8-14 lam=1.5,0.549,30.7
+R0979,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.981,92.7
+R0980,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.985,53.4
+R0981,fear,project_ev,alpha=2,0.006,4.8
+R0982,disgust,shift,synthetic L16-22 lam=1,0.665,53.3
+R0983,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.34,14.2
+R0984,sadness,shift,synthetic L8-14 lam=1.5,0.311,66.4
+R0985,anger,shift,synthetic L18-24 lam=2,0.286,527.9
+R0986,anger,baseline,baseline,0.123,2.0
+R0987,joy,shift,synthetic L8-14 lam=1.5,0.706,33.4
+R0988,anger,project_ev,alpha=3,0.572,49.1
+R0989,sadness,project_ev,alpha=4,0.694,112.0
+R0990,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.197,26.6
+R0991,joy,project_ev,alpha=4,0.983,84.1
+R0992,fear,project_ev,alpha=5,0.219,289.9
+R0993,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.208,17.0
+R0994,disgust,project_ev,alpha=3,0.612,59.5
+R0995,joy,project_ev,alpha=3,0.834,13.3
+R0996,fear,shift,synthetic L10-14 lam=2,0.677,27.7
+R0997,fear,shift,synthetic L10-14 lam=2,0.432,40.4
+R0998,disgust,project_ev,alpha=5,0.464,228.3
+R0999,fear,project_ev,alpha=3,0.219,27.1
+R1000,joy,project_ev,alpha=1,0.263,2.3
+R1001,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.977,57.7
+R1002,fear,shift,synthetic L16-22 lam=1,0.237,12.5
+R1003,sadness,project_ev,alpha=4,0.752,172.7
+R1004,joy,project_ev,alpha=5,0.765,67.2
+R1005,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.869,46.4
+R1006,anger,shift,synthetic L10-14 lam=2,0.537,85.4
+R1007,joy,shift,synthetic L18-24 lam=2,0.056,9.9
+R1008,disgust,shift,synthetic L16-22 lam=1,0.241,22.6
+R1009,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.961,48.2
+R1010,anger,shift,synthetic L10-14 lam=2,0.924,84.8
+R1011,disgust,project_ev,alpha=1,0.214,2.6
+R1012,joy,project_ev,alpha=2,0.111,3.2
+R1013,fear,shift,synthetic L18-24 lam=2,0.174,32.3
+R1014,anger,project_ev,alpha=4,0.389,195.1
+R1015,fear,project_ev,alpha=4,0.438,38.1
+R1016,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.959,40.1
+R1017,disgust,project_ev,alpha=2,0.787,18.6
+R1018,fear,project_ev,alpha=2,0.094,6.0
+R1019,joy,shift,synthetic L10-14 lam=2,0.652,34.6
+R1020,joy,baseline,baseline,0.258,2.5
+R1021,sadness,project_ev,alpha=3,0.763,24.8
+R1022,anger,project_ev,alpha=1,0.085,2.7
+R1023,disgust,project_ev,alpha=4,0.689,364.6
+R1024,joy,shift,synthetic L18-24 lam=2,0.06,7.5
+R1025,fear,baseline,baseline,0.165,2.3
+R1026,sadness,baseline,baseline,0.085,1.4
+R1027,anger,shift,synthetic L18-24 lam=2,0.196,1927.5
+R1028,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.925,40.0
+R1029,disgust,project_ev,alpha=2,0.419,23.4
+R1030,sadness,shift,synthetic L10-14 lam=2,0.653,163.8
+R1031,joy,shift,synthetic L8-14 lam=1.5,0.981,154.0
+R1032,joy,shift,synthetic L18-24 lam=2,0.084,412.8
+R1033,disgust,project_ev,alpha=3,0.54,53.7
+R1034,sadness,project_ev,alpha=2,0.09,5.1
+R1035,sadness,shift,synthetic L16-22 lam=1,0.117,5.8
+R1036,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.971,32.0
+R1037,anger,project_ev,alpha=2,0.108,9.9
+R1038,joy,project_ev,alpha=4,0.958,57.5
+R1039,fear,shift,synthetic L8-14 lam=1.5,0.519,36.5
+R1040,joy,shift,synthetic L18-24 lam=2,0.675,5.9
+R1041,sadness,shift,synthetic L18-24 lam=2,0.321,33.0
+R1042,joy,shift,synthetic L18-24 lam=2,0.034,5.2
+R1043,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.876,25.1
+R1044,sadness,project_ev,alpha=1,0.05,3.2
+R1045,fear,project_ev,alpha=5,0.21,189.5
+R1046,fear,project_ev,alpha=2,0.199,5.7
+R1047,anger,project_ev,alpha=1,0.083,3.5
+R1048,sadness,project_ev,alpha=3,0.53,63.0
+R1049,fear,shift,synthetic L18-24 lam=2,0.177,21.9
+R1050,fear,shift,synthetic L8-14 lam=1.5,0.828,53.8
+R1051,sadness,project_ev,alpha=3,0.652,18.4
+R1052,joy,shift,synthetic L18-24 lam=2,0.073,41.6
+R1053,anger,shift,synthetic L8-14 lam=1.5,0.843,47.6
+R1054,joy,shift,synthetic L18-24 lam=2,0.227,17.8
+R1055,fear,project_ev,alpha=2,0.14,4.9
+R1056,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.984,35.5
+R1057,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.125,43.6
+R1058,anger,project_ev,alpha=5,0.366,320.0
+R1059,joy,baseline,baseline,0.065,1.9
+R1060,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.955,54.2
+R1061,fear,project_ev,alpha=1,0.093,1.7
+R1062,joy,project_ev,alpha=5,0.984,148.0
+R1063,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.963,38.4
+R1064,joy,shift,synthetic L18-24 lam=2,0.028,8.7
+R1065,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.984,27.3
+R1066,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.985,35.1
+R1067,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.111,29.6
+R1068,fear,project_ev,alpha=3,0.38,31.7
+R1069,sadness,baseline,baseline,0.122,1.6
+R1070,disgust,project_ev,alpha=5,0.583,433.7
+R1071,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.042,83.6
+R1072,anger,shift,synthetic L10-14 lam=2,0.577,31.1
+R1073,joy,project_ev,alpha=4,0.96,103.2
+R1074,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.181,19.8
+R1075,joy,project_ev,alpha=3,0.911,115.1
+R1076,sadness,shift,synthetic L10-14 lam=2,0.197,21.8
+R1077,fear,shift,synthetic L18-24 lam=2,0.133,4.9
+R1078,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.5,42.5
+R1079,fear,shift,synthetic L16-22 lam=1,0.266,15.1
+R1080,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.733,27.0
+R1081,joy,project_ev,alpha=2,0.916,15.3
+R1082,joy,shift,synthetic L10-14 lam=2,0.982,74.1
+R1083,disgust,shift,synthetic L18-24 lam=2,0.8,12.9
+R1084,joy,project_ev,alpha=1,0.352,1.4
+R1085,joy,shift,synthetic L10-14 lam=2,0.914,86.6
+R1086,anger,shift,synthetic L10-14 lam=2,0.271,33.8
+R1087,joy,project_ev,alpha=1,0.106,1.8
+R1088,fear,shift,synthetic L18-24 lam=2,0.302,2807.4
+R1089,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.439,37.5
+R1090,fear,shift,synthetic L18-24 lam=2,0.211,51.9
+R1091,disgust,shift,synthetic L18-24 lam=2,0.744,26.8
+R1092,disgust,baseline,baseline,0.108,2.2
+R1093,disgust,project_ev,alpha=1,0.086,2.9
+R1094,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.217,22.9
+R1095,sadness,project_ev,alpha=4,0.74,204.2
+R1096,disgust,shift,synthetic L18-24 lam=2,0.719,242.6
+R1097,sadness,shift,synthetic L18-24 lam=2,0.919,159.6
+R1098,disgust,project_ev,alpha=3,0.091,19.1
+R1099,disgust,project_ev,alpha=1,0.145,3.5
+R1100,sadness,project_ev,alpha=4,0.643,59.9
+R1101,joy,project_ev,alpha=2,0.795,3.8
+R1102,sadness,shift,synthetic L16-22 lam=1,0.093,18.5
+R1103,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.027,60.2
+R1104,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.115,43.3
+R1105,disgust,baseline,baseline,0.123,1.6
+R1106,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.84,16.8
+R1107,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.877,29.3
+R1108,joy,shift,synthetic L16-22 lam=1,0.971,26.5
+R1109,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.564,13.7
+R1110,disgust,shift,synthetic L18-24 lam=2,0.809,9.2
+R1111,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.956,17.0
+R1112,anger,shift,synthetic L18-24 lam=2,0.402,1916.0
+R1113,anger,shift,synthetic L8-14 lam=1.5,0.24,27.7
+R1114,disgust,project_ev,alpha=1,0.061,4.7
+R1115,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.929,58.6
+R1116,sadness,project_ev,alpha=1,0.094,2.7
+R1117,joy,shift,synthetic L10-14 lam=2,0.989,44.9
+R1118,anger,project_ev,alpha=2,0.149,4.7
+R1119,joy,project_ev,alpha=1,0.17,3.3
+R1120,anger,project_ev,alpha=3,0.727,68.1
+R1121,disgust,project_ev,alpha=1,0.005,2.5
+R1122,sadness,shift,synthetic L18-24 lam=2,0.926,27.9
+R1123,sadness,shift,synthetic L18-24 lam=2,0.252,92.5
+R1124,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.209,41.1
+R1125,sadness,project_ev,alpha=4,0.839,86.2
+R1126,disgust,shift,synthetic L18-24 lam=2,0.389,12.8
+R1127,sadness,shift,synthetic L10-14 lam=2,0.28,21.5
+R1128,anger,shift,synthetic L10-14 lam=2,0.373,41.8
+R1129,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.452,27.8
+R1130,fear,shift,synthetic L18-24 lam=2,0.362,74.2
+R1131,anger,shift,synthetic L18-24 lam=2,0.293,13902.8
+R1132,anger,project_ev,alpha=1,0.047,1.7
+R1133,joy,shift,synthetic L18-24 lam=2,0.034,4.8
+R1134,sadness,shift,synthetic L16-22 lam=1,0.092,5.0
+R1135,joy,shift,synthetic L18-24 lam=2,0.367,18.6
+R1136,joy,baseline,baseline,0.323,1.8
+R1137,disgust,shift,synthetic L18-24 lam=2,0.836,4.3
+R1138,fear,shift,synthetic L8-14 lam=1.5,0.454,45.2
+R1139,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.238,30.4
+R1140,fear,baseline,baseline,0.156,1.4
+R1141,fear,shift,synthetic L10-14 lam=2,0.677,31.4
+R1142,joy,project_ev,alpha=2,0.414,14.2
+R1143,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.972,32.1
+R1144,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.969,34.3
+R1145,fear,project_ev,alpha=2,0.133,1.9
+R1146,sadness,shift,synthetic L8-14 lam=1.5,0.337,35.2
+R1147,anger,shift,synthetic L8-14 lam=1.5,0.442,34.2
+R1148,joy,shift,synthetic L8-14 lam=1.5,0.953,23.2
+R1149,fear,project_ev,alpha=2,0.244,7.7
+R1150,sadness,shift,synthetic L10-14 lam=2,0.259,16.8
+R1151,sadness,baseline,baseline,0.1,2.1
+R1152,disgust,project_ev,alpha=4,0.393,322.3
+R1153,joy,project_ev,alpha=1,0.175,1.9
+R1154,joy,project_ev,alpha=3,0.958,29.0
+R1155,fear,project_ev,alpha=5,0.17,222.0
+R1156,sadness,project_ev,alpha=1,0.1,2.4
+R1157,disgust,shift,synthetic L16-22 lam=1,0.548,122.3
+R1158,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.888,58.5
+R1159,anger,baseline,baseline,0.1,2.5
+R1160,joy,project_ev,alpha=4,0.977,60.1
+R1161,disgust,project_ev,alpha=3,0.509,55.3
+R1162,anger,shift,synthetic L18-24 lam=2,0.166,603.8
+R1163,sadness,project_ev,alpha=1,0.01,3.3
+R1164,sadness,project_ev,alpha=3,0.717,41.7
+R1165,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.97,66.8
+R1166,sadness,project_ev,alpha=1,0.09,2.1
+R1167,disgust,shift,synthetic L18-24 lam=2,0.899,19.9
+R1168,joy,shift,synthetic L10-14 lam=2,0.947,29.8
+R1169,fear,shift,synthetic L16-22 lam=1,0.161,6.9
+R1170,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.528,47.5
+R1171,joy,shift,synthetic L18-24 lam=2,0.084,412.8
+R1172,anger,project_ev,alpha=4,0.609,435.4
+R1173,joy,shift,synthetic L18-24 lam=2,0.056,10.5
+R1174,joy,shift,synthetic L16-22 lam=1,0.964,33.2
+R1175,fear,project_ev,alpha=5,0.421,103.8
+R1176,disgust,project_ev,alpha=5,0.707,768.4
+R1177,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.922,35.5
+R1178,anger,shift,synthetic L8-14 lam=1.5,0.228,17.7
+R1179,sadness,project_ev,alpha=1,0.157,1.6
+R1180,sadness,project_ev,alpha=4,0.688,37.3
+R1181,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.97,26.0
+R1182,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.925,23.0
+R1183,joy,project_ev,alpha=4,0.913,65.1
+R1184,disgust,project_ev,alpha=3,0.799,71.4
+R1185,disgust,baseline,baseline,0.074,1.4
+R1186,fear,project_ev,alpha=3,0.367,95.7
+R1187,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.335,76.4
+R1188,disgust,shift,synthetic L16-22 lam=1,0.074,118.3
+R1189,fear,shift,synthetic L18-24 lam=2,0.527,16.9
+R1190,joy,project_ev,alpha=4,0.953,80.6
+R1191,sadness,shift,synthetic L18-24 lam=2,0.495,29.1
+R1192,anger,shift,synthetic L8-14 lam=1.5,0.607,69.0
+R1193,fear,project_ev,alpha=2,0.177,6.6
+R1194,joy,shift,synthetic L10-14 lam=2,0.989,64.1
+R1195,fear,project_ev,alpha=1,0.207,2.0
+R1196,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.348,39.8
+R1197,sadness,shift,synthetic L18-24 lam=2,0.764,16.9
+R1198,sadness,shift,synthetic L16-22 lam=1,0.205,19.6
+R1199,anger,shift,synthetic L18-24 lam=2,0.357,211.5
+R1200,sadness,project_ev,alpha=5,0.153,40.9
+R1201,fear,shift,synthetic L18-24 lam=2,0.141,5.7
+R1202,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.739,69.7
+R1203,fear,shift,synthetic L18-24 lam=2,0.25,59.7
+R1204,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.964,23.8
+R1205,joy,project_ev,alpha=5,0.554,244.3
+R1206,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.205,19.1
+R1207,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.432,115.1
+R1208,anger,project_ev,alpha=1,0.048,1.9
+R1209,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.648,56.9
+R1210,fear,project_ev,alpha=3,0.641,44.8
+R1211,disgust,shift,synthetic L18-24 lam=2,0.897,10.0
+R1212,anger,shift,synthetic L16-22 lam=1,0.48,59.6
+R1213,fear,shift,synthetic L10-14 lam=2,0.63,27.5
+R1214,anger,project_ev,alpha=4,0.514,153.3
+R1215,joy,project_ev,alpha=1,0.026,2.3
+R1216,fear,project_ev,alpha=4,0.549,108.6
+R1217,joy,project_ev,alpha=1,0.056,2.4
+R1218,sadness,project_ev,alpha=5,0.212,27.3
+R1219,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.426,27.0
+R1220,fear,project_ev,alpha=1,0.12,1.4
+R1221,fear,baseline,baseline,0.129,2.0
+R1222,anger,shift,synthetic L18-24 lam=2,0.286,527.9
+R1223,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.873,42.2
+R1224,sadness,shift,synthetic L18-24 lam=2,0.811,115.9
+R1225,joy,project_ev,alpha=3,0.914,12.4
+R1226,joy,project_ev,alpha=5,0.856,155.6
+R1227,joy,shift,synthetic L8-14 lam=1.5,0.984,62.4
+R1228,sadness,shift,synthetic L8-14 lam=1.5,0.076,5.7
+R1229,sadness,shift,synthetic L18-24 lam=2,0.628,11.0
+R1230,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.871,82.2
+R1231,disgust,project_ev,alpha=3,0.349,55.1
+R1232,joy,project_ev,alpha=4,0.984,113.5
+R1233,disgust,shift,synthetic L16-22 lam=1,0.289,50.7
+R1234,sadness,shift,synthetic L18-24 lam=2,0.742,82.6
+R1235,fear,project_ev,alpha=4,0.289,183.1
+R1236,joy,project_ev,alpha=4,0.849,38.1
+R1237,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.962,19.1
+R1238,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.036,24.0
+R1239,joy,shift,synthetic L16-22 lam=1,0.944,56.0
+R1240,sadness,project_ev,alpha=5,0.105,12.4
+R1241,joy,project_ev,alpha=2,0.952,4.6
+R1242,fear,baseline,baseline,0.119,2.7
+R1243,fear,shift,synthetic L18-24 lam=2,0.398,30.9
+R1244,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.464,25.3
+R1245,sadness,project_ev,alpha=5,0.108,43.0
+R1246,anger,project_ev,alpha=2,0.018,5.4
+R1247,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.981,48.1
+R1248,anger,project_ev,alpha=2,0.147,17.0
+R1249,sadness,project_ev,alpha=4,0.771,106.2
+R1250,fear,shift,synthetic L8-14 lam=1.5,0.706,49.5
+R1251,fear,shift,synthetic L10-14 lam=2,0.846,40.6
+R1252,anger,shift,synthetic L18-24 lam=2,0.316,7.5
+R1253,anger,project_ev,alpha=1,0.085,1.8
+R1254,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.434,5.6
+R1255,sadness,project_ev,alpha=3,0.755,21.1
+R1256,anger,shift,synthetic L18-24 lam=2,0.294,23832.6
+R1257,sadness,shift,synthetic L18-24 lam=2,0.507,74.1
+R1258,fear,baseline,baseline,0.171,2.0
+R1259,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.393,31.5
+R1260,sadness,project_ev,alpha=1,0.004,2.7
+R1261,sadness,shift,synthetic L18-24 lam=2,0.482,87.8
+R1262,joy,project_ev,alpha=4,0.927,25.2
+R1263,anger,project_ev,alpha=3,0.248,77.2
+R1264,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.91,16.8
+R1265,anger,project_ev,alpha=5,0.544,163.6
+R1266,disgust,project_ev,alpha=2,0.058,4.0
+R1267,sadness,project_ev,alpha=1,0.093,2.2
+R1268,anger,project_ev,alpha=3,0.171,36.3
+R1269,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.443,12.1
+R1270,fear,shift,synthetic L18-24 lam=2,0.151,13.6
+R1271,anger,baseline,baseline,0.077,1.8
+R1272,sadness,project_ev,alpha=1,0.105,2.9
+R1273,fear,project_ev,alpha=2,0.24,6.6
+R1274,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.049,30.3
+R1275,disgust,shift,synthetic L16-22 lam=1,0.585,52.8
+R1276,anger,project_ev,alpha=3,0.53,53.1
+R1277,fear,project_ev,alpha=1,0.03,1.8
+R1278,joy,shift,synthetic L10-14 lam=2,0.965,48.6
+R1279,disgust,project_ev,alpha=3,0.466,79.5
+R1280,sadness,project_ev,alpha=4,0.5,67.3
+R1281,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.944,43.5
+R1282,disgust,shift,synthetic L18-24 lam=2,0.622,6.3
+R1283,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.034,37.6
+R1284,fear,project_ev,alpha=1,0.109,3.0
+R1285,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.076,29.9
+R1286,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.984,14.1
+R1287,anger,shift,synthetic L8-14 lam=1.5,0.408,28.5
+R1288,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.977,37.9
+R1289,joy,baseline,baseline,0.551,1.9
+R1290,disgust,project_ev,alpha=4,0.49,148.8
+R1291,fear,baseline,baseline,0.119,1.7
+R1292,sadness,shift,synthetic L10-14 lam=2,0.182,22.6
+R1293,anger,shift,synthetic L16-22 lam=1,0.222,39.3
+R1294,fear,baseline,baseline,0.12,1.4
+R1295,fear,project_ev,alpha=5,0.37,170.2
+R1296,joy,project_ev,alpha=5,0.816,98.4
+R1297,sadness,project_ev,alpha=1,0.056,2.3
+R1298,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.122,7.8
+R1299,fear,shift,synthetic L16-22 lam=1,0.822,34.4
+R1300,anger,shift,synthetic L10-14 lam=2,0.473,65.9
+R1301,sadness,project_ev,alpha=1,0.021,2.8
+R1302,joy,project_ev,alpha=5,0.886,139.0
+R1303,joy,shift,synthetic L8-14 lam=1.5,0.795,40.9
+R1304,joy,project_ev,alpha=3,0.916,48.5
+R1305,joy,project_ev,alpha=3,0.962,30.4
+R1306,sadness,shift,synthetic L8-14 lam=1.5,0.268,17.7
+R1307,disgust,project_ev,alpha=5,0.739,16.4
+R1308,disgust,project_ev,alpha=5,0.512,222.1
+R1309,disgust,baseline,baseline,0.069,2.1
+R1310,anger,shift,synthetic L8-14 lam=1.5,0.246,61.8
+R1311,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.149,45.2
+R1312,fear,project_ev,alpha=4,0.262,139.9
+R1313,sadness,project_ev,alpha=2,0.225,6.1
+R1314,anger,project_ev,alpha=5,0.554,87.4
+R1315,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.991,44.6
+R1316,fear,project_ev,alpha=2,0.307,6.9
+R1317,anger,project_ev,alpha=2,0.514,17.9
+R1318,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.2,21.5
+R1319,sadness,shift,synthetic L16-22 lam=1,0.073,4.1
+R1320,anger,project_ev,alpha=3,0.56,54.7
+R1321,sadness,baseline,baseline,0.131,2.1
+R1322,disgust,shift,synthetic L18-24 lam=2,0.799,487.0
+R1323,fear,project_ev,alpha=5,0.17,193.1
+R1324,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.112,6.6
+R1325,joy,project_ev,alpha=2,0.799,6.0
+R1326,anger,shift,synthetic L10-14 lam=2,0.561,14.4
+R1327,sadness,shift,synthetic L8-14 lam=1.5,0.121,24.1
+R1328,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.966,22.7
+R1329,sadness,shift,synthetic L8-14 lam=1.5,0.282,34.2
+R1330,joy,project_ev,alpha=3,0.938,25.5
+R1331,fear,shift,synthetic L10-14 lam=2,0.642,20.5
+R1332,sadness,shift,synthetic L18-24 lam=2,0.422,19.9
+R1333,anger,project_ev,alpha=4,0.548,489.6
+R1334,sadness,shift,synthetic L10-14 lam=2,0.139,46.0
+R1335,joy,project_ev,alpha=2,0.219,5.2
+R1336,fear,shift,synthetic L16-22 lam=1,0.249,6.5
+R1337,disgust,baseline,baseline,0.049,2.0
+R1338,sadness,shift,synthetic L8-14 lam=1.5,0.121,10.7
+R1339,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.963,36.7
+R1340,fear,project_ev,alpha=4,0.75,69.5
+R1341,anger,project_ev,alpha=3,0.296,25.7
+R1342,disgust,project_ev,alpha=2,0.36,20.5
+R1343,fear,shift,synthetic L16-22 lam=1,0.163,46.7
+R1344,disgust,project_ev,alpha=5,0.699,107.5
+R1345,fear,shift,synthetic L18-24 lam=2,0.376,30.0
+R1346,anger,shift,synthetic L16-22 lam=1,0.348,38.3
+R1347,joy,project_ev,alpha=5,0.982,208.2
+R1348,disgust,project_ev,alpha=4,0.62,163.9
+R1349,disgust,project_ev,alpha=3,0.712,14.6
+R1350,disgust,shift,synthetic L16-22 lam=1,0.494,7.8
+R1351,fear,shift,synthetic L8-14 lam=1.5,0.905,34.1
+R1352,anger,baseline,baseline,0.076,1.8
+R1353,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.953,63.3
+R1354,disgust,project_ev,alpha=4,0.798,300.8
+R1355,sadness,shift,synthetic L10-14 lam=2,0.187,29.0
+R1356,anger,baseline,baseline,0.162,1.7
+R1357,anger,project_ev,alpha=4,0.432,112.5
+R1358,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.928,40.4
+R1359,joy,shift,synthetic L18-24 lam=2,0.034,4.8
+R1360,sadness,project_ev,alpha=2,0.384,21.4
+R1361,disgust,project_ev,alpha=3,0.506,43.4
+R1362,joy,project_ev,alpha=5,0.876,162.0
+R1363,sadness,baseline,baseline,0.072,2.1
+R1364,fear,shift,synthetic L10-14 lam=2,0.545,22.4
+R1365,sadness,project_ev,alpha=1,0.08,2.4
+R1366,joy,project_ev,alpha=5,0.973,90.8
+R1367,sadness,project_ev,alpha=4,0.555,110.9
+R1368,anger,shift,synthetic L8-14 lam=1.5,0.4,51.4
+R1369,joy,project_ev,alpha=2,0.101,6.8
+R1370,fear,project_ev,alpha=1,0.118,2.6
+R1371,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.15,28.2
+R1372,fear,shift,synthetic L18-24 lam=2,0.126,12.3
+R1373,disgust,project_ev,alpha=4,0.699,136.6
+R1374,sadness,baseline,baseline,0.055,2.3
+R1375,sadness,project_ev,alpha=4,0.777,57.0
+R1376,sadness,project_ev,alpha=2,0.808,7.8
+R1377,sadness,project_ev,alpha=1,0.052,2.5
+R1378,disgust,shift,synthetic L16-22 lam=1,0.842,88.7
+R1379,joy,project_ev,alpha=1,0.859,3.4
+R1380,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.972,43.3
+R1381,sadness,project_ev,alpha=4,0.75,78.7
+R1382,fear,project_ev,alpha=1,0.145,1.8
+R1383,sadness,project_ev,alpha=4,0.6,144.0
+R1384,joy,baseline,baseline,0.421,2.3
+R1385,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.968,75.3
+R1386,fear,project_ev,alpha=1,0.068,1.4
+R1387,disgust,shift,synthetic L18-24 lam=2,0.82,9.0
+R1388,sadness,project_ev,alpha=1,0.126,1.7
+R1389,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.978,37.2
+R1390,disgust,shift,synthetic L16-22 lam=1,0.813,7.4
+R1391,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.713,66.5
+R1392,joy,shift,synthetic L8-14 lam=1.5,0.6,76.9
+R1393,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.101,9.2
+R1394,fear,project_ev,alpha=5,0.273,304.4
+R1395,joy,shift,synthetic L18-24 lam=2,0.79,1213.2
+R1396,anger,shift,synthetic L18-24 lam=2,0.21,8.9
+R1397,disgust,project_ev,alpha=1,0.132,5.3
+R1398,disgust,shift,synthetic L16-22 lam=1,0.827,91.5
+R1399,anger,project_ev,alpha=1,0.095,2.4
+R1400,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.9,36.0
+R1401,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.362,57.5
+R1402,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.507,37.2
+R1403,joy,shift,synthetic L18-24 lam=2,0.095,6.9
+R1404,anger,shift,synthetic L16-22 lam=1,0.549,52.1
+R1405,fear,shift,synthetic L18-24 lam=2,0.266,53.9
+R1406,sadness,project_ev,alpha=5,0.089,8.8
+R1407,joy,project_ev,alpha=4,0.962,129.5
+R1408,sadness,shift,synthetic L10-14 lam=2,0.156,3.9
+R1409,joy,shift,synthetic L18-24 lam=2,0.056,8.5
+R1410,disgust,shift,synthetic L16-22 lam=1,0.494,29.8
+R1411,fear,project_ev,alpha=3,0.366,27.0
+R1412,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.04,69.3
+R1413,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.186,28.8
+R1414,fear,shift,synthetic L8-14 lam=1.5,0.516,37.9
+R1415,disgust,shift,synthetic L18-24 lam=2,0.888,15.6
+R1416,fear,shift,synthetic L18-24 lam=2,0.173,37.8
+R1417,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.857,14.3
+R1418,fear,project_ev,alpha=5,0.093,39.7
+R1419,fear,project_ev,alpha=5,0.402,158.7
+R1420,disgust,shift,synthetic L18-24 lam=2,0.809,9.2
+R1421,fear,shift,synthetic L18-24 lam=2,0.302,60.2
+R1422,fear,project_ev,alpha=4,0.689,148.8
+R1423,sadness,shift,synthetic L10-14 lam=2,0.153,50.9
+R1424,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.196,49.7
+R1425,anger,shift,synthetic L18-24 lam=2,0.294,8073.0
+R1426,sadness,shift,synthetic L18-24 lam=2,0.486,26.7
+R1427,joy,project_ev,alpha=3,0.984,23.5
+R1428,fear,project_ev,alpha=1,0.157,1.7
+R1429,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.194,40.7
+R1430,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.925,31.7
+R1431,sadness,shift,synthetic L16-22 lam=1,0.166,5.5
+R1432,joy,shift,synthetic L18-24 lam=2,0.028,8.7
+R1433,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.948,52.5
+R1434,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.974,26.7
+R1435,fear,shift,synthetic L8-14 lam=1.5,0.651,57.8
+R1436,fear,shift,synthetic L10-14 lam=2,0.844,18.9
+R1437,disgust,project_ev,alpha=1,0.095,2.2
+R1438,disgust,baseline,baseline,0.073,1.8
+R1439,disgust,shift,synthetic L18-24 lam=2,0.818,14.2
+R1440,fear,shift,synthetic L10-14 lam=2,0.985,19.5
+R1441,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.106,19.6
+R1442,anger,shift,synthetic L18-24 lam=2,0.357,211.5
+R1443,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.09,21.3
+R1444,joy,shift,synthetic L18-24 lam=2,0.073,5.8
+R1445,sadness,project_ev,alpha=2,0.229,3.8
+R1446,anger,shift,synthetic L18-24 lam=2,0.256,13213.3
+R1447,anger,project_ev,alpha=3,0.209,32.4
+R1448,anger,shift,synthetic L8-14 lam=1.5,0.093,39.8
+R1449,sadness,shift,synthetic L10-14 lam=2,0.131,36.2
+R1450,anger,shift,synthetic L16-22 lam=1,0.655,25.5
+R1451,fear,shift,synthetic L10-14 lam=2,0.431,68.2
+R1452,joy,project_ev,alpha=1,0.382,5.6
+R1453,sadness,shift,synthetic L18-24 lam=2,0.183,5.8
+R1454,sadness,project_ev,alpha=1,0.267,2.4
+R1455,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.264,23.8
+R1456,disgust,shift,synthetic L16-22 lam=1,0.606,100.2
+R1457,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.305,53.8
+R1458,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.96,52.5
+R1459,sadness,project_ev,alpha=4,0.743,42.5
+R1460,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.978,19.5
+R1461,fear,project_ev,alpha=5,0.431,126.5
+R1462,sadness,project_ev,alpha=2,0.803,20.4
+R1463,joy,baseline,baseline,0.201,1.6
+R1464,fear,project_ev,alpha=3,0.433,41.0
+R1465,joy,project_ev,alpha=3,0.941,107.6
+R1466,sadness,shift,synthetic L8-14 lam=1.5,0.021,17.0
+R1467,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.214,14.4
+R1468,sadness,shift,synthetic L16-22 lam=1,0.245,16.6
+R1469,anger,shift,synthetic L18-24 lam=2,0.218,6.2
+R1470,fear,shift,synthetic L10-14 lam=2,0.49,28.4
+R1471,sadness,project_ev,alpha=5,0.222,37.1
+R1472,fear,shift,synthetic L16-22 lam=1,0.144,17.3
+R1473,anger,project_ev,alpha=4,0.601,215.4
+R1474,fear,baseline,baseline,0.12,2.2
+R1475,disgust,shift,synthetic L16-22 lam=1,0.422,10.3
+R1476,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.119,45.4
+R1477,fear,shift,synthetic L8-14 lam=1.5,0.588,24.6
+R1478,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.977,94.1
+R1479,disgust,baseline,baseline,0.055,2.3
+R1480,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.171,51.8
+R1481,sadness,project_ev,alpha=4,0.619,83.6
+R1482,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.277,31.8
+R1483,anger,shift,synthetic L16-22 lam=1,0.313,22.1
+R1484,disgust,shift,synthetic L18-24 lam=2,0.389,12.8
+R1485,sadness,project_ev,alpha=4,0.532,79.8
+R1486,joy,project_ev,alpha=3,0.848,18.9
+R1487,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.908,40.9
+R1488,disgust,shift,synthetic L18-24 lam=2,0.884,18.4
+R1489,anger,shift,synthetic L18-24 lam=2,0.294,603.9
+R1490,sadness,project_ev,alpha=5,0.685,43.7
+R1491,fear,shift,synthetic L10-14 lam=2,0.629,44.6
+R1492,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.984,33.5
+R1493,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.361,57.6
+R1494,anger,project_ev,alpha=4,0.446,49.8
+R1495,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.036,35.6
+R1496,joy,project_ev,alpha=1,0.613,4.9
+R1497,joy,project_ev,alpha=4,0.958,42.8
+R1498,anger,baseline,baseline,0.043,2.4
+R1499,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.96,39.5
+R1500,anger,project_ev,alpha=1,0.106,2.1
+R1501,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.026,7.3
+R1502,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.248,45.0
+R1503,disgust,project_ev,alpha=1,0.093,2.6
+R1504,joy,baseline,baseline,0.088,1.8
+R1505,joy,project_ev,alpha=4,0.968,103.7
+R1506,joy,project_ev,alpha=1,0.158,2.3
+R1507,anger,project_ev,alpha=5,0.617,71.4
+R1508,joy,shift,synthetic L18-24 lam=2,0.046,11.0
+R1509,joy,shift,synthetic L18-24 lam=2,0.034,4.6
+R1510,fear,project_ev,alpha=2,0.142,6.1
+R1511,sadness,shift,synthetic L10-14 lam=2,0.017,21.1
+R1512,anger,project_ev,alpha=3,0.237,61.3
+R1513,fear,project_ev,alpha=1,0.238,2.8
+R1514,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.89,28.6
+R1515,disgust,shift,synthetic L18-24 lam=2,0.744,26.8
+R1516,disgust,shift,synthetic L18-24 lam=2,0.833,15.3
+R1517,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.958,25.1
+R1518,joy,shift,synthetic L10-14 lam=2,0.944,9.4
+R1519,fear,project_ev,alpha=2,0.136,1.8
+R1520,joy,shift,synthetic L16-22 lam=1,0.886,38.9
+R1521,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.573,27.7
+R1522,anger,project_ev,alpha=1,0.046,2.9
+R1523,joy,project_ev,alpha=3,0.801,14.7
+R1524,fear,shift,synthetic L18-24 lam=2,0.36,19.6
+R1525,disgust,shift,synthetic L18-24 lam=2,0.692,11.4
+R1526,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.969,24.8
+R1527,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.967,68.3
+R1528,anger,project_ev,alpha=3,0.369,53.6
+R1529,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.009,43.3
+R1530,fear,project_ev,alpha=5,0.202,126.1
+R1531,anger,project_ev,alpha=1,0.051,2.9
+R1532,anger,project_ev,alpha=4,0.498,196.3
+R1533,sadness,baseline,baseline,0.081,1.8
+R1534,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.956,38.5
+R1535,anger,shift,synthetic L8-14 lam=1.5,0.932,127.7
+R1536,fear,project_ev,alpha=2,0.009,5.1
+R1537,joy,shift,synthetic L16-22 lam=1,0.923,28.3
+R1538,anger,project_ev,alpha=5,0.354,182.4
+R1539,disgust,shift,synthetic L18-24 lam=2,0.864,492.9
+R1540,fear,shift,synthetic L18-24 lam=2,0.173,37.8
+R1541,anger,project_ev,alpha=1,0.11,2.7
+R1542,joy,baseline,baseline,0.226,2.1
+R1543,disgust,baseline,baseline,0.103,2.1
+R1544,sadness,project_ev,alpha=5,0.781,37.2
+R1545,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.173,42.1
+R1546,joy,project_ev,alpha=4,0.966,38.6
+R1547,joy,project_ev,alpha=3,0.914,27.6
+R1548,joy,shift,synthetic L8-14 lam=1.5,0.915,57.4
+R1549,sadness,shift,synthetic L18-24 lam=2,0.336,40.3
+R1550,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.388,53.1
+R1551,fear,shift,synthetic L10-14 lam=2,0.506,39.8
+R1552,joy,project_ev,alpha=2,0.775,8.8
+R1553,anger,shift,synthetic L16-22 lam=1,0.308,23.9
+R1554,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.972,31.2
+R1555,sadness,project_ev,alpha=3,0.735,57.7
+R1556,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.355,27.8
+R1557,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.838,52.6
+R1558,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.881,31.5
+R1559,disgust,project_ev,alpha=4,0.48,374.9
+R1560,fear,project_ev,alpha=2,0.007,9.2
+R1561,fear,shift,synthetic L16-22 lam=1,0.225,29.9
+R1562,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.316,30.1
+R1563,disgust,shift,synthetic L16-22 lam=1,0.449,22.0
+R1564,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.132,2.5
+R1565,anger,shift,synthetic L8-14 lam=1.5,0.109,21.4
+R1566,disgust,project_ev,alpha=1,0.068,2.6
+R1567,fear,project_ev,alpha=2,0.098,4.1
+R1568,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.009,43.4
+R1569,disgust,project_ev,alpha=2,0.518,25.8
+R1570,fear,project_ev,alpha=3,0.537,14.0
+R1571,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.73,65.2
+R1572,fear,baseline,baseline,0.152,1.7
+R1573,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.114,48.9
+R1574,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.875,36.6
+R1575,sadness,project_ev,alpha=3,0.827,17.0
+R1576,disgust,project_ev,alpha=4,0.583,301.8
+R1577,fear,project_ev,alpha=3,0.601,24.1
+R1578,disgust,project_ev,alpha=1,0.043,1.4
+R1579,sadness,shift,synthetic L10-14 lam=2,0.082,24.7
+R1580,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.977,20.5
+R1581,joy,baseline,baseline,0.227,2.2
+R1582,disgust,shift,synthetic L18-24 lam=2,0.82,9.0
+R1583,fear,shift,synthetic L16-22 lam=1,0.021,39.4
+R1584,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.065,36.7
+R1585,fear,baseline,baseline,0.116,1.6
+R1586,fear,shift,synthetic L18-24 lam=2,0.067,30.7
+R1587,joy,shift,synthetic L18-24 lam=2,0.027,8.1
+R1588,sadness,baseline,baseline,0.083,1.9
+R1589,anger,project_ev,alpha=1,0.118,2.3
+R1590,anger,project_ev,alpha=1,0.093,2.0
+R1591,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.745,31.1
+R1592,anger,shift,synthetic L10-14 lam=2,0.642,58.8
+R1593,fear,project_ev,alpha=4,0.347,96.2
+R1594,disgust,project_ev,alpha=1,0.107,2.1
+R1595,sadness,shift,synthetic L10-14 lam=2,0.374,28.3
+R1596,fear,shift,synthetic L8-14 lam=1.5,0.82,24.4
+R1597,sadness,shift,synthetic L18-24 lam=2,0.201,37.3
+R1598,anger,project_ev,alpha=5,0.575,183.2
+R1599,anger,shift,synthetic L16-22 lam=1,0.278,29.3
+R1600,disgust,shift,synthetic L16-22 lam=1,0.774,40.4
+R1601,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.966,53.3
+R1602,sadness,shift,synthetic L16-22 lam=1,0.452,16.3
+R1603,fear,shift,synthetic L18-24 lam=2,0.171,9.0
+R1604,anger,project_ev,alpha=2,0.4,12.8
+R1605,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.28,18.0
+R1606,disgust,shift,synthetic L18-24 lam=2,0.719,242.6
+R1607,disgust,project_ev,alpha=4,0.784,170.4
+R1608,sadness,shift,synthetic L10-14 lam=2,0.327,16.1
+R1609,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.057,30.7
+R1610,anger,project_ev,alpha=1,0.127,2.2
+R1611,disgust,shift,synthetic L18-24 lam=2,0.886,13.5
+R1612,sadness,shift,synthetic L10-14 lam=2,0.088,11.9
+R1613,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.823,34.8
+R1614,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.873,47.2
+R1615,joy,shift,synthetic L10-14 lam=2,0.98,40.1
+R1616,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.234,42.7
+R1617,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.362,43.2
+R1618,disgust,project_ev,alpha=4,0.532,271.4
+R1619,joy,shift,synthetic L18-24 lam=2,0.095,7.1
+R1620,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.069,38.4
+R1621,sadness,shift,synthetic L10-14 lam=2,0.292,26.2
+R1622,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.978,45.0
+R1623,joy,shift,synthetic L10-14 lam=2,0.976,38.3
+R1624,joy,project_ev,alpha=1,0.288,4.1
+R1625,fear,baseline,baseline,0.128,1.8
+R1626,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.112,25.7
+R1627,sadness,project_ev,alpha=2,0.54,14.1
+R1628,joy,shift,synthetic L16-22 lam=1,0.965,53.7
+R1629,sadness,shift,synthetic L18-24 lam=2,0.489,31.5
+R1630,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.257,26.4
+R1631,disgust,shift,synthetic L16-22 lam=1,0.58,114.4
+R1632,anger,shift,synthetic L16-22 lam=1,0.507,26.1
+R1633,sadness,shift,synthetic L8-14 lam=1.5,0.18,42.9
+R1634,sadness,shift,synthetic L8-14 lam=1.5,0.144,3.0
+R1635,fear,project_ev,alpha=5,0.297,453.2
+R1636,sadness,project_ev,alpha=1,0.038,2.1
+R1637,fear,project_ev,alpha=2,0.102,11.5
+R1638,anger,shift,synthetic L16-22 lam=1,0.803,23.3
+R1639,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.979,31.7
+R1640,disgust,project_ev,alpha=1,0.102,2.1
+R1641,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.632,37.0
+R1642,disgust,project_ev,alpha=3,0.646,56.4
+R1643,sadness,shift,synthetic L8-14 lam=1.5,0.022,23.6
+R1644,joy,shift,synthetic L16-22 lam=1,0.962,57.3
+R1645,disgust,baseline,baseline,0.05,1.8
+R1646,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.678,32.1
+R1647,fear,project_ev,alpha=3,0.339,26.6
+R1648,joy,project_ev,alpha=4,0.975,99.4
+R1649,fear,shift,synthetic L10-14 lam=2,0.47,78.7
+R1650,fear,shift,synthetic L18-24 lam=2,0.317,8.6
+R1651,joy,project_ev,alpha=5,0.975,90.9
+R1652,joy,shift,synthetic L18-24 lam=2,0.107,3.4
+R1653,anger,project_ev,alpha=5,0.284,503.8
+R1654,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.098,34.2
+R1655,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.797,22.8
+R1656,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.753,27.9
+R1657,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.944,45.7
+R1658,disgust,project_ev,alpha=3,0.446,45.5
+R1659,anger,project_ev,alpha=4,0.635,112.5
+R1660,joy,project_ev,alpha=1,0.685,4.1
+R1661,fear,project_ev,alpha=4,0.336,118.5
+R1662,anger,shift,synthetic L18-24 lam=2,0.189,13.6
+R1663,anger,project_ev,alpha=2,0.482,11.5
+R1664,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.89,21.4
+R1665,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.964,75.8
+R1666,sadness,shift,synthetic L18-24 lam=2,0.277,33.4
+R1667,fear,project_ev,alpha=2,0.178,10.0
+R1668,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.067,51.8
+R1669,disgust,baseline,baseline,0.088,1.7
+R1670,anger,shift,synthetic L18-24 lam=2,0.345,166.3
+R1671,sadness,project_ev,alpha=4,0.674,74.0
+R1672,fear,shift,synthetic L8-14 lam=1.5,0.86,58.4
+R1673,disgust,project_ev,alpha=5,0.661,523.9
+R1674,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.45,12.8
+R1675,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.97,12.2
+R1676,disgust,shift,synthetic L18-24 lam=2,0.524,9.0
+R1677,disgust,baseline,baseline,0.115,2.1
+R1678,disgust,shift,synthetic L18-24 lam=2,0.8,12.9
+R1679,joy,project_ev,alpha=3,0.837,51.4
+R1680,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.857,37.0
+R1681,anger,baseline,baseline,0.124,1.4
+R1682,joy,project_ev,alpha=1,0.379,3.9
+R1683,sadness,project_ev,alpha=2,0.463,11.8
+R1684,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.064,83.9
+R1685,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.167,34.9
+R1686,joy,project_ev,alpha=2,0.882,15.8
+R1687,fear,project_ev,alpha=2,0.122,2.9
+R1688,anger,project_ev,alpha=2,0.176,13.7
+R1689,anger,project_ev,alpha=1,0.105,2.9
+R1690,fear,baseline,baseline,0.165,2.1
+R1691,joy,project_ev,alpha=4,0.608,129.7
+R1692,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.757,35.3
+R1693,fear,project_ev,alpha=3,0.404,62.8
+R1694,joy,shift,synthetic L18-24 lam=2,0.147,65.0
+R1695,anger,shift,synthetic L8-14 lam=1.5,0.37,23.0
+R1696,anger,baseline,baseline,0.159,2.2
+R1697,fear,project_ev,alpha=1,0.143,2.1
+R1698,anger,shift,synthetic L8-14 lam=1.5,0.507,14.7
+R1699,joy,project_ev,alpha=1,0.466,3.3
+R1700,sadness,project_ev,alpha=4,0.112,178.4
+R1701,anger,project_ev,alpha=3,0.911,24.0
+R1702,fear,shift,synthetic L18-24 lam=2,0.115,14.5
+R1703,fear,project_ev,alpha=1,0.132,2.1
+R1704,joy,shift,synthetic L8-14 lam=1.5,0.934,51.4
+R1705,anger,shift,synthetic L8-14 lam=1.5,0.556,91.5
+R1706,fear,shift,synthetic L18-24 lam=2,0.224,33.6
+R1707,disgust,project_ev,alpha=4,0.507,360.1
+R1708,sadness,shift,synthetic L10-14 lam=2,0.148,38.0
+R1709,joy,shift,synthetic L16-22 lam=1,0.61,75.7
+R1710,disgust,project_ev,alpha=5,0.699,409.7
+R1711,joy,project_ev,alpha=5,0.735,98.1
+R1712,anger,project_ev,alpha=5,0.518,19.6
+R1713,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.012,34.2
+R1714,fear,shift,synthetic L8-14 lam=1.5,0.556,45.8
+R1715,sadness,shift,synthetic L18-24 lam=2,0.444,13.0
+R1716,joy,shift,synthetic L8-14 lam=1.5,0.935,34.4
+R1717,sadness,project_ev,alpha=3,0.122,34.6
+R1718,sadness,project_ev,alpha=3,0.735,25.9
+R1719,disgust,project_ev,alpha=1,0.069,2.2
+R1720,anger,project_ev,alpha=5,0.38,150.8
+R1721,disgust,project_ev,alpha=1,0.162,3.4
+R1722,sadness,shift,synthetic L18-24 lam=2,0.242,17.8
+R1723,sadness,shift,synthetic L10-14 lam=2,0.03,31.6
+R1724,fear,shift,synthetic L10-14 lam=2,0.411,83.6
+R1725,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.978,56.8
+R1726,anger,baseline,baseline,0.09,1.6
+R1727,disgust,project_ev,alpha=4,0.614,318.4
+R1728,fear,shift,synthetic L16-22 lam=1,0.547,17.2
+R1729,anger,baseline,baseline,0.118,2.1
+R1730,anger,project_ev,alpha=5,0.319,199.8
+R1731,sadness,project_ev,alpha=3,0.624,29.5
+R1732,fear,project_ev,alpha=2,0.181,4.5
+R1733,disgust,project_ev,alpha=2,0.29,6.8
+R1734,disgust,baseline,baseline,0.044,2.4
+R1735,anger,shift,synthetic L18-24 lam=2,0.197,5.1
+R1736,joy,shift,synthetic L18-24 lam=2,0.034,4.6
+R1737,joy,project_ev,alpha=3,0.933,36.6
+R1738,joy,shift,synthetic L18-24 lam=2,0.284,1956.2
+R1739,fear,project_ev,alpha=5,0.361,279.2
+R1740,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.456,82.9
+R1741,joy,shift,synthetic L8-14 lam=1.5,0.874,56.1
+R1742,fear,project_ev,alpha=5,0.241,212.2
+R1743,fear,project_ev,alpha=2,0.222,7.4
+R1744,anger,project_ev,alpha=3,0.541,31.5
+R1745,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.845,241.8
+R1746,joy,shift,synthetic L8-14 lam=1.5,0.903,58.7
+R1747,joy,shift,synthetic L18-24 lam=2,0.611,12.6
+R1748,sadness,baseline,baseline,0.05,1.5
+R1749,sadness,project_ev,alpha=3,0.542,29.5
+R1750,joy,shift,synthetic L16-22 lam=1,0.957,62.8
+R1751,anger,project_ev,alpha=1,0.152,2.3
+R1752,disgust,shift,synthetic L16-22 lam=1,0.513,61.4
+R1753,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.167,19.6
+R1754,anger,baseline,baseline,0.102,2.2
+R1755,sadness,project_ev,alpha=1,0.115,1.7
+R1756,sadness,shift,synthetic L10-14 lam=2,0.079,25.4
+R1757,anger,project_ev,alpha=5,0.55,295.9
+R1758,fear,shift,synthetic L18-24 lam=2,0.224,29.1
+R1759,sadness,project_ev,alpha=1,0.106,3.6
+R1760,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.537,32.1
+R1761,joy,project_ev,alpha=2,0.897,10.5
+R1762,sadness,shift,synthetic L18-24 lam=2,0.289,18.7
+R1763,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.922,23.5
+R1764,anger,shift,synthetic L8-14 lam=1.5,0.325,16.1
+R1765,sadness,project_ev,alpha=5,0.698,62.1
+R1766,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.313,43.1
+R1767,fear,project_ev,alpha=4,0.361,139.0
+R1768,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.198,33.2
+R1769,disgust,project_ev,alpha=1,0.093,2.8
+R1770,anger,project_ev,alpha=4,0.069,200.7
+R1771,fear,baseline,baseline,0.085,2.3
+R1772,anger,project_ev,alpha=5,0.487,277.3
+R1773,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.155,94.1
+R1774,sadness,shift,synthetic L18-24 lam=2,0.396,10.1
+R1775,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.42,40.5
+R1776,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.954,71.7
+R1777,sadness,project_ev,alpha=2,0.101,3.1
+R1778,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.141,25.4
+R1779,joy,shift,synthetic L10-14 lam=2,0.929,49.0
+R1780,sadness,project_ev,alpha=5,0.172,46.8
+R1781,sadness,shift,synthetic L16-22 lam=1,0.101,11.6
+R1782,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.438,52.2
+R1783,sadness,project_ev,alpha=1,0.127,2.2
+R1784,fear,shift,synthetic L18-24 lam=2,0.237,31.1
+R1785,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.215,75.2
+R1786,sadness,shift,synthetic L10-14 lam=2,0.135,32.7
+R1787,joy,baseline,baseline,0.284,2.3
+R1788,joy,shift,synthetic L18-24 lam=2,0.027,8.1
+R1789,sadness,project_ev,alpha=2,0.16,3.6
+R1790,joy,project_ev,alpha=3,0.54,34.9
+R1791,sadness,project_ev,alpha=2,0.004,6.0
+R1792,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.853,52.6
+R1793,anger,project_ev,alpha=1,0.119,2.0
+R1794,fear,project_ev,alpha=1,0.198,3.0
+R1795,disgust,project_ev,alpha=4,0.528,368.5
+R1796,sadness,project_ev,alpha=2,0.133,12.1
+R1797,fear,shift,synthetic L18-24 lam=2,0.129,26.7
+R1798,joy,project_ev,alpha=2,0.944,5.3
+R1799,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.855,29.4
+R1800,joy,project_ev,alpha=1,0.007,2.9
+R1801,fear,project_ev,alpha=3,0.61,45.3
+R1802,sadness,project_ev,alpha=4,0.844,85.9
+R1803,sadness,shift,synthetic L8-14 lam=1.5,0.239,17.2
+R1804,anger,project_ev,alpha=4,0.4,134.3
+R1805,sadness,project_ev,alpha=2,0.091,11.1
+R1806,sadness,project_ev,alpha=3,0.652,22.6
+R1807,anger,project_ev,alpha=5,0.474,586.5
+R1808,joy,project_ev,alpha=4,0.962,91.3
+R1809,fear,shift,synthetic L18-24 lam=2,0.067,30.7
+R1810,fear,shift,synthetic L18-24 lam=2,0.151,13.6
+R1811,joy,shift,synthetic L8-14 lam=1.5,0.972,63.2
+R1812,sadness,shift,synthetic L18-24 lam=2,0.183,5.8
+R1813,sadness,project_ev,alpha=5,0.132,26.3
+R1814,joy,project_ev,alpha=2,0.291,16.6
+R1815,anger,project_ev,alpha=1,0.107,3.7
+R1816,joy,shift,synthetic L18-24 lam=2,0.147,65.0
+R1817,joy,shift,synthetic L18-24 lam=2,0.107,3.7
+R1818,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.905,66.0
+R1819,disgust,project_ev,alpha=5,0.675,455.7
+R1820,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.491,51.9
+R1821,anger,project_ev,alpha=2,0.142,11.5
+R1822,sadness,shift,synthetic L10-14 lam=2,0.081,50.3
+R1823,fear,baseline,baseline,0.088,1.9
+R1824,fear,shift,synthetic L10-14 lam=2,0.485,46.9
+R1825,anger,project_ev,alpha=5,0.487,55.0
+R1826,disgust,project_ev,alpha=3,0.499,92.8
+R1827,sadness,shift,synthetic L16-22 lam=1,0.083,24.5
+R1828,fear,shift,synthetic L18-24 lam=2,0.467,12.3
+R1829,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.967,40.7
+R1830,disgust,project_ev,alpha=5,0.528,30.0
+R1831,anger,project_ev,alpha=5,0.395,295.4
+R1832,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.546,22.5
+R1833,fear,shift,synthetic L10-14 lam=2,0.481,41.2
+R1834,disgust,baseline,baseline,0.083,1.7
+R1835,anger,shift,synthetic L18-24 lam=2,0.196,1927.5
+R1836,fear,shift,synthetic L18-24 lam=2,0.193,7.4
+R1837,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.069,33.7
+R1838,fear,shift,synthetic L18-24 lam=2,0.237,31.1
+R1839,joy,project_ev,alpha=5,0.743,169.0
+R1840,joy,project_ev,alpha=5,0.953,151.6
+R1841,disgust,shift,synthetic L18-24 lam=2,0.316,26.8
+R1842,fear,shift,synthetic L18-24 lam=2,0.144,13.9
+R1843,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.075,58.2
+R1844,joy,project_ev,alpha=3,0.963,47.2
+R1845,joy,shift,synthetic L10-14 lam=2,0.992,61.9
+R1846,joy,shift,synthetic L10-14 lam=2,0.991,60.2
+R1847,fear,shift,synthetic L18-24 lam=2,0.527,16.9
+R1848,anger,project_ev,alpha=3,0.138,36.4
+R1849,sadness,project_ev,alpha=2,0.457,3.7
+R1850,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.976,51.6
+R1851,anger,project_ev,alpha=3,0.602,47.7
+R1852,sadness,project_ev,alpha=5,0.689,61.3
+R1853,sadness,shift,synthetic L18-24 lam=2,0.43,150.7
+R1854,joy,project_ev,alpha=4,0.935,96.5
+R1855,disgust,shift,synthetic L18-24 lam=2,0.793,9.0
+R1856,sadness,baseline,baseline,0.074,1.9
+R1857,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.116,46.8
+R1858,joy,shift,synthetic L18-24 lam=2,0.095,7.1
+R1859,sadness,shift,synthetic L10-14 lam=2,0.378,23.8
+R1860,anger,shift,synthetic L16-22 lam=1,0.236,43.0
+R1861,sadness,shift,synthetic L18-24 lam=2,0.422,19.9
+R1862,disgust,project_ev,alpha=2,0.081,6.6
+R1863,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.193,29.6
+R1864,fear,project_ev,alpha=5,0.28,127.1
+R1865,fear,project_ev,alpha=5,0.175,59.1
+R1866,anger,shift,synthetic L16-22 lam=1,0.649,45.7
+R1867,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.982,21.4
+R1868,disgust,project_ev,alpha=3,0.342,24.3
+R1869,disgust,shift,synthetic L16-22 lam=1,0.454,84.4
+R1870,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.036,33.9
+R1871,sadness,project_ev,alpha=2,0.133,5.6
+R1872,anger,project_ev,alpha=1,0.117,1.7
+R1873,fear,project_ev,alpha=5,0.198,142.6
+R1874,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.466,25.0
+R1875,joy,shift,synthetic L18-24 lam=2,0.034,5.2
+R1876,sadness,baseline,baseline,0.124,1.7
+R1877,joy,project_ev,alpha=1,0.149,1.8
+R1878,sadness,project_ev,alpha=2,0.13,7.1
+R1879,sadness,shift,synthetic L8-14 lam=1.5,0.249,17.2
+R1880,fear,project_ev,alpha=5,0.238,321.7
+R1881,anger,shift,synthetic L18-24 lam=2,0.214,4.4
+R1882,sadness,shift,synthetic L8-14 lam=1.5,0.267,29.7
+R1883,sadness,shift,synthetic L18-24 lam=2,0.259,15.5
+R1884,anger,project_ev,alpha=1,0.088,2.4
+R1885,fear,shift,synthetic L16-22 lam=1,0.418,25.8
+R1886,joy,shift,synthetic L18-24 lam=2,0.284,1956.2
+R1887,fear,shift,synthetic L18-24 lam=2,0.333,80.1
+R1888,disgust,project_ev,alpha=5,0.457,122.4
+R1889,anger,project_ev,alpha=5,0.554,285.0
+R1890,disgust,project_ev,alpha=5,0.473,207.2
+R1891,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.947,36.3
+R1892,fear,shift,synthetic L18-24 lam=2,0.224,33.6
+R1893,fear,shift,synthetic L10-14 lam=2,0.848,51.0
+R1894,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.38,49.3
+R1895,disgust,shift,synthetic L16-22 lam=1,0.161,75.1
+R1896,joy,shift,synthetic L16-22 lam=1,0.967,49.9
+R1897,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.376,60.0
+R1898,sadness,project_ev,alpha=4,0.783,47.4
+R1899,fear,project_ev,alpha=3,0.169,14.7
+R1900,fear,shift,synthetic L8-14 lam=1.5,0.236,9.7
+R1901,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.143,15.9
+R1902,sadness,project_ev,alpha=2,0.278,7.1
+R1903,fear,shift,synthetic L8-14 lam=1.5,0.883,40.1
+R1904,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.735,39.6
+R1905,fear,shift,synthetic L10-14 lam=2,0.78,40.6
+R1906,sadness,project_ev,alpha=4,0.763,80.2
+R1907,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.563,18.5
+R1908,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.813,28.3
+R1909,anger,shift,synthetic L10-14 lam=2,0.474,100.5
+R1910,sadness,project_ev,alpha=3,0.802,22.6
+R1911,sadness,shift,synthetic L18-24 lam=2,0.324,6.9
+R1912,sadness,project_ev,alpha=3,0.782,45.7
+R1913,anger,shift,synthetic L18-24 lam=2,0.149,18241.5
+R1914,disgust,shift,synthetic L18-24 lam=2,0.793,9.0
+R1915,joy,project_ev,alpha=2,0.336,4.2
+R1916,fear,shift,synthetic L8-14 lam=1.5,0.621,14.3
+R1917,sadness,project_ev,alpha=3,0.717,37.2
+R1918,sadness,shift,synthetic L18-24 lam=2,0.748,21.9
+R1919,disgust,project_ev,alpha=2,0.313,41.0
+R1920,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.852,27.6
+R1921,sadness,project_ev,alpha=2,0.231,7.9
+R1922,sadness,shift,synthetic L8-14 lam=1.5,0.212,21.9
+R1923,anger,project_ev,alpha=3,0.956,23.0
+R1924,joy,shift,synthetic L16-22 lam=1,0.972,45.2
+R1925,fear,shift,synthetic L10-14 lam=2,0.248,81.5
+R1926,anger,project_ev,alpha=4,0.586,268.5
+R1927,fear,project_ev,alpha=1,0.007,2.8
+R1928,disgust,project_ev,alpha=5,0.501,55.6
+R1929,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.351,22.6
+R1930,joy,baseline,baseline,0.496,1.5
+R1931,fear,project_ev,alpha=4,0.314,194.1
+R1932,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.97,21.4
+R1933,sadness,shift,synthetic L18-24 lam=2,0.171,4.9
+R1934,joy,project_ev,alpha=2,0.62,10.7
+R1935,joy,shift,synthetic L16-22 lam=1,0.978,60.7
+R1936,sadness,shift,synthetic L16-22 lam=1,0.085,5.0
+R1937,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.971,28.4
+R1938,sadness,project_ev,alpha=1,0.08,2.2
+R1939,anger,project_ev,alpha=2,0.057,11.1
+R1940,fear,shift,synthetic L16-22 lam=1,0.189,21.6
+R1941,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.236,37.2
+R1942,anger,project_ev,alpha=2,0.115,9.9
+R1943,sadness,project_ev,alpha=3,0.789,50.0
+R1944,disgust,shift,synthetic L18-24 lam=2,0.844,11.4
+R1945,disgust,baseline,baseline,0.047,1.8
+R1946,fear,project_ev,alpha=3,0.591,22.3
+R1947,disgust,shift,synthetic L18-24 lam=2,0.524,9.0
+R1948,sadness,project_ev,alpha=3,0.531,30.2
+R1949,anger,project_ev,alpha=1,0.105,2.0
+R1950,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.898,38.5
+R1951,sadness,project_ev,alpha=2,0.653,5.7
+R1952,sadness,shift,synthetic L16-22 lam=1,0.06,7.1
+R1953,disgust,shift,synthetic L18-24 lam=2,0.915,16.5
+R1954,disgust,project_ev,alpha=5,0.481,9.1
+R1955,anger,shift,synthetic L18-24 lam=2,0.294,8073.0
+R1956,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.793,29.3
+R1957,joy,shift,synthetic L10-14 lam=2,0.43,50.4
+R1958,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.182,61.0
+R1959,joy,shift,synthetic L16-22 lam=1,0.925,38.2
+R1960,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.861,29.2
+R1961,joy,project_ev,alpha=3,0.876,91.2
+R1962,disgust,project_ev,alpha=2,0.504,16.5
+R1963,joy,shift,synthetic L18-24 lam=2,0.227,244.2
+R1964,disgust,project_ev,alpha=4,0.56,167.7
+R1965,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.54,49.9
+R1966,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.093,54.9
+R1967,anger,shift,synthetic L10-14 lam=2,0.29,22.5
+R1968,sadness,project_ev,alpha=3,0.643,29.1
+R1969,joy,shift,synthetic L16-22 lam=1,0.98,50.2
+R1970,fear,shift,synthetic L16-22 lam=1,0.244,14.5
+R1971,sadness,project_ev,alpha=4,0.665,103.0
+R1972,fear,project_ev,alpha=2,0.126,10.3
+R1973,fear,project_ev,alpha=3,0.167,20.2
+R1974,fear,shift,synthetic L16-22 lam=1,0.297,10.1
+R1975,fear,project_ev,alpha=2,0.169,14.1
+R1976,sadness,baseline,baseline,0.077,2.5
+R1977,disgust,project_ev,alpha=3,0.5,61.9
+R1978,disgust,project_ev,alpha=4,0.689,306.4
+R1979,joy,project_ev,alpha=2,0.466,8.4
+R1980,sadness,shift,synthetic L18-24 lam=2,0.201,37.3
+R1981,anger,shift,synthetic L16-22 lam=1,0.525,22.3
+R1982,fear,project_ev,alpha=3,0.109,32.9
+R1983,anger,shift,synthetic L10-14 lam=2,0.421,74.2
+R1984,disgust,baseline,baseline,0.19,1.4
+R1985,anger,project_ev,alpha=5,0.512,298.0
+R1986,sadness,shift,synthetic L10-14 lam=2,0.139,42.1
+R1987,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.266,18.0
+R1988,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.98,46.0
+R1989,joy,project_ev,alpha=5,0.98,130.2
+R1990,disgust,shift,synthetic L16-22 lam=1,0.437,15.8
+R1991,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.414,24.1
+R1992,fear,shift,synthetic L18-24 lam=2,0.152,4.5
+R1993,fear,shift,synthetic L16-22 lam=1,0.132,50.9
+R1994,joy,shift,synthetic L16-22 lam=1,0.956,50.8
+R1995,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.06,43.0
+R1996,joy,project_ev,alpha=1,0.359,2.3
+R1997,fear,project_ev,alpha=3,0.108,28.2
+R1998,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.494,36.4
+R1999,fear,shift,synthetic L18-24 lam=2,0.208,8.9
+R2000,disgust,shift,synthetic L18-24 lam=2,0.833,15.3
+R2001,fear,shift,synthetic L8-14 lam=1.5,0.565,19.2
+R2002,anger,shift,synthetic L18-24 lam=2,0.14,13.7
+R2003,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.815,31.2
+R2004,disgust,project_ev,alpha=4,0.581,197.3
+R2005,anger,baseline,baseline,0.072,1.9
+R2006,anger,shift,synthetic L18-24 lam=2,0.214,4.1
+R2007,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.95,134.9
+R2008,anger,shift,synthetic L16-22 lam=1,0.144,46.7
+R2009,joy,baseline,baseline,0.697,2.4
+R2010,fear,project_ev,alpha=3,0.129,13.1
+R2011,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.966,36.8
+R2012,joy,shift,synthetic L16-22 lam=1,0.987,36.2
+R2013,sadness,project_ev,alpha=2,0.115,8.1
+R2014,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.056,16.1
+R2015,disgust,baseline,baseline,0.122,1.7
+R2016,fear,project_ev,alpha=1,0.126,1.7
+R2017,sadness,shift,synthetic L18-24 lam=2,0.628,11.0
+R2018,sadness,shift,synthetic L16-22 lam=1,0.147,7.1
+R2019,disgust,shift,synthetic L18-24 lam=2,0.899,19.9
+R2020,disgust,baseline,baseline,0.085,1.8
+R2021,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.103,34.3
+R2022,disgust,shift,synthetic L18-24 lam=2,0.88,46.9
+R2023,fear,project_ev,alpha=3,0.469,34.9
+R2024,sadness,shift,synthetic L18-24 lam=2,0.324,6.9
+R2025,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.273,60.4
+R2026,joy,baseline,baseline,0.331,2.1
+R2027,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.489,50.8
+R2028,anger,project_ev,alpha=5,0.573,516.6
+R2029,fear,project_ev,alpha=2,0.218,15.0
+R2030,disgust,shift,synthetic L18-24 lam=2,0.324,6.9
+R2031,anger,shift,synthetic L8-14 lam=1.5,0.662,118.8
+R2032,fear,project_ev,alpha=3,0.09,79.2
+R2033,fear,shift,synthetic L10-14 lam=2,0.531,43.3
+R2034,joy,project_ev,alpha=5,0.915,59.0
+R2035,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.085,35.8
+R2036,fear,project_ev,alpha=1,0.029,2.5
+R2037,joy,shift,synthetic L18-24 lam=2,0.005,5.4
+R2038,disgust,project_ev,alpha=3,0.667,73.4
+R2039,fear,baseline,baseline,0.142,2.1
+R2040,anger,shift,synthetic L8-14 lam=1.5,0.321,42.7
+R2041,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.504,73.5
+R2042,anger,project_ev,alpha=2,0.111,3.2
+R2043,fear,project_ev,alpha=5,0.109,318.8
+R2044,joy,baseline,baseline,0.127,2.1
+R2045,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.704,59.0
+R2046,disgust,shift,synthetic L18-24 lam=2,0.844,11.4
+R2047,anger,shift,synthetic L10-14 lam=2,0.298,48.9
+R2048,disgust,project_ev,alpha=4,0.817,462.8
+R2049,fear,project_ev,alpha=2,0.164,2.6
+R2050,joy,project_ev,alpha=2,0.695,8.2
+R2051,fear,shift,synthetic L18-24 lam=2,0.44,23.7
+R2052,sadness,shift,synthetic L16-22 lam=1,0.078,3.5
+R2053,joy,project_ev,alpha=2,0.973,7.1
+R2054,anger,shift,synthetic L8-14 lam=1.5,0.441,45.9
+R2055,anger,shift,synthetic L18-24 lam=2,0.256,13213.3
+R2056,anger,shift,synthetic L8-14 lam=1.5,0.511,18.9
+R2057,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.869,37.4
+R2058,joy,shift,synthetic L10-14 lam=2,0.96,65.1
+R2059,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.19,13.5
+R2060,fear,shift,synthetic L18-24 lam=2,0.208,8.9
+R2061,joy,baseline,baseline,0.215,2.3
+R2062,disgust,shift,synthetic L18-24 lam=2,0.809,9.8
+R2063,fear,project_ev,alpha=1,0.102,3.3
+R2064,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.066,29.0
+R2065,disgust,project_ev,alpha=5,0.754,45.4
+R2066,sadness,baseline,baseline,0.042,1.6
+R2067,disgust,project_ev,alpha=3,0.487,37.3
+R2068,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.438,17.8
+R2069,sadness,shift,synthetic L18-24 lam=2,0.455,115.4
+R2070,joy,shift,synthetic L16-22 lam=1,0.949,52.3
+R2071,anger,project_ev,alpha=2,0.172,7.7
+R2072,anger,baseline,baseline,0.102,2.1
+R2073,anger,shift,synthetic L18-24 lam=2,0.258,4.7
+R2074,anger,shift,synthetic L16-22 lam=1,0.721,40.6
+R2075,disgust,project_ev,alpha=1,0.027,2.4
+R2076,sadness,project_ev,alpha=1,0.041,1.9
+R2077,fear,shift,synthetic L18-24 lam=2,0.092,41.3
+R2078,anger,shift,synthetic L18-24 lam=2,0.119,4.9
+R2079,disgust,project_ev,alpha=2,0.479,21.6
+R2080,disgust,project_ev,alpha=3,0.564,41.6
+R2081,joy,project_ev,alpha=3,0.753,35.6
+R2082,anger,shift,synthetic L18-24 lam=2,0.23,9947.7
+R2083,fear,shift,synthetic L10-14 lam=2,0.974,117.5
+R2084,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.205,21.3
+R2085,joy,shift,synthetic L16-22 lam=1,0.922,23.3
+R2086,anger,shift,synthetic L18-24 lam=2,0.271,59.0
+R2087,joy,shift,synthetic L10-14 lam=2,0.922,18.7
+R2088,sadness,shift,synthetic L18-24 lam=2,0.234,13.3
+R2089,anger,shift,synthetic L18-24 lam=2,0.219,5.1
+R2090,joy,shift,synthetic L18-24 lam=2,0.034,5.2
+R2091,sadness,shift,synthetic L16-22 lam=1,0.067,12.3
+R2092,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.844,38.5
+R2093,fear,project_ev,alpha=3,0.468,24.9
+R2094,joy,shift,synthetic L10-14 lam=2,0.98,27.8
+R2095,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.967,28.5
+R2096,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.177,28.8
+R2097,fear,shift,synthetic L18-24 lam=2,0.296,7.9
+R2098,sadness,shift,synthetic L10-14 lam=2,0.013,15.9
+R2099,joy,project_ev,alpha=3,0.961,33.6
+R2100,sadness,project_ev,alpha=2,0.047,12.8
+R2101,joy,project_ev,alpha=3,0.713,44.2
+R2102,anger,shift,synthetic L18-24 lam=2,0.293,14504.8
+R2103,anger,shift,synthetic L18-24 lam=2,0.112,3.6
+R2104,joy,baseline,baseline,0.68,2.5
+R2105,disgust,shift,synthetic L16-22 lam=1,0.481,36.4
+R2106,fear,project_ev,alpha=1,0.138,1.5
+R2107,sadness,project_ev,alpha=5,0.61,51.1
+R2108,joy,project_ev,alpha=4,0.937,55.3
+R2109,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.262,31.4
+R2110,fear,shift,synthetic L16-22 lam=1,0.257,25.3
+R2111,sadness,project_ev,alpha=1,0.55,2.9
+R2112,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.96,20.5
+R2113,joy,shift,synthetic L16-22 lam=1,0.96,30.0
+R2114,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.729,41.9
+R2115,anger,baseline,baseline,0.065,1.7
+R2116,disgust,baseline,baseline,0.144,2.5
+R2117,joy,shift,synthetic L18-24 lam=2,0.011,15.2
+R2118,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.334,22.8
+R2119,joy,shift,synthetic L8-14 lam=1.5,0.6,52.5
+R2120,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.464,35.1
+R2121,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.967,19.3
+R2122,anger,project_ev,alpha=1,0.11,2.4
+R2123,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.576,35.9
+R2124,fear,project_ev,alpha=1,0.25,2.6
+R2125,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.983,37.3
+R2126,disgust,baseline,baseline,0.051,1.8
+R2127,anger,project_ev,alpha=3,0.363,34.6
+R2128,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.182,32.7
+R2129,disgust,shift,synthetic L16-22 lam=1,0.895,40.9
+R2130,fear,shift,synthetic L10-14 lam=2,0.381,49.7
+R2131,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.979,22.2
+R2132,fear,shift,synthetic L10-14 lam=2,0.665,23.9
+R2133,joy,shift,synthetic L8-14 lam=1.5,0.639,36.4
+R2134,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.512,36.8
+R2135,sadness,shift,synthetic L10-14 lam=2,0.525,28.3
+R2136,fear,project_ev,alpha=1,0.168,2.9
+R2137,joy,shift,synthetic L8-14 lam=1.5,0.986,34.0
+R2138,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.981,23.9
+R2139,joy,shift,synthetic L10-14 lam=2,0.872,45.9
+R2140,disgust,project_ev,alpha=3,0.354,40.2
+R2141,fear,shift,synthetic L18-24 lam=2,0.16,39.7
+R2142,anger,project_ev,alpha=1,0.11,2.5
+R2143,disgust,project_ev,alpha=4,0.244,510.5
+R2144,fear,shift,synthetic L18-24 lam=2,0.105,45.6
+R2145,sadness,shift,synthetic L18-24 lam=2,0.284,7.5
+R2146,joy,shift,synthetic L10-14 lam=2,0.976,102.6
+R2147,anger,shift,synthetic L10-14 lam=2,0.184,33.0
+R2148,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.074,20.0
+R2149,joy,shift,synthetic L18-24 lam=2,0.052,3.0
+R2150,sadness,project_ev,alpha=5,0.123,70.2
+R2151,sadness,shift,synthetic L18-24 lam=2,0.425,8.0
+R2152,anger,shift,synthetic L18-24 lam=2,0.302,19.7
+R2153,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.429,24.2
+R2154,fear,shift,synthetic L18-24 lam=2,0.16,39.7
+R2155,anger,project_ev,alpha=4,0.439,98.9
+R2156,fear,shift,synthetic L16-22 lam=1,0.12,17.9
+R2157,joy,project_ev,alpha=1,0.551,3.2
+R2158,sadness,shift,synthetic L18-24 lam=2,0.332,84.9
+R2159,anger,project_ev,alpha=5,0.451,404.3
+R2160,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.844,38.2
+R2161,disgust,project_ev,alpha=2,0.327,5.8
+R2162,disgust,baseline,baseline,0.073,2.1
+R2163,disgust,shift,synthetic L18-24 lam=2,0.915,16.5
+R2164,fear,project_ev,alpha=3,0.167,43.0
+R2165,anger,project_ev,alpha=4,0.504,77.8
+R2166,joy,shift,synthetic L18-24 lam=2,0.055,7.7
+R2167,joy,shift,synthetic L10-14 lam=2,0.561,75.8
+R2168,anger,shift,synthetic L8-14 lam=1.5,0.652,66.7
+R2169,joy,shift,synthetic L18-24 lam=2,0.083,12.2
+R2170,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.111,74.9
+R2171,joy,project_ev,alpha=1,0.728,4.6
+R2172,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.209,18.1
+R2173,fear,project_ev,alpha=4,0.348,140.4
+R2174,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.3,22.7
+R2175,anger,project_ev,alpha=3,0.411,19.8
+R2176,fear,project_ev,alpha=1,0.066,2.5
+R2177,sadness,baseline,baseline,0.12,1.7
+R2178,disgust,shift,synthetic L18-24 lam=2,0.904,14.4
+R2179,fear,shift,synthetic L8-14 lam=1.5,0.445,45.9
+R2180,sadness,shift,synthetic L8-14 lam=1.5,0.23,43.7
+R2181,fear,shift,synthetic L16-22 lam=1,0.181,18.9
+R2182,joy,project_ev,alpha=3,0.974,15.7
+R2183,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.425,22.7
+R2184,joy,shift,synthetic L8-14 lam=1.5,0.98,79.0
+R2185,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.773,56.2
+R2186,sadness,project_ev,alpha=2,0.102,8.7
+R2187,joy,shift,synthetic L8-14 lam=1.5,0.987,37.7
+R2188,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.96,19.3
+R2189,fear,baseline,baseline,0.187,1.6
+R2190,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.749,20.6
+R2191,anger,shift,synthetic L18-24 lam=2,0.177,3.1
+R2192,fear,project_ev,alpha=5,0.425,226.6
+R2193,fear,shift,synthetic L10-14 lam=2,0.424,32.2
+R2194,sadness,shift,synthetic L18-24 lam=2,0.657,164.6
+R2195,joy,project_ev,alpha=4,0.776,68.2
+R2196,fear,project_ev,alpha=4,0.487,130.6
+R2197,disgust,project_ev,alpha=4,0.471,178.9
+R2198,sadness,project_ev,alpha=5,0.602,133.0
+R2199,anger,project_ev,alpha=2,0.017,6.8
+R2200,disgust,project_ev,alpha=3,0.545,66.9
+R2201,sadness,baseline,baseline,0.125,2.1
+R2202,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.054,42.4
+R2203,joy,project_ev,alpha=1,0.112,2.2
+R2204,anger,shift,synthetic L8-14 lam=1.5,0.542,20.1
+R2205,joy,shift,synthetic L18-24 lam=2,0.034,5.0
+R2206,sadness,project_ev,alpha=3,0.721,22.4
+R2207,anger,baseline,baseline,0.048,2.5
+R2208,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.818,30.8
+R2209,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.185,154.8
+R2210,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.346,57.1
+R2211,anger,shift,synthetic L8-14 lam=1.5,0.208,46.3
+R2212,fear,project_ev,alpha=5,0.325,199.1
+R2213,sadness,baseline,baseline,0.061,1.8
+R2214,disgust,project_ev,alpha=5,0.87,284.5
+R2215,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.877,26.2
+R2216,fear,project_ev,alpha=1,0.1,2.6
+R2217,sadness,project_ev,alpha=3,0.757,31.9
+R2218,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.219,115.1
+R2219,sadness,project_ev,alpha=4,0.711,49.9
+R2220,disgust,baseline,baseline,0.098,1.6
+R2221,anger,project_ev,alpha=4,0.732,68.7
+R2222,joy,baseline,baseline,0.22,1.4
+R2223,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.95,58.7
+R2224,fear,project_ev,alpha=4,0.418,41.4
+R2225,sadness,project_ev,alpha=1,0.111,2.5
+R2226,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.923,14.7
+R2227,joy,shift,synthetic L8-14 lam=1.5,0.959,21.3
+R2228,sadness,shift,synthetic L8-14 lam=1.5,0.319,28.9
+R2229,anger,baseline,baseline,0.116,1.6
+R2230,fear,shift,synthetic L18-24 lam=2,0.174,32.3
+R2231,joy,project_ev,alpha=4,0.975,71.2
+R2232,joy,project_ev,alpha=1,0.227,2.2
+R2233,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.149,33.3
+R2234,joy,shift,synthetic L8-14 lam=1.5,0.971,52.5
+R2235,anger,shift,synthetic L16-22 lam=1,0.165,10.2
+R2236,fear,baseline,baseline,0.076,1.8
+R2237,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.974,57.0
+R2238,joy,shift,synthetic L10-14 lam=2,0.977,73.5
+R2239,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.964,25.3
+R2240,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.897,23.7
+R2241,anger,shift,synthetic L10-14 lam=2,0.304,25.3
+R2242,anger,shift,synthetic L10-14 lam=2,0.15,121.8
+R2243,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.95,61.1
+R2244,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.565,45.8
+R2245,fear,project_ev,alpha=1,0.112,2.3
+R2246,joy,project_ev,alpha=3,0.718,28.9
+R2247,disgust,project_ev,alpha=4,0.714,143.8
+R2248,sadness,shift,synthetic L10-14 lam=2,0.059,24.0
+R2249,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.849,30.6
+R2250,joy,project_ev,alpha=1,0.634,5.0
+R2251,sadness,baseline,baseline,0.122,1.6
+R2252,disgust,project_ev,alpha=2,0.905,18.9
+R2253,anger,shift,synthetic L16-22 lam=1,0.453,35.3
+R2254,anger,project_ev,alpha=5,0.393,143.6
+R2255,joy,project_ev,alpha=5,0.772,132.0
+R2256,disgust,project_ev,alpha=2,0.141,5.7
+R2257,anger,project_ev,alpha=5,0.529,212.9
+R2258,fear,shift,synthetic L8-14 lam=1.5,0.901,22.6
+R2259,sadness,shift,synthetic L8-14 lam=1.5,0.088,79.3
+R2260,anger,project_ev,alpha=5,0.386,79.3
+R2261,fear,project_ev,alpha=1,0.14,3.3
+R2262,fear,shift,synthetic L16-22 lam=1,0.317,23.8
+R2263,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.962,26.7
+R2264,anger,shift,synthetic L18-24 lam=2,0.202,13628.0
+R2265,anger,project_ev,alpha=2,0.16,12.5
+R2266,disgust,project_ev,alpha=1,0.081,2.1
+R2267,disgust,project_ev,alpha=1,0.002,2.8
+R2268,joy,project_ev,alpha=2,0.46,8.3
+R2269,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.241,19.3
+R2270,sadness,shift,synthetic L18-24 lam=2,0.811,115.9
+R2271,fear,shift,synthetic L8-14 lam=1.5,0.201,28.9
+R2272,fear,shift,synthetic L16-22 lam=1,0.171,16.4
+R2273,joy,shift,synthetic L18-24 lam=2,0.069,37.3
+R2274,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.041,22.4
+R2275,sadness,shift,synthetic L16-22 lam=1,0.448,17.7
+R2276,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.493,60.5
+R2277,disgust,project_ev,alpha=4,0.605,447.8
+R2278,joy,project_ev,alpha=4,0.851,102.8
+R2279,sadness,baseline,baseline,0.036,1.8
+R2280,fear,shift,synthetic L18-24 lam=2,0.105,45.6
+R2281,joy,baseline,baseline,0.074,2.5
+R2282,sadness,baseline,baseline,0.064,2.7
+R2283,joy,project_ev,alpha=5,0.983,125.7
+R2284,anger,shift,synthetic L10-14 lam=2,0.379,24.2
+R2285,sadness,shift,synthetic L18-24 lam=2,0.289,18.7
+R2286,fear,baseline,baseline,0.083,2.4
+R2287,joy,shift,synthetic L18-24 lam=2,0.034,5.8
+R2288,sadness,project_ev,alpha=3,0.551,31.1
+R2289,joy,project_ev,alpha=1,0.724,3.0
+R2290,joy,shift,synthetic L10-14 lam=2,0.987,50.9
+R2291,disgust,shift,synthetic L18-24 lam=2,0.468,156.5
+R2292,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.422,40.0
+R2293,sadness,shift,synthetic L8-14 lam=1.5,0.428,13.4
+R2294,disgust,shift,synthetic L18-24 lam=2,0.689,4.0
+R2295,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.911,28.3
+R2296,anger,shift,synthetic L18-24 lam=2,0.383,5.2
+R2297,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.129,78.4
+R2298,disgust,shift,synthetic L16-22 lam=1,0.536,113.7
+R2299,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.022,24.8
+R2300,disgust,shift,synthetic L18-24 lam=2,0.897,11.7
+R2301,joy,shift,synthetic L8-14 lam=1.5,0.983,20.6
+R2302,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.982,45.4
+R2303,joy,project_ev,alpha=5,0.895,127.1
+R2304,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.463,29.1
+R2305,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.311,22.2
+R2306,disgust,project_ev,alpha=3,0.793,155.5
+R2307,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.967,13.7
+R2308,disgust,shift,synthetic L16-22 lam=1,0.668,31.4
+R2309,joy,project_ev,alpha=1,0.518,1.8
+R2310,anger,project_ev,alpha=5,0.64,251.0
+R2311,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.882,31.3
+R2312,fear,project_ev,alpha=3,0.242,11.4
+R2313,sadness,shift,synthetic L8-14 lam=1.5,0.02,9.6
+R2314,disgust,project_ev,alpha=2,0.726,22.2
+R2315,anger,shift,synthetic L8-14 lam=1.5,0.631,48.2
+R2316,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.532,28.9
+R2317,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.992,31.8
+R2318,disgust,project_ev,alpha=3,0.467,25.4
+R2319,sadness,shift,synthetic L18-24 lam=2,0.748,36.5
+R2320,sadness,project_ev,alpha=3,0.679,21.2
+R2321,fear,project_ev,alpha=1,0.105,1.9
+R2322,joy,shift,synthetic L16-22 lam=1,0.933,119.5
+R2323,fear,shift,synthetic L10-14 lam=2,0.408,31.3
+R2324,anger,shift,synthetic L18-24 lam=2,0.23,18903.5
+R2325,fear,shift,synthetic L10-14 lam=2,0.561,26.6
+R2326,sadness,shift,synthetic L8-14 lam=1.5,0.378,23.9
+R2327,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.907,28.2
+R2328,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.156,66.1
+R2329,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.95,32.3
+R2330,disgust,project_ev,alpha=1,0.08,2.2
+R2331,joy,project_ev,alpha=3,0.948,49.7
+R2332,joy,project_ev,alpha=3,0.052,19.9
+R2333,anger,shift,synthetic L18-24 lam=2,0.383,5.2
+R2334,fear,shift,synthetic L8-14 lam=1.5,0.31,20.7
+R2335,fear,shift,synthetic L8-14 lam=1.5,0.435,28.2
+R2336,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.935,24.7
+R2337,fear,project_ev,alpha=4,0.231,96.1
+R2338,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.238,29.1
+R2339,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.112,13.9
+R2340,joy,project_ev,alpha=3,0.982,49.3
+R2341,joy,project_ev,alpha=2,0.315,22.0
+R2342,anger,shift,synthetic L16-22 lam=1,0.754,28.5
+R2343,anger,project_ev,alpha=2,0.009,7.1
+R2344,joy,shift,synthetic L18-24 lam=2,0.069,45.9
+R2345,fear,project_ev,alpha=2,0.133,3.7
+R2346,sadness,shift,synthetic L16-22 lam=1,0.117,24.2
+R2347,disgust,shift,synthetic L16-22 lam=1,0.907,28.9
+R2348,fear,project_ev,alpha=4,0.608,72.6
+R2349,joy,shift,synthetic L16-22 lam=1,0.87,28.9
+R2350,sadness,project_ev,alpha=1,0.412,2.0
+R2351,fear,project_ev,alpha=3,0.252,18.3
+R2352,joy,project_ev,alpha=2,0.054,8.0
+R2353,sadness,shift,synthetic L10-14 lam=2,0.223,30.2
+R2354,sadness,baseline,baseline,0.06,1.9
+R2355,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.806,28.6
+R2356,disgust,project_ev,alpha=4,0.782,456.7
+R2357,disgust,project_ev,alpha=3,0.644,86.4
+R2358,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.315,16.8
+R2359,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.876,36.0
+R2360,disgust,project_ev,alpha=4,0.639,139.6
+R2361,sadness,project_ev,alpha=4,0.821,68.7
+R2362,fear,shift,synthetic L10-14 lam=2,0.715,35.7
+R2363,disgust,project_ev,alpha=1,0.108,1.7
+R2364,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.168,23.7
+R2365,joy,shift,synthetic L10-14 lam=2,0.782,24.7
+R2366,anger,shift,synthetic L8-14 lam=1.5,0.421,16.8
+R2367,sadness,shift,synthetic L8-14 lam=1.5,0.057,21.2
+R2368,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.208,25.3
+R2369,fear,baseline,baseline,0.172,1.9
+R2370,joy,project_ev,alpha=5,0.971,201.6
+R2371,fear,project_ev,alpha=2,0.218,5.2
+R2372,fear,baseline,baseline,0.149,2.1
+R2373,anger,baseline,baseline,0.145,1.7
+R2374,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.081,86.1
+R2375,fear,baseline,baseline,0.103,1.7
+R2376,disgust,project_ev,alpha=1,0.102,2.1
+R2377,fear,shift,synthetic L8-14 lam=1.5,0.704,30.1
+R2378,sadness,shift,synthetic L8-14 lam=1.5,0.469,11.1
+R2379,joy,project_ev,alpha=4,0.903,105.3
+R2380,sadness,project_ev,alpha=3,0.609,30.0
+R2381,disgust,baseline,baseline,0.052,1.5
+R2382,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.103,31.1
+R2383,anger,shift,synthetic L10-14 lam=2,0.407,59.6
+R2384,anger,project_ev,alpha=1,0.131,2.0
+R2385,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.937,38.3
+R2386,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.316,47.6
+R2387,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.972,56.5
+R2388,fear,baseline,baseline,0.027,2.4
+R2389,anger,shift,synthetic L16-22 lam=1,0.33,20.3
+R2390,anger,project_ev,alpha=5,0.408,211.8
+R2391,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.111,39.4
+R2392,sadness,shift,synthetic L18-24 lam=2,0.346,7.4
+R2393,disgust,project_ev,alpha=4,0.721,259.2
+R2394,fear,project_ev,alpha=5,0.238,114.6
+R2395,disgust,shift,synthetic L18-24 lam=2,0.028,20.1
+R2396,sadness,project_ev,alpha=2,0.119,4.7
+R2397,disgust,project_ev,alpha=2,0.089,7.6
+R2398,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.657,45.1
+R2399,fear,shift,synthetic L18-24 lam=2,0.075,54.3
+R2400,sadness,shift,synthetic L18-24 lam=2,0.486,26.7
+R2401,fear,shift,synthetic L16-22 lam=1,0.174,17.0
+R2402,sadness,project_ev,alpha=3,0.752,24.0
+R2403,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.586,63.3
+R2404,anger,shift,synthetic L18-24 lam=2,0.214,4.4
+R2405,sadness,project_ev,alpha=4,0.74,104.9
+R2406,fear,project_ev,alpha=1,0.112,2.3
+R2407,fear,baseline,baseline,0.135,1.6
+R2408,disgust,project_ev,alpha=3,0.397,50.8
+R2409,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.829,35.2
+R2410,joy,project_ev,alpha=3,0.956,15.1
+R2411,disgust,project_ev,alpha=1,0.061,1.9
+R2412,disgust,project_ev,alpha=1,0.091,2.0
+R2413,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.31,37.1
+R2414,anger,shift,synthetic L16-22 lam=1,0.604,7.9
+R2415,fear,project_ev,alpha=1,0.025,2.4
+R2416,sadness,project_ev,alpha=3,0.664,22.9
+R2417,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.902,21.6
+R2418,disgust,project_ev,alpha=5,0.43,41.7
+R2419,anger,shift,synthetic L18-24 lam=2,0.14,13.7
+R2420,fear,project_ev,alpha=4,0.591,193.1
+R2421,anger,shift,synthetic L18-24 lam=2,0.218,6.5
+R2422,joy,project_ev,alpha=2,0.878,12.2
+R2423,disgust,project_ev,alpha=4,0.324,106.7
+R2424,fear,project_ev,alpha=3,0.421,15.7
+R2425,disgust,project_ev,alpha=4,0.546,268.1
+R2426,sadness,project_ev,alpha=3,0.498,33.6
+R2427,fear,shift,synthetic L16-22 lam=1,0.269,43.3
+R2428,joy,project_ev,alpha=5,0.955,102.9
+R2429,fear,shift,synthetic L18-24 lam=2,0.065,41.8
+R2430,fear,shift,synthetic L8-14 lam=1.5,0.513,36.7
+R2431,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.191,43.1
+R2432,fear,shift,synthetic L16-22 lam=1,0.434,8.2
+R2433,joy,project_ev,alpha=5,0.952,64.9
+R2434,disgust,project_ev,alpha=1,0.083,2.7
+R2435,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.134,26.9
+R2436,fear,project_ev,alpha=2,0.152,6.4
+R2437,joy,project_ev,alpha=1,0.74,3.9
+R2438,anger,project_ev,alpha=2,0.653,15.0
+R2439,fear,shift,synthetic L10-14 lam=2,0.835,19.3
+R2440,anger,project_ev,alpha=4,0.459,177.0
+R2441,fear,baseline,baseline,0.119,2.5
+R2442,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.954,45.4
+R2443,sadness,shift,synthetic L16-22 lam=1,0.12,14.5
+R2444,anger,project_ev,alpha=3,0.329,63.1
+R2445,sadness,shift,synthetic L16-22 lam=1,0.179,6.4
+R2446,sadness,shift,synthetic L10-14 lam=2,0.964,70.1
+R2447,sadness,project_ev,alpha=5,0.145,119.9
+R2448,fear,shift,synthetic L16-22 lam=1,0.499,12.0
+R2449,sadness,shift,synthetic L16-22 lam=1,0.237,12.2
+R2450,disgust,shift,synthetic L18-24 lam=2,0.837,339.7
+R2451,sadness,project_ev,alpha=4,0.681,78.5
+R2452,joy,shift,synthetic L8-14 lam=1.5,0.978,46.1
+R2453,anger,project_ev,alpha=2,0.191,15.0
+R2454,disgust,shift,synthetic L18-24 lam=2,0.818,14.2
+R2455,joy,shift,synthetic L10-14 lam=2,0.977,62.6
+R2456,disgust,baseline,baseline,0.091,2.5
+R2457,anger,project_ev,alpha=1,0.021,1.7
+R2458,sadness,shift,synthetic L18-24 lam=2,0.321,33.0
+R2459,sadness,project_ev,alpha=1,0.225,3.0
+R2460,fear,project_ev,alpha=5,0.09,24.4
+R2461,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.149,445.9
+R2462,fear,project_ev,alpha=4,0.226,45.1
+R2463,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.943,31.4
+R2464,anger,shift,synthetic L8-14 lam=1.5,0.539,19.3
+R2465,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.886,17.5
+R2466,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.972,30.2
+R2467,fear,project_ev,alpha=1,0.138,2.8
+R2468,sadness,project_ev,alpha=5,0.54,50.0
+R2469,sadness,baseline,baseline,0.067,1.9
+R2470,anger,shift,synthetic L8-14 lam=1.5,0.319,14.9
+R2471,disgust,shift,synthetic L16-22 lam=1,0.521,64.5
+R2472,anger,project_ev,alpha=4,0.374,164.1
+R2473,sadness,project_ev,alpha=3,0.678,45.7
+R2474,anger,shift,synthetic L18-24 lam=2,0.133,5.2
+R2475,disgust,project_ev,alpha=1,0.077,2.2
+R2476,fear,shift,synthetic L10-14 lam=2,0.706,28.2
+R2477,sadness,shift,synthetic L8-14 lam=1.5,0.115,32.7
+R2478,joy,shift,synthetic L10-14 lam=2,0.31,21.8
+R2479,sadness,project_ev,alpha=4,0.698,67.9
+R2480,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.887,50.8
+R2481,joy,shift,synthetic L18-24 lam=2,0.046,11.0
+R2482,joy,project_ev,alpha=2,0.892,15.1
+R2483,disgust,project_ev,alpha=5,0.772,314.8
+R2484,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.974,71.4
+R2485,fear,baseline,baseline,0.043,2.4
+R2486,fear,project_ev,alpha=4,0.165,99.5
+R2487,disgust,shift,synthetic L16-22 lam=1,0.25,12.0
+R2488,sadness,shift,synthetic L8-14 lam=1.5,0.929,73.2
+R2489,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.848,33.6
+R2490,fear,shift,synthetic L10-14 lam=2,0.535,29.0
+R2491,joy,project_ev,alpha=5,0.638,169.0
+R2492,fear,project_ev,alpha=1,0.105,1.6
+R2493,fear,project_ev,alpha=4,0.207,119.4
+R2494,anger,project_ev,alpha=3,0.157,36.2
+R2495,anger,project_ev,alpha=1,0.068,3.5
+R2496,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.921,64.7
+R2497,anger,project_ev,alpha=4,0.656,109.4
+R2498,sadness,project_ev,alpha=5,0.777,94.3
+R2499,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.934,32.1
+R2500,sadness,shift,synthetic L16-22 lam=1,0.007,18.1
+R2501,disgust,project_ev,alpha=2,0.095,14.2
+R2502,disgust,project_ev,alpha=1,0.083,2.8
+R2503,fear,shift,synthetic L18-24 lam=2,0.362,74.2
+R2504,joy,shift,synthetic L8-14 lam=1.5,0.977,42.9
+R2505,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.339,22.6
+R2506,sadness,baseline,baseline,0.176,2.1
+R2507,joy,project_ev,alpha=1,0.039,3.7
+R2508,disgust,shift,synthetic L16-22 lam=1,0.685,47.1
+R2509,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.729,39.5
+R2510,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.964,33.3
+R2511,anger,project_ev,alpha=4,0.521,280.5
+R2512,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.987,43.6
+R2513,disgust,shift,synthetic L16-22 lam=1,0.69,47.0
+R2514,sadness,project_ev,alpha=4,0.563,73.2
+R2515,fear,project_ev,alpha=1,0.22,3.7
+R2516,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.129,136.3
+R2517,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.94,25.3
+R2518,disgust,project_ev,alpha=1,0.09,4.2
+R2519,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.951,32.5
+R2520,anger,shift,synthetic L10-14 lam=2,0.529,10.4
+R2521,fear,project_ev,alpha=2,0.089,4.8
+R2522,joy,shift,synthetic L18-24 lam=2,0.216,290.4
+R2523,fear,project_ev,alpha=1,0.116,2.2
+R2524,disgust,project_ev,alpha=1,0.072,1.8
+R2525,joy,project_ev,alpha=4,0.947,25.0
+R2526,sadness,project_ev,alpha=2,0.859,14.8
+R2527,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.859,24.7
+R2528,joy,shift,synthetic L10-14 lam=2,0.926,42.1
+R2529,disgust,project_ev,alpha=3,0.698,106.4
+R2530,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.206,46.7
+R2531,sadness,project_ev,alpha=4,0.263,185.9
+R2532,sadness,shift,synthetic L8-14 lam=1.5,0.473,11.9
+R2533,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.933,28.0
+R2534,joy,project_ev,alpha=5,0.955,110.2
+R2535,fear,shift,synthetic L10-14 lam=2,0.76,59.7
+R2536,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.365,43.7
+R2537,joy,shift,synthetic L16-22 lam=1,0.976,31.5
+R2538,fear,project_ev,alpha=3,0.049,69.5
+R2539,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.028,29.4
+R2540,anger,project_ev,alpha=1,0.115,2.2
+R2541,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.91,44.8
+R2542,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.276,98.5
+R2543,anger,project_ev,alpha=4,0.21,97.1
+R2544,sadness,project_ev,alpha=5,0.176,94.2
+R2545,disgust,shift,synthetic L16-22 lam=1,0.899,42.2
+R2546,fear,project_ev,alpha=4,0.54,170.1
+R2547,joy,shift,synthetic L18-24 lam=2,0.005,5.4
+R2548,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.585,68.8
+R2549,sadness,shift,synthetic L10-14 lam=2,0.012,32.8
+R2550,anger,project_ev,alpha=1,0.104,3.8
+R2551,fear,shift,synthetic L10-14 lam=2,0.455,39.1
+R2552,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.746,26.7
+R2553,joy,shift,synthetic L18-24 lam=2,0.034,5.2
+R2554,joy,project_ev,alpha=5,0.961,134.7
+R2555,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.973,44.1
+R2556,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.349,19.1
+R2557,anger,shift,synthetic L8-14 lam=1.5,0.421,28.7
+R2558,disgust,project_ev,alpha=5,0.891,62.7
+R2559,disgust,shift,synthetic L18-24 lam=2,0.468,156.5
+R2560,anger,project_ev,alpha=3,0.935,37.7
+R2561,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.113,46.6
+R2562,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.945,43.2
+R2563,fear,project_ev,alpha=1,0.123,2.2
+R2564,anger,shift,synthetic L18-24 lam=2,0.218,6.2
+R2565,disgust,project_ev,alpha=1,0.012,4.4
+R2566,disgust,project_ev,alpha=2,0.227,21.9
+R2567,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.965,39.5
+R2568,anger,project_ev,alpha=4,0.444,84.7
+R2569,fear,baseline,baseline,0.114,2.1
+R2570,fear,shift,synthetic L16-22 lam=1,0.406,21.6
+R2571,sadness,shift,synthetic L18-24 lam=2,0.43,150.7
+R2572,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.912,39.6
+R2573,fear,project_ev,alpha=4,0.102,49.5
+R2574,fear,project_ev,alpha=5,0.157,216.2
+R2575,disgust,shift,synthetic L16-22 lam=1,0.547,64.0
+R2576,disgust,project_ev,alpha=4,0.493,1182.6
+R2577,fear,baseline,baseline,0.148,2.5
+R2578,fear,project_ev,alpha=1,0.093,2.5
+R2579,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.97,73.5
+R2580,sadness,project_ev,alpha=1,0.085,2.4
+R2581,fear,project_ev,alpha=3,0.46,31.3
+R2582,anger,baseline,baseline,0.139,1.7
+R2583,sadness,project_ev,alpha=5,0.143,44.0
+R2584,joy,shift,synthetic L8-14 lam=1.5,0.668,43.5
+R2585,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.216,25.4
+R2586,disgust,project_ev,alpha=5,0.504,58.0
+R2587,anger,shift,synthetic L18-24 lam=2,0.203,127204.6
+R2588,disgust,project_ev,alpha=4,0.4,99.0
+R2589,anger,shift,synthetic L10-14 lam=2,0.606,30.3
+R2590,sadness,shift,synthetic L16-22 lam=1,0.304,9.4
+R2591,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.975,33.5
+R2592,fear,shift,synthetic L8-14 lam=1.5,0.618,57.6
+R2593,disgust,project_ev,alpha=3,0.565,244.3
+R2594,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.602,22.3
+R2595,fear,shift,synthetic L18-24 lam=2,0.195,34.8
+R2596,sadness,shift,synthetic L10-14 lam=2,0.176,24.6
+R2597,anger,shift,synthetic L8-14 lam=1.5,0.702,30.0
+R2598,fear,project_ev,alpha=3,0.478,35.4
+R2599,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.18,14.3
+R2600,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.099,22.7
+R2601,joy,shift,synthetic L18-24 lam=2,0.014,6.7
+R2602,fear,shift,synthetic L18-24 lam=2,0.141,5.7
+R2603,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.874,20.0
+R2604,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.648,28.7
+R2605,disgust,shift,synthetic L18-24 lam=2,0.525,21.3
+R2606,sadness,project_ev,alpha=5,0.776,64.7
+R2607,fear,shift,synthetic L8-14 lam=1.5,0.504,40.7
+R2608,disgust,project_ev,alpha=3,0.408,55.0
+R2609,fear,project_ev,alpha=3,0.366,9.2
+R2610,joy,shift,synthetic L8-14 lam=1.5,0.722,21.2
+R2611,anger,shift,synthetic L10-14 lam=2,0.063,44.8
+R2612,fear,shift,synthetic L16-22 lam=1,0.201,18.4
+R2613,joy,project_ev,alpha=5,0.986,83.7
+R2614,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.204,23.4
+R2615,fear,shift,synthetic L16-22 lam=1,0.162,3.7
+R2616,anger,shift,synthetic L10-14 lam=2,0.203,27.3
+R2617,anger,project_ev,alpha=5,0.411,328.8
+R2618,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.101,26.4
+R2619,sadness,project_ev,alpha=1,0.093,2.2
+R2620,anger,baseline,baseline,0.128,1.6
+R2621,joy,project_ev,alpha=2,0.71,5.7
+R2622,anger,shift,synthetic L16-22 lam=1,0.307,27.3
+R2623,anger,shift,synthetic L18-24 lam=2,0.383,5.8
+R2624,fear,shift,synthetic L18-24 lam=2,0.168,6.9
+R2625,sadness,shift,synthetic L8-14 lam=1.5,0.28,14.4
+R2626,sadness,baseline,baseline,0.093,1.4
+R2627,joy,project_ev,alpha=3,0.967,27.2
+R2628,disgust,project_ev,alpha=5,0.668,407.2
+R2629,disgust,shift,synthetic L18-24 lam=2,0.809,267.8
+R2630,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.105,58.7
+R2631,fear,project_ev,alpha=1,0.101,3.4
+R2632,disgust,project_ev,alpha=3,0.509,68.3
+R2633,anger,shift,synthetic L10-14 lam=2,0.339,34.8
+R2634,sadness,baseline,baseline,0.081,2.2
+R2635,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.283,38.9
+R2636,anger,shift,synthetic L18-24 lam=2,0.218,7.5
+R2637,fear,shift,synthetic L18-24 lam=2,0.238,466.5
+R2638,joy,shift,synthetic L16-22 lam=1,0.983,41.1
+R2639,joy,shift,synthetic L16-22 lam=1,0.72,45.3
+R2640,anger,baseline,baseline,0.072,1.9
+R2641,sadness,project_ev,alpha=5,0.816,42.8
+R2642,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.91,54.0
+R2643,sadness,project_ev,alpha=5,0.157,43.4
+R2644,fear,project_ev,alpha=5,0.498,235.0
+R2645,joy,shift,synthetic L16-22 lam=1,0.973,47.3
+R2646,joy,baseline,baseline,0.283,1.4
+R2647,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.135,39.3
+R2648,disgust,project_ev,alpha=3,0.831,377.5
+R2649,fear,project_ev,alpha=2,0.15,4.8
+R2650,sadness,shift,synthetic L8-14 lam=1.5,0.614,23.9
+R2651,fear,shift,synthetic L16-22 lam=1,0.214,22.5
+R2652,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.16,52.2
+R2653,anger,project_ev,alpha=2,0.176,4.7
+R2654,sadness,shift,synthetic L18-24 lam=2,0.284,7.5
+R2655,disgust,project_ev,alpha=5,0.636,533.4
+R2656,fear,shift,synthetic L8-14 lam=1.5,0.789,36.6
+R2657,sadness,project_ev,alpha=3,0.716,23.0
+R2658,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.08,36.7
+R2659,fear,shift,synthetic L18-24 lam=2,0.075,54.3
+R2660,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.932,72.9
+R2661,anger,shift,synthetic L18-24 lam=2,0.133,5.2
+R2662,disgust,baseline,baseline,0.075,1.6
+R2663,joy,project_ev,alpha=2,0.893,18.2
+R2664,anger,project_ev,alpha=2,0.334,16.1
+R2665,fear,shift,synthetic L16-22 lam=1,0.278,12.4
+R2666,sadness,baseline,baseline,0.313,2.0
+R2667,anger,project_ev,alpha=1,0.072,2.2
+R2668,anger,baseline,baseline,0.072,2.4
+R2669,disgust,shift,synthetic L18-24 lam=2,0.864,492.9
+R2670,sadness,shift,synthetic L18-24 lam=2,0.482,44.7
+R2671,sadness,project_ev,alpha=3,0.808,35.4
+R2672,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.19,53.1
+R2673,sadness,project_ev,alpha=5,0.172,134.6
+R2674,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.035,34.8
+R2675,fear,shift,synthetic L18-24 lam=2,0.302,60.2
+R2676,disgust,project_ev,alpha=2,0.048,4.2
+R2677,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.152,143.8
+R2678,disgust,shift,synthetic L18-24 lam=2,0.82,7.1
+R2679,fear,shift,synthetic L8-14 lam=1.5,0.465,22.8
+R2680,fear,shift,synthetic L18-24 lam=2,0.296,7.9
+R2681,anger,shift,synthetic L10-14 lam=2,0.212,25.3
+R2682,sadness,project_ev,alpha=2,0.918,10.4
+R2683,sadness,shift,synthetic L18-24 lam=2,0.461,50.9
+R2684,anger,shift,synthetic L10-14 lam=2,0.301,32.3
+R2685,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.243,41.0
+R2686,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.126,26.6
+R2687,disgust,project_ev,alpha=4,0.65,212.8
+R2688,fear,shift,synthetic L16-22 lam=1,0.18,19.9
+R2689,joy,shift,synthetic L16-22 lam=1,0.918,63.0
+R2690,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.117,25.1
+R2691,fear,shift,synthetic L18-24 lam=2,0.302,2807.4
+R2692,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.289,16.5
+R2693,fear,project_ev,alpha=5,0.422,210.7
+R2694,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.153,35.0
+R2695,anger,shift,synthetic L16-22 lam=1,0.267,26.1
+R2696,sadness,project_ev,alpha=5,0.182,53.3
+R2697,anger,baseline,baseline,0.094,2.0
+R2698,sadness,project_ev,alpha=2,0.136,10.0
+R2699,fear,project_ev,alpha=4,0.39,77.8
+R2700,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.577,82.5
+R2701,anger,shift,synthetic L10-14 lam=2,0.761,25.6
+R2702,fear,project_ev,alpha=2,0.036,10.4
+R2703,joy,shift,synthetic L10-14 lam=2,0.612,44.5
+R2704,fear,project_ev,alpha=4,0.166,124.9
+R2705,anger,shift,synthetic L10-14 lam=2,0.718,30.3
+R2706,anger,project_ev,alpha=2,0.357,11.8
+R2707,fear,baseline,baseline,0.144,1.8
+R2708,joy,shift,synthetic L18-24 lam=2,0.073,8.2
+R2709,fear,shift,synthetic L10-14 lam=2,0.611,39.8
+R2710,joy,baseline,baseline,0.705,2.4
+R2711,sadness,baseline,baseline,0.05,2.3
+R2712,joy,project_ev,alpha=4,0.987,50.1
+R2713,sadness,project_ev,alpha=3,0.594,22.7
+R2714,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.568,52.9
+R2715,sadness,shift,synthetic L16-22 lam=1,0.042,12.6
+R2716,joy,project_ev,alpha=2,0.072,9.2
+R2717,sadness,project_ev,alpha=2,0.224,15.8
+R2718,joy,baseline,baseline,0.165,1.6
+R2719,sadness,project_ev,alpha=4,0.669,47.8
+R2720,disgust,project_ev,alpha=5,0.66,9.9
+R2721,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.953,61.9
+R2722,anger,shift,synthetic L16-22 lam=1,0.448,27.2
+R2723,anger,baseline,baseline,0.021,2.4
+R2724,anger,baseline,baseline,0.049,1.5
+R2725,joy,shift,synthetic L10-14 lam=2,0.957,43.2
+R2726,fear,baseline,baseline,0.108,1.9
+R2727,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.87,19.0
+R2728,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.196,25.7
+R2729,fear,project_ev,alpha=5,0.253,94.5
+R2730,fear,shift,synthetic L18-24 lam=2,0.177,21.9
+R2731,fear,project_ev,alpha=5,0.295,417.8
+R2732,anger,project_ev,alpha=2,0.275,8.6
+R2733,disgust,shift,synthetic L18-24 lam=2,0.465,26.5
+R2734,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.853,23.9
+R2735,anger,shift,synthetic L18-24 lam=2,0.293,9971.7
+R2736,disgust,shift,synthetic L18-24 lam=2,0.824,32.9
+R2737,fear,project_ev,alpha=1,0.116,4.3
+R2738,anger,project_ev,alpha=2,0.453,12.7
+R2739,disgust,shift,synthetic L16-22 lam=1,0.383,10.7
+R2740,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.249,22.3
+R2741,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.849,20.5
+R2742,joy,shift,synthetic L16-22 lam=1,0.281,33.5
+R2743,fear,shift,synthetic L18-24 lam=2,0.376,30.0
+R2744,joy,shift,synthetic L16-22 lam=1,0.861,22.4
+R2745,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.968,24.8
+R2746,sadness,shift,synthetic L18-24 lam=2,0.748,36.5
+R2747,sadness,project_ev,alpha=5,0.656,70.1
+R2748,anger,shift,synthetic L10-14 lam=2,0.022,69.8
+R2749,anger,shift,synthetic L8-14 lam=1.5,0.363,31.1
+R2750,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.593,38.2
+R2751,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.223,19.6
+R2752,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.243,19.5
+R2753,fear,project_ev,alpha=1,0.15,1.7
+R2754,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.11,22.8
+R2755,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.424,53.9
+R2756,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.847,44.1
+R2757,fear,shift,synthetic L8-14 lam=1.5,0.66,41.7
+R2758,joy,baseline,baseline,0.132,1.6
+R2759,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.271,14.4
+R2760,joy,shift,synthetic L10-14 lam=2,0.964,61.1
+R2761,joy,project_ev,alpha=5,0.98,109.1
+R2762,anger,shift,synthetic L8-14 lam=1.5,0.161,18.6
+R2763,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.122,63.9
+R2764,sadness,project_ev,alpha=5,0.129,20.7
+R2765,fear,shift,synthetic L8-14 lam=1.5,0.623,40.2
+R2766,sadness,project_ev,alpha=5,0.158,31.5
+R2767,anger,shift,synthetic L18-24 lam=2,0.383,5.8
+R2768,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.379,87.2
+R2769,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.126,31.6
+R2770,fear,project_ev,alpha=1,0.085,1.9
+R2771,joy,baseline,baseline,0.221,2.5
+R2772,anger,project_ev,alpha=4,0.628,62.2
+R2773,fear,baseline,baseline,0.121,1.9
+R2774,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.268,37.9
+R2775,anger,project_ev,alpha=4,0.483,59.9
+R2776,sadness,project_ev,alpha=3,0.651,19.7
+R2777,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.867,31.4
+R2778,sadness,project_ev,alpha=1,0.068,2.2
+R2779,joy,project_ev,alpha=4,0.911,66.5
+R2780,anger,project_ev,alpha=3,0.358,19.3
+R2781,sadness,project_ev,alpha=1,0.08,2.1
+R2782,joy,shift,synthetic L8-14 lam=1.5,0.893,66.8
+R2783,anger,shift,synthetic L18-24 lam=2,0.172,246075.1
+R2784,anger,project_ev,alpha=3,0.264,30.3
+R2785,fear,shift,synthetic L8-14 lam=1.5,0.648,24.1
+R2786,disgust,project_ev,alpha=2,0.53,12.9
+R2787,disgust,project_ev,alpha=3,0.484,128.2
+R2788,anger,project_ev,alpha=3,0.361,20.4
+R2789,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.059,35.3
+R2790,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.052,38.1
+R2791,sadness,shift,synthetic L18-24 lam=2,0.645,42.1
+R2792,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.112,40.3
+R2793,fear,project_ev,alpha=1,0.18,3.0
+R2794,fear,project_ev,alpha=1,0.129,2.7
+R2795,disgust,project_ev,alpha=1,0.086,2.7
+R2796,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.943,44.6
+R2797,sadness,shift,synthetic L10-14 lam=2,0.574,25.3
+R2798,anger,project_ev,alpha=2,0.096,4.4
+R2799,sadness,project_ev,alpha=5,0.504,93.2
+R2800,disgust,project_ev,alpha=1,0.085,3.0
+R2801,joy,shift,synthetic L18-24 lam=2,0.056,8.5
+R2802,joy,shift,synthetic L8-14 lam=1.5,0.785,47.9
+R2803,sadness,shift,synthetic L18-24 lam=2,0.482,87.8
+R2804,disgust,project_ev,alpha=1,0.146,1.7
+R2805,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.936,49.8
+R2806,joy,shift,synthetic L8-14 lam=1.5,0.962,85.0
+R2807,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.935,20.7
+R2808,disgust,project_ev,alpha=3,0.316,95.4
+R2809,joy,project_ev,alpha=1,0.617,3.2
+R2810,sadness,baseline,baseline,0.038,1.5
+R2811,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.125,25.8
+R2812,joy,shift,synthetic L18-24 lam=2,0.082,6.0
+R2813,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.362,88.5
+R2814,joy,shift,synthetic L8-14 lam=1.5,0.93,39.2
+R2815,joy,project_ev,alpha=3,0.96,29.2
+R2816,disgust,project_ev,alpha=2,0.066,8.8
+R2817,disgust,project_ev,alpha=1,0.021,2.4
+R2818,fear,shift,synthetic L8-14 lam=1.5,0.557,45.9
+R2819,anger,project_ev,alpha=4,0.506,108.7
+R2820,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.953,33.8
+R2821,joy,shift,synthetic L8-14 lam=1.5,0.408,30.8
+R2822,sadness,shift,synthetic L18-24 lam=2,0.482,44.7
+R2823,anger,shift,synthetic L18-24 lam=2,0.297,14.6
+R2824,sadness,shift,synthetic L18-24 lam=2,0.054,2.7
+R2825,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.971,29.2
+R2826,joy,project_ev,alpha=2,0.445,6.8
+R2827,joy,shift,synthetic L18-24 lam=2,0.014,6.7
+R2828,fear,shift,synthetic L18-24 lam=2,0.148,8.9
+R2829,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.971,40.5
+R2830,fear,project_ev,alpha=4,0.317,274.8
+R2831,fear,shift,synthetic L18-24 lam=2,0.224,29.1
+R2832,joy,project_ev,alpha=2,0.956,7.6
+R2833,anger,shift,synthetic L18-24 lam=2,0.239,4.5
+R2834,anger,baseline,baseline,0.115,2.3
+R2835,fear,shift,synthetic L8-14 lam=1.5,0.466,24.0
+R2836,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.426,28.2
+R2837,anger,shift,synthetic L8-14 lam=1.5,0.248,45.4
+R2838,disgust,project_ev,alpha=2,0.021,9.0
+R2839,sadness,shift,synthetic L18-24 lam=2,0.252,92.5
+R2840,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.964,34.2
+R2841,disgust,project_ev,alpha=1,0.061,3.7
+R2842,sadness,shift,synthetic L8-14 lam=1.5,0.271,26.0
+R2843,sadness,shift,synthetic L8-14 lam=1.5,0.197,21.8
+R2844,joy,baseline,baseline,0.177,2.1
+R2845,sadness,shift,synthetic L10-14 lam=2,0.532,11.9
+R2846,anger,project_ev,alpha=5,0.401,324.6
+R2847,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.96,25.0
+R2848,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.11,24.7
+R2849,joy,project_ev,alpha=2,0.835,9.1
+R2850,fear,shift,synthetic L10-14 lam=2,0.791,32.7
+R2851,anger,shift,synthetic L10-14 lam=2,0.306,52.3
+R2852,joy,shift,synthetic L10-14 lam=2,0.982,44.2
+R2853,disgust,baseline,baseline,0.084,1.6
+R2854,sadness,shift,synthetic L18-24 lam=2,0.329,8.4
+R2855,joy,project_ev,alpha=5,0.965,70.3
+R2856,anger,project_ev,alpha=5,0.476,224.1
+R2857,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.108,9.2
+R2858,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.829,61.9
+R2859,fear,project_ev,alpha=3,0.048,14.7
+R2860,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.963,35.2
+R2861,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.222,18.6
+R2862,joy,shift,synthetic L18-24 lam=2,0.073,5.8
+R2863,joy,project_ev,alpha=3,0.937,17.7
+R2864,disgust,shift,synthetic L18-24 lam=2,0.888,15.6
+R2865,sadness,project_ev,alpha=2,0.249,8.3
+R2866,joy,shift,synthetic L8-14 lam=1.5,0.979,61.1
+R2867,joy,project_ev,alpha=2,0.72,7.1
+R2868,joy,project_ev,alpha=1,0.22,3.0
+R2869,fear,baseline,baseline,0.125,1.8
+R2870,sadness,shift,synthetic L10-14 lam=2,0.312,12.3
+R2871,joy,project_ev,alpha=4,0.984,48.8
+R2872,joy,project_ev,alpha=4,0.951,95.6
+R2873,fear,shift,synthetic L18-24 lam=2,0.092,41.3
+R2874,sadness,baseline,baseline,0.125,1.6
+R2875,joy,project_ev,alpha=4,0.974,180.7
+R2876,fear,shift,synthetic L8-14 lam=1.5,0.873,39.6
+R2877,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.168,49.1
+R2878,anger,project_ev,alpha=5,0.446,181.2
+R2879,joy,project_ev,alpha=3,0.979,32.3
+R2880,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.594,47.0
+R2881,anger,shift,synthetic L16-22 lam=1,0.245,48.2
+R2882,anger,project_ev,alpha=3,0.121,75.2
+R2883,joy,project_ev,alpha=3,0.902,47.4
+R2884,fear,shift,synthetic L18-24 lam=2,0.211,51.9
+R2885,fear,project_ev,alpha=4,0.35,41.5
+R2886,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.723,52.3
+R2887,disgust,baseline,baseline,0.088,1.7
+R2888,anger,shift,synthetic L10-14 lam=2,0.223,31.4
+R2889,sadness,baseline,baseline,0.352,2.5
+R2890,joy,project_ev,alpha=3,0.908,33.1
+R2891,disgust,shift,synthetic L18-24 lam=2,0.028,20.1
+R2892,sadness,project_ev,alpha=2,0.071,1.8
+R2893,joy,baseline,baseline,0.205,1.7
+R2894,disgust,project_ev,alpha=5,0.806,447.8
+R2895,sadness,shift,synthetic L10-14 lam=2,0.148,29.4
+R2896,fear,project_ev,alpha=2,0.286,18.6
+R2897,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.973,35.9
+R2898,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.97,20.4
+R2899,disgust,project_ev,alpha=5,0.831,18.2
+R2900,sadness,project_ev,alpha=2,0.847,15.7
+R2901,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.227,13.5
+R2902,joy,shift,synthetic L10-14 lam=2,0.965,23.9
+R2903,anger,project_ev,alpha=1,0.09,1.8
+R2904,sadness,shift,synthetic L18-24 lam=2,0.329,8.4
+R2905,sadness,shift,synthetic L18-24 lam=2,0.507,74.1
+R2906,sadness,project_ev,alpha=1,0.154,3.1
+R2907,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.964,35.1
+R2908,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.295,31.7
+R2909,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.967,23.6
+R2910,sadness,project_ev,alpha=1,0.008,3.3
+R2911,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.158,20.2
+R2912,disgust,project_ev,alpha=5,0.66,8.6
+R2913,disgust,project_ev,alpha=3,0.584,37.7
+R2914,fear,shift,synthetic L8-14 lam=1.5,0.635,25.0
+R2915,anger,shift,synthetic L8-14 lam=1.5,0.957,72.5
+R2916,fear,shift,synthetic L8-14 lam=1.5,0.581,54.0
+R2917,disgust,project_ev,alpha=2,0.002,4.6
+R2918,sadness,shift,synthetic L18-24 lam=2,0.459,48.0
+R2919,joy,shift,synthetic L18-24 lam=2,0.143,6.7
+R2920,joy,shift,synthetic L8-14 lam=1.5,0.856,23.7
+R2921,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.349,18.9
+R2922,disgust,project_ev,alpha=3,0.728,161.6
+R2923,joy,shift,synthetic L18-24 lam=2,0.069,37.3
+R2924,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.974,25.3
+R2925,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.603,26.6
+R2926,anger,shift,synthetic L16-22 lam=1,0.339,42.0
+R2927,anger,project_ev,alpha=4,0.24,64.2
+R2928,sadness,shift,synthetic L18-24 lam=2,0.215,5.7
+R2929,sadness,shift,synthetic L16-22 lam=1,0.215,27.2
+R2930,disgust,shift,synthetic L16-22 lam=1,0.401,36.7
+R2931,disgust,project_ev,alpha=1,0.12,2.2
+R2932,anger,shift,synthetic L18-24 lam=2,0.293,13902.8
+R2933,anger,project_ev,alpha=3,0.955,54.6
+R2934,anger,shift,synthetic L8-14 lam=1.5,0.694,34.4
+R2935,joy,shift,synthetic L8-14 lam=1.5,0.954,97.5
+R2936,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.924,29.0
+R2937,joy,project_ev,alpha=2,0.874,19.8
+R2938,joy,project_ev,alpha=2,0.606,7.1
+R2939,anger,shift,synthetic L18-24 lam=2,0.294,603.9
+R2940,anger,shift,synthetic L18-24 lam=2,0.218,7.5
+R2941,sadness,project_ev,alpha=2,0.453,11.9
+R2942,fear,shift,synthetic L18-24 lam=2,0.228,19.5
+R2943,disgust,shift,synthetic L18-24 lam=2,0.66,12.1
+R2944,anger,baseline,baseline,0.068,2.1
+R2945,fear,shift,synthetic L18-24 lam=2,0.065,41.8
+R2946,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.975,32.7
+R2947,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.606,48.2
+R2948,sadness,shift,synthetic L10-14 lam=2,0.157,24.5
+R2949,sadness,baseline,baseline,0.041,2.4
+R2950,sadness,project_ev,alpha=3,0.524,12.7
+R2951,fear,project_ev,alpha=3,0.736,10.6
+R2952,fear,project_ev,alpha=4,0.35,167.1
+R2953,fear,project_ev,alpha=5,0.264,231.1
+R2954,joy,project_ev,alpha=5,0.738,88.7
+R2955,joy,project_ev,alpha=2,0.218,2.6
+R2956,anger,project_ev,alpha=1,0.124,5.3
+R2957,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.8,29.0
+R2958,fear,baseline,baseline,0.103,1.6
+R2959,disgust,shift,synthetic L18-24 lam=2,0.833,5.3
+R2960,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.852,30.3
+R2961,fear,shift,synthetic L16-22 lam=1,0.202,14.1
+R2962,disgust,baseline,baseline,0.014,2.4
+R2963,anger,shift,synthetic L18-24 lam=2,0.119,4.9
+R2964,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.629,19.7
+R2965,disgust,project_ev,alpha=2,0.468,19.2
+R2966,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.25,51.6
+R2967,anger,project_ev,alpha=1,0.093,2.7
+R2968,disgust,shift,synthetic L18-24 lam=2,0.028,21.4
+R2969,joy,shift,synthetic L10-14 lam=2,0.897,49.9
+R2970,anger,shift,synthetic L10-14 lam=2,0.504,54.2
+R2971,disgust,shift,synthetic L18-24 lam=2,0.824,32.9
+R2972,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.166,36.9
+R2973,sadness,project_ev,alpha=3,0.773,29.7
+R2974,fear,project_ev,alpha=3,0.298,21.1
+R2975,fear,project_ev,alpha=4,0.131,55.7
+R2976,disgust,project_ev,alpha=1,0.092,2.6
+R2977,sadness,project_ev,alpha=1,0.075,2.4
+R2978,sadness,shift,synthetic L8-14 lam=1.5,0.194,22.8
+R2979,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.086,22.4
+R2980,disgust,shift,synthetic L18-24 lam=2,0.888,10.1
+R2981,anger,baseline,baseline,0.171,1.6
+R2982,anger,shift,synthetic L8-14 lam=1.5,0.144,26.8
+R2983,sadness,shift,synthetic L8-14 lam=1.5,0.67,31.2
+R2984,fear,shift,synthetic L16-22 lam=1,0.285,34.3
+R2985,anger,project_ev,alpha=5,0.609,293.8
+R2986,sadness,project_ev,alpha=4,0.381,94.8
+R2987,fear,project_ev,alpha=2,0.25,13.5
+R2988,fear,shift,synthetic L8-14 lam=1.5,0.571,20.5
+R2989,fear,project_ev,alpha=3,0.186,29.3
+R2990,disgust,project_ev,alpha=4,0.562,193.9
+R2991,anger,project_ev,alpha=2,0.189,18.9
+R2992,anger,shift,synthetic L18-24 lam=2,0.119,4.9
+R2993,anger,shift,synthetic L10-14 lam=2,0.129,100.6
+R2994,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.329,39.2
+R2995,sadness,project_ev,alpha=4,0.716,58.1
+R2996,fear,shift,synthetic L10-14 lam=2,0.463,28.2
+R2997,disgust,shift,synthetic L18-24 lam=2,0.574,5.2
+R2998,disgust,shift,synthetic L18-24 lam=2,0.82,7.1
+R2999,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.937,33.9
+R3000,fear,shift,synthetic L16-22 lam=1,0.103,3.2
+R3001,fear,project_ev,alpha=1,0.105,2.4
+R3002,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.942,31.4
+R3003,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.432,36.8
+R3004,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.922,58.5
+R3005,sadness,shift,synthetic L18-24 lam=2,0.171,4.9
+R3006,sadness,shift,synthetic L18-24 lam=2,0.107,18.8
+R3007,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.968,42.1
+R3008,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.984,42.1
+R3009,sadness,project_ev,alpha=4,0.521,88.5
+R3010,anger,project_ev,alpha=4,0.495,101.0
+R3011,sadness,baseline,baseline,0.389,1.4
+R3012,fear,baseline,baseline,0.144,2.2
+R3013,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.186,38.5
+R3014,joy,shift,synthetic L18-24 lam=2,0.034,5.5
+R3015,disgust,baseline,baseline,0.085,1.4
+R3016,sadness,project_ev,alpha=5,0.117,83.3
+R3017,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.207,15.0
+R3018,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.344,32.0
+R3019,anger,project_ev,alpha=5,0.489,423.8
+R3020,anger,shift,synthetic L8-14 lam=1.5,0.291,22.8
+R3021,disgust,baseline,baseline,0.085,2.1
+R3022,anger,project_ev,alpha=2,0.141,4.4
+R3023,anger,shift,synthetic L16-22 lam=1,0.545,52.1
+R3024,fear,project_ev,alpha=3,0.199,47.3
+R3025,joy,project_ev,alpha=1,0.83,3.5
+R3026,sadness,shift,synthetic L8-14 lam=1.5,0.088,20.2
+R3027,joy,project_ev,alpha=3,0.072,39.4
+R3028,joy,shift,synthetic L18-24 lam=2,0.611,12.6
+R3029,anger,baseline,baseline,0.139,2.1
+R3030,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.389,46.6
+R3031,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.706,41.7
+R3032,fear,project_ev,alpha=3,0.069,36.1
+R3033,disgust,shift,synthetic L16-22 lam=1,0.329,24.7
+R3034,anger,project_ev,alpha=5,0.421,271.3
+R3035,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.185,30.4
+R3036,joy,project_ev,alpha=5,0.793,128.9
+R3037,fear,shift,synthetic L18-24 lam=2,0.133,6.0
+R3038,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.252,58.6
+R3039,anger,project_ev,alpha=4,0.396,104.5
+R3040,disgust,project_ev,alpha=2,0.672,21.3
+R3041,sadness,shift,synthetic L10-14 lam=2,0.06,48.2
+R3042,disgust,shift,synthetic L18-24 lam=2,0.809,9.8
+R3043,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.86,72.6
+R3044,disgust,project_ev,alpha=3,0.329,48.2
+R3045,joy,project_ev,alpha=4,0.97,133.4
+R3046,joy,project_ev,alpha=1,0.784,3.0
+R3047,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.809,20.9
+R3048,disgust,project_ev,alpha=3,0.625,189.7
+R3049,anger,shift,synthetic L10-14 lam=2,0.582,51.7
+R3050,joy,project_ev,alpha=2,0.226,4.1
+R3051,joy,project_ev,alpha=4,0.966,130.1
+R3052,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.169,21.5
+R3053,anger,shift,synthetic L16-22 lam=1,0.316,50.2
+R3054,sadness,baseline,baseline,0.01,2.5
+R3055,anger,project_ev,alpha=2,0.179,7.8
+R3056,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.358,20.7
+R3057,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.151,16.6
+R3058,sadness,project_ev,alpha=2,0.508,14.6
+R3059,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.263,15.9
+R3060,sadness,shift,synthetic L16-22 lam=1,0.257,15.4
+R3061,fear,project_ev,alpha=3,0.557,30.6
+R3062,anger,project_ev,alpha=4,0.302,66.8
+R3063,anger,project_ev,alpha=2,0.116,5.5
+R3064,sadness,project_ev,alpha=5,0.276,192.9
+R3065,anger,project_ev,alpha=5,0.508,192.1
+R3066,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.967,43.5
+R3067,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.621,48.2
+R3068,disgust,project_ev,alpha=4,0.732,354.2
+R3069,fear,project_ev,alpha=2,0.337,7.4
+R3070,anger,shift,synthetic L10-14 lam=2,0.183,19.9
+R3071,fear,project_ev,alpha=4,0.15,143.4
+R3072,fear,baseline,baseline,0.135,2.1
+R3073,fear,project_ev,alpha=1,0.189,2.4
+R3074,joy,baseline,baseline,0.249,1.8
+R3075,anger,project_ev,alpha=5,0.45,490.4
+R3076,anger,baseline,baseline,0.118,1.8
+R3077,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.955,40.5
+R3078,joy,project_ev,alpha=4,0.945,123.0
+R3079,joy,baseline,baseline,0.11,2.1
+R3080,joy,baseline,baseline,0.111,1.6
+R3081,fear,project_ev,alpha=4,0.077,347.2
+R3082,anger,project_ev,alpha=1,0.109,3.4
+R3083,sadness,project_ev,alpha=5,0.247,53.9
+R3084,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.511,34.4
+R3085,anger,shift,synthetic L16-22 lam=1,0.198,44.3
+R3086,fear,baseline,baseline,0.136,2.0
+R3087,anger,shift,synthetic L8-14 lam=1.5,0.191,46.0
+R3088,anger,shift,synthetic L16-22 lam=1,0.441,69.9
+R3089,sadness,shift,synthetic L10-14 lam=2,0.073,23.5
+R3090,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.336,76.5
+R3091,fear,project_ev,alpha=1,0.156,1.4
+R3092,sadness,baseline,baseline,0.11,1.7
+R3093,sadness,shift,synthetic L8-14 lam=1.5,0.2,28.3
+R3094,fear,project_ev,alpha=5,0.282,55.5
+R3095,anger,project_ev,alpha=3,0.226,16.6
+R3096,sadness,shift,synthetic L18-24 lam=2,0.396,10.1
+R3097,joy,project_ev,alpha=2,0.805,7.8
+R3098,sadness,project_ev,alpha=3,0.729,18.8
+R3099,sadness,baseline,baseline,0.063,2.1
+R3100,fear,shift,synthetic L8-14 lam=1.5,0.737,24.3
+R3101,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.979,32.0
+R3102,joy,baseline,baseline,0.206,1.9
+R3103,disgust,project_ev,alpha=4,0.342,346.6
+R3104,disgust,project_ev,alpha=5,0.764,602.8
+R3105,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.228,33.4
+R3106,fear,shift,synthetic L18-24 lam=2,0.228,19.5
+R3107,sadness,shift,synthetic L18-24 lam=2,0.682,60.9
+R3108,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.291,26.9
+R3109,joy,project_ev,alpha=5,0.961,85.6
+R3110,anger,shift,synthetic L8-14 lam=1.5,0.57,43.0
+R3111,anger,shift,synthetic L10-14 lam=2,0.378,33.0
+R3112,joy,shift,synthetic L18-24 lam=2,0.073,41.6
+R3113,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.109,16.0
+R3114,sadness,project_ev,alpha=1,0.074,2.0
+R3115,fear,project_ev,alpha=3,0.148,48.0
+R3116,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.982,40.0
+R3117,sadness,shift,synthetic L18-24 lam=2,0.815,37.7
+R3118,anger,shift,synthetic L18-24 lam=2,0.294,23832.6
+R3119,joy,shift,synthetic L10-14 lam=2,0.961,175.3
+R3120,joy,baseline,baseline,0.096,1.8
+R3121,joy,project_ev,alpha=2,0.511,7.8
+R3122,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.741,25.3
+R3123,sadness,project_ev,alpha=2,0.085,8.1
+R3124,disgust,shift,synthetic L18-24 lam=2,0.692,11.4
+R3125,joy,shift,synthetic L16-22 lam=1,0.492,26.2
+R3126,fear,shift,synthetic L18-24 lam=2,0.467,11.3
+R3127,joy,shift,synthetic L10-14 lam=2,0.91,47.3
+R3128,sadness,project_ev,alpha=1,0.044,2.3
+R3129,disgust,shift,synthetic L18-24 lam=2,0.028,21.4
+R3130,anger,shift,synthetic L8-14 lam=1.5,0.595,51.8
+R3131,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.881,22.5
+R3132,sadness,shift,synthetic L10-14 lam=2,0.197,27.7
+R3133,anger,project_ev,alpha=5,0.835,303.0
+R3134,sadness,project_ev,alpha=5,0.625,160.4
+R3135,fear,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.958,42.3
+R3136,anger,project_ev,alpha=1,0.098,2.1
+R3137,sadness,project_ev,alpha=1,0.093,2.1
+R3138,fear,shift,synthetic L16-22 lam=1,0.143,35.9
+R3139,anger,shift,synthetic L10-14 lam=2,0.329,33.2
+R3140,sadness,project_ev,alpha=3,0.706,28.2
+R3141,joy,project_ev,alpha=1,0.236,2.0
+R3142,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.228,49.8
+R3143,disgust,shift,synthetic L18-24 lam=2,0.797,6.5
+R3144,joy,shift,synthetic L10-14 lam=2,0.954,62.0
+R3145,fear,project_ev,alpha=5,0.264,346.2
+R3146,fear,project_ev,alpha=2,0.267,10.1
+R3147,joy,project_ev,alpha=3,0.979,66.5
+R3148,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.142,81.4
+R3149,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.968,39.9
+R3150,joy,shift,synthetic L8-14 lam=1.5,0.916,18.3
+R3151,fear,shift,synthetic L10-14 lam=2,0.776,22.2
+R3152,sadness,shift,synthetic L8-14 lam=1.5,0.216,34.3
+R3153,fear,shift,synthetic L16-22 lam=1,0.111,18.0
+R3154,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.031,31.3
+R3155,disgust,project_ev,alpha=5,0.556,230.7
+R3156,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.822,86.5
+R3157,fear,project_ev,alpha=1,0.109,1.7
+R3158,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.582,38.8
+R3159,anger,project_ev,alpha=4,0.378,84.7
+R3160,sadness,project_ev,alpha=5,0.739,54.1
+R3161,joy,shift,synthetic L10-14 lam=2,0.247,34.8
+R3162,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.078,29.1
+R3163,anger,project_ev,alpha=5,0.436,145.6
+R3164,anger,project_ev,alpha=4,0.541,114.1
+R3165,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.88,69.7
+R3166,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.868,26.8
+R3167,sadness,shift,synthetic L16-22 lam=1,0.105,18.0
+R3168,disgust,project_ev,alpha=1,0.138,1.6
+R3169,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.412,39.2
+R3170,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.232,34.4
+R3171,anger,shift,synthetic L18-24 lam=2,0.219,5.1
+R3172,joy,shift,synthetic L10-14 lam=2,0.953,41.7
+R3173,fear,project_ev,alpha=4,0.596,117.8
+R3174,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.504,44.9
+R3175,fear,shift,synthetic L10-14 lam=2,0.573,33.0
+R3176,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.968,44.3
+R3177,disgust,shift,synthetic L18-24 lam=2,0.741,6.5
+R3178,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.973,36.7
+R3179,sadness,project_ev,alpha=3,0.743,56.2
+R3180,anger,shift,synthetic L18-24 lam=2,0.406,11.8
+R3181,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.972,31.6
+R3182,anger,shift,synthetic L18-24 lam=2,0.302,19.7
+R3183,fear,project_ev,alpha=5,0.206,191.6
+R3184,joy,shift,synthetic L18-24 lam=2,0.107,3.7
+R3185,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.969,48.2
+R3186,disgust,project_ev,alpha=5,0.659,169.1
+R3187,fear,project_ev,alpha=4,0.173,86.8
+R3188,fear,project_ev,alpha=2,0.014,5.1
+R3189,disgust,project_ev,alpha=5,0.657,49.9
+R3190,joy,shift,synthetic L16-22 lam=1,0.956,76.8
+R3191,anger,baseline,baseline,0.089,1.4
+R3192,disgust,shift,synthetic L18-24 lam=2,0.604,18.8
+R3193,anger,shift,synthetic L8-14 lam=1.5,0.18,50.1
+R3194,disgust,project_ev,alpha=1,0.059,3.7
+R3195,anger,shift,synthetic L16-22 lam=1,0.468,62.4
+R3196,joy,shift,synthetic L8-14 lam=1.5,0.524,60.5
+R3197,fear,project_ev,alpha=3,0.398,51.7
+R3198,joy,shift,synthetic L16-22 lam=1,0.869,24.8
+R3199,anger,shift,synthetic L16-22 lam=1,0.435,20.6
+R3200,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.232,43.9
+R3201,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.156,34.8
+R3202,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.358,50.6
+R3203,disgust,shift,synthetic L18-24 lam=2,0.88,46.9
+R3204,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.841,46.9
+R3205,anger,project_ev,alpha=3,0.255,21.6
+R3206,sadness,project_ev,alpha=3,0.48,54.7
+R3207,disgust,project_ev,alpha=2,0.101,8.5
+R3208,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.101,17.0
+R3209,anger,project_ev,alpha=4,0.384,67.4
+R3210,joy,project_ev,alpha=5,0.88,109.2
+R3211,anger,shift,synthetic L16-22 lam=1,0.348,42.5
+R3212,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.775,19.8
+R3213,fear,baseline,baseline,0.079,1.5
+R3214,anger,shift,synthetic L18-24 lam=2,0.297,14.6
+R3215,sadness,project_ev,alpha=5,0.197,54.9
+R3216,anger,baseline,baseline,0.117,2.3
+R3217,joy,project_ev,alpha=4,0.784,110.9
+R3218,joy,shift,synthetic L10-14 lam=2,0.991,63.3
+R3219,disgust,shift,synthetic L18-24 lam=2,0.465,26.5
+R3220,joy,project_ev,alpha=5,0.982,112.8
+R3221,anger,project_ev,alpha=5,0.394,522.6
+R3222,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.974,32.3
+R3223,anger,shift,synthetic L16-22 lam=1,0.417,23.7
+R3224,sadness,project_ev,alpha=3,0.584,36.5
+R3225,joy,shift,synthetic L8-14 lam=1.5,0.931,30.4
+R3226,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.973,37.9
+R3227,joy,project_ev,alpha=2,0.94,7.3
+R3228,joy,shift,synthetic L18-24 lam=2,0.79,1213.2
+R3229,anger,project_ev,alpha=3,0.011,15.8
+R3230,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.091,27.8
+R3231,sadness,project_ev,alpha=3,0.729,34.1
+R3232,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.083,17.7
+R3233,sadness,project_ev,alpha=3,0.813,21.1
+R3234,sadness,project_ev,alpha=5,0.637,66.4
+R3235,anger,project_ev,alpha=2,0.187,14.8
+R3236,fear,project_ev,alpha=5,0.295,132.1
+R3237,sadness,shift,synthetic L10-14 lam=2,0.943,82.8
+R3238,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.257,33.3
+R3239,fear,shift,synthetic L18-24 lam=2,0.172,6.6
+R3240,disgust,project_ev,alpha=5,0.333,19.2
+R3241,sadness,shift,synthetic L18-24 lam=2,0.346,7.4
+R3242,anger,project_ev,alpha=3,0.514,45.0
+R3243,disgust,project_ev,alpha=3,0.541,44.4
+R3244,sadness,project_ev,alpha=2,0.107,9.0
+R3245,anger,shift,synthetic L18-24 lam=2,0.202,13628.0
+R3246,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.182,35.1
+R3247,disgust,project_ev,alpha=2,0.144,10.4
+R3248,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.408,24.7
+R3249,joy,project_ev,alpha=1,0.104,2.4
+R3250,joy,project_ev,alpha=4,0.975,33.1
+R3251,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.863,29.3
+R3252,anger,shift,synthetic L18-24 lam=2,0.177,3.1
+R3253,sadness,shift,synthetic L16-22 lam=1,0.187,18.6
+R3254,fear,shift,synthetic L10-14 lam=2,0.346,54.5
+R3255,anger,project_ev,alpha=1,0.12,4.4
+R3256,fear,project_ev,alpha=3,0.108,15.9
+R3257,sadness,project_ev,alpha=3,0.731,44.1
+R3258,sadness,baseline,baseline,0.121,1.6
+R3259,joy,project_ev,alpha=1,0.213,1.9
+R3260,sadness,project_ev,alpha=4,0.104,16.5
+R3261,joy,shift,synthetic L18-24 lam=2,0.107,3.4
+R3262,fear,shift,synthetic L18-24 lam=2,0.129,26.7
+R3263,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.232,27.2
+R3264,joy,project_ev,alpha=4,0.979,57.7
+R3265,fear,project_ev,alpha=5,0.164,232.0
+R3266,joy,baseline,baseline,0.3,1.9
+R3267,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.974,38.2
+R3268,disgust,project_ev,alpha=5,0.493,99.0
+R3269,disgust,baseline,baseline,0.048,1.9
+R3270,joy,shift,synthetic L18-24 lam=2,0.052,3.0
+R3271,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.304,14.0
+R3272,joy,project_ev,alpha=3,0.955,26.4
+R3273,sadness,project_ev,alpha=3,0.704,48.5
+R3274,fear,project_ev,alpha=2,0.272,6.1
+R3275,sadness,project_ev,alpha=1,0.112,1.5
+R3276,joy,shift,synthetic L16-22 lam=1,0.961,26.1
+R3277,sadness,shift,synthetic L18-24 lam=2,0.682,60.9
+R3278,anger,shift,synthetic L8-14 lam=1.5,0.221,44.5
+R3279,anger,project_ev,alpha=4,0.364,49.3
+R3280,anger,shift,synthetic L18-24 lam=2,0.239,4.5
+R3281,anger,project_ev,alpha=1,0.111,2.8
+R3282,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.257,35.2
+R3283,sadness,shift,synthetic L18-24 lam=2,0.919,159.6
+R3284,anger,project_ev,alpha=3,0.355,35.1
+R3285,anger,project_ev,alpha=2,0.036,7.3
+R3286,joy,project_ev,alpha=1,0.105,2.1
+R3287,disgust,project_ev,alpha=2,0.25,14.2
+R3288,joy,project_ev,alpha=4,0.946,104.7
+R3289,joy,project_ev,alpha=4,0.983,49.7
+R3290,anger,shift,synthetic L16-22 lam=1,0.283,25.2
+R3291,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.27,45.9
+R3292,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.493,64.0
+R3293,disgust,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.395,85.4
+R3294,disgust,project_ev,alpha=5,0.664,298.7
+R3295,disgust,project_ev,alpha=5,0.507,208.6
+R3296,joy,project_ev,alpha=2,0.94,10.2
+R3297,fear,shift,synthetic L8-14 lam=1.5,0.625,17.4
+R3298,fear,project_ev,alpha=4,0.171,42.3
+R3299,sadness,shift,synthetic L10-14 lam=2,0.182,20.5
+R3300,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.905,21.3
+R3301,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.772,25.9
+R3302,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.334,42.0
+R3303,disgust,project_ev,alpha=5,0.566,502.9
+R3304,joy,shift,synthetic L8-14 lam=1.5,0.977,37.4
+R3305,joy,shift,synthetic L8-14 lam=1.5,0.282,25.2
+R3306,joy,shift,synthetic L18-24 lam=2,0.073,5.6
+R3307,sadness,shift,synthetic L8-14 lam=1.5,0.074,10.2
+R3308,disgust,baseline,baseline,0.107,1.6
+R3309,joy,shift,synthetic L10-14 lam=2,0.983,25.1
+R3310,fear,baseline,baseline,0.121,1.7
+R3311,joy,shift,synthetic L18-24 lam=2,0.034,5.0
+R3312,anger,shift,synthetic L18-24 lam=2,0.174,46.8
+R3313,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.015,26.6
+R3314,disgust,shift,synthetic L18-24 lam=2,0.886,13.5
+R3315,joy,shift,synthetic L18-24 lam=2,0.069,45.9
+R3316,disgust,shift,synthetic L18-24 lam=2,0.66,12.1
+R3317,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.124,53.8
+R3318,joy,shift,synthetic L16-22 lam=1,0.961,20.2
+R3319,joy,shift,synthetic L18-24 lam=2,0.073,8.2
+R3320,fear,project_ev,alpha=4,0.539,190.8
+R3321,anger,shift,synthetic L18-24 lam=2,0.345,166.3
+R3322,anger,shift,synthetic L16-22 lam=1,0.236,43.7
+R3323,fear,shift,synthetic L18-24 lam=2,0.141,5.1
+R3324,joy,project_ev,alpha=4,0.018,57.0
+R3325,sadness,project_ev,alpha=1,0.14,2.9
+R3326,anger,shift,synthetic L16-22 lam=1,0.309,13.7
+R3327,sadness,project_ev,alpha=2,0.154,10.2
+R3328,disgust,project_ev,alpha=2,0.549,13.3
+R3329,disgust,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.92,41.3
+R3330,joy,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.802,40.6
+R3331,disgust,project_ev,alpha=5,0.555,87.5
+R3332,anger,project_ev,alpha=5,0.528,292.3
+R3333,sadness,baseline,baseline,0.011,2.4
+R3334,fear,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.157,10.5
+R3335,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.948,14.0
+R3336,disgust,project_ev,alpha=2,0.565,36.2
+R3337,fear,project_ev,alpha=2,0.154,2.3
+R3338,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.744,76.8
+R3339,joy,project_ev,alpha=1,0.14,2.6
+R3340,anger,project_ev,alpha=4,0.943,66.2
+R3341,joy,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.956,33.7
+R3342,sadness,shift,synthetic L10-14 lam=2,0.484,19.2
+R3343,sadness,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.118,45.3
+R3344,sadness,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.953,66.4
+R3345,fear,project_ev,alpha=5,0.101,468.7
+R3346,sadness,shift,synthetic L16-22 lam=1,0.019,18.1
+R3347,anger,project_ev,alpha=4,0.424,110.8
+R3348,anger,project_ev,alpha=1,0.164,2.1
+R3349,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.288,41.7
+R3350,sadness,shift,synthetic L16-22 lam=1,0.148,6.8
+R3351,anger,project_ev,alpha=3,0.592,36.0
+R3352,disgust,project_ev,alpha=3,0.446,17.3
+R3353,joy,project_ev,alpha=5,0.893,123.3
+R3354,fear,project_ev,alpha=3,0.204,29.0
+R3355,joy,project_ev,alpha=3,0.658,51.1
+R3356,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.958,49.7
+R3357,disgust,project_ev,alpha=5,0.67,111.3
+R3358,joy,shift_conc,synthetic L18-24 ap=0.15 lam=0.3,0.977,51.6
+R3359,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.927,31.7
+R3360,fear,project_ev,alpha=3,0.33,34.2
+R3361,fear,shift,synthetic L18-24 lam=2,0.171,9.0
+R3362,fear,project_ev,alpha=3,0.33,9.9
+R3363,anger,shift,synthetic L8-14 lam=1.5,0.301,20.4
+R3364,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.229,28.9
+R3365,fear,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.954,20.4
+R3366,fear,project_ev,alpha=4,0.217,34.6
+R3367,sadness,project_ev,alpha=3,0.434,21.8
+R3368,anger,shift,synthetic L10-14 lam=2,0.256,52.7
+R3369,sadness,shift,synthetic L16-22 lam=1,0.274,12.7
+R3370,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.284,29.1
+R3371,fear,shift,synthetic L8-14 lam=1.5,0.21,41.5
+R3372,anger,shift_conc,synthetic L14-20 ap=0.1 lam=0.25,0.049,32.8
+R3373,joy,project_ev,alpha=5,0.795,99.9
+R3374,sadness,project_ev,alpha=2,0.057,18.5
+R3375,sadness,shift,synthetic L8-14 lam=1.5,0.012,15.4
+R3376,joy,shift,synthetic L8-14 lam=1.5,0.985,65.5
+R3377,disgust,shift,synthetic L16-22 lam=1,0.532,95.5
+R3378,sadness,baseline,baseline,0.092,2.0
+R3379,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.659,96.5
+R3380,anger,shift,synthetic L18-24 lam=2,0.214,4.1
+R3381,sadness,project_ev,alpha=3,0.731,21.3
+R3382,anger,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.038,74.4
+R3383,disgust,project_ev,alpha=3,0.696,23.0
+R3384,anger,shift,synthetic L18-24 lam=2,0.119,4.9
+R3385,joy,shift_conc,synthetic L8-20 ap=1 lam=0.3,0.386,18.7
+R3386,disgust,shift,synthetic L16-22 lam=1,0.847,51.8
+R3387,joy,project_ev,alpha=4,0.96,56.5
+R3388,fear,shift,synthetic L8-14 lam=1.5,0.519,29.3
+R3389,joy,project_ev,alpha=2,0.35,4.8
+R3390,disgust,project_ev,alpha=3,0.517,62.7
+R3391,sadness,shift,synthetic L8-14 lam=1.5,0.185,14.7
+R3392,fear,project_ev,alpha=2,0.122,8.9
+R3393,joy,shift,synthetic L18-24 lam=2,0.034,5.0
+R3394,joy,shift,synthetic L16-22 lam=1,0.963,37.5
+R3395,disgust,shift,synthetic L18-24 lam=2,0.897,10.0
+R3396,anger,shift_conc,synthetic L14-20 ap=0.15 lam=0.25,0.079,29.0
+R3397,fear,shift,synthetic L18-24 lam=2,0.168,6.9
+R3398,sadness,shift_conc,synthetic L8-20 ap=0.3 lam=0.2,0.537,16.0
+R3399,fear,project_ev,alpha=5,0.095,378.2
